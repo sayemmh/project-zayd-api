@@ -2,14 +2,17 @@ from bs4 import BeautifulSoup
 import requests
 import pickle
 import time
+import csv
 
 #####
-# downloads / serializes all 1665 root words from corpus.quran.com and saves in word/ directory
+# downloads / serializes all 1665 root words from corpus.quran.com and saves in pckl-words/ directory
 # * do not remove time.sleep or requests will time out *
 # run time is ~15 minutes
 #####
 
 letterHomes = ['?q=A','?q=b','?q=t','?q=v','?q=j','?q=H','?q=x','?q=d','?q=*','?q=r','?q=z','?q=s','?q=$','?q=S','?q=D','?q=T','?q=Z','?q=E','?q=g','?q=f','?q=q','?q=k','?q=l','?q=m','?q=n','?q=h','?q=w','?q=y']
+
+letterHomes = ['?q=A']
 
 def visit_page(morphology):
     base = "http://corpus.quran.com/qurandictionary.jsp" + morphology
@@ -53,13 +56,19 @@ while len(to_visit) != 0:
             # content
             arabicWord.append(y.text)
 
-    print(pronunciations)
+    # print(pronunciations)
     l.append(wordmorphologies)
     l.append(text)
     l.append(pronunciations)
     l.append(arabicAyah)
     l.append(arabicWord)
     count = count + 1
-
-    with open("word/" + str(count) + ".pckl", "wb") as fp:
+    print(l)
+    with open("pckl-words/" + str(count) + ".pckl", "wb") as fp:
         pickle.dump(l, fp)
+
+    data = [wordmorphologies, text]
+    with open('csv/' + str(count) + '.csv', 'w') as f:
+        writer = csv.writer(f)
+        for row in zip(*data):
+            writer.writerow(zip(arabicAyah, arabicWord))
