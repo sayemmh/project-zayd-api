@@ -3,6 +3,8 @@ import requests
 import pickle
 import time
 import csv
+import pandas as pd
+from collections import Counter
 
 #####
 # downloads / serializes all 1665 root words from corpus.quran.com and saves in pckl-words/ directory
@@ -12,8 +14,7 @@ import csv
 
 letterHomes = ['?q=A','?q=b','?q=t','?q=v','?q=j','?q=H','?q=x','?q=d','?q=*','?q=r','?q=z','?q=s','?q=$','?q=S','?q=D','?q=T','?q=Z','?q=E','?q=g','?q=f','?q=q','?q=k','?q=l','?q=m','?q=n','?q=h','?q=w','?q=y']
 
-letterHomes = ['?q=A']
-
+# letterHomes = ['?q=A']
 def visit_page(morphology):
     base = "http://corpus.quran.com/qurandictionary.jsp" + morphology
     page_response = requests.get(base , timeout=5)
@@ -26,12 +27,12 @@ count = 0
 
 while len(to_visit) != 0:
     wordmorphologies = []
-    text = []
+    definition = []
     pronunciations = []
     arabicAyah = []
     arabicWord = []
     l = []
-    time.sleep(1)
+    time.sleep(2)
 
     morphology = to_visit.pop(0)
     visited.append(morphology)
@@ -42,7 +43,7 @@ while len(to_visit) != 0:
             # content
             wordmorphologies.append(hl['href'])
             # content
-            text.append(hl.text)
+            definition.append(hl.text)
         if hl['href'][0] == '?' and len(wordmorphologies) != 0:
             if hl['href'] not in to_visit and hl['href'] not in visited:
                 to_visit.append(hl['href'])
@@ -56,19 +57,37 @@ while len(to_visit) != 0:
             # content
             arabicWord.append(y.text)
 
-    # print(pronunciations)
-    l.append(wordmorphologies)
-    l.append(text)
-    l.append(pronunciations)
-    l.append(arabicAyah)
-    l.append(arabicWord)
     count = count + 1
-    print(l)
-    with open("pckl-words/" + str(count) + ".pckl", "wb") as fp:
-        pickle.dump(l, fp)
 
-    data = [wordmorphologies, text]
-    with open('csv/' + str(count) + '.csv', 'w') as f:
-        writer = csv.writer(f)
-        for row in zip(*data):
-            writer.writerow(zip(arabicAyah, arabicWord))
+    rootWord = page_content.find_all("span", {"class": "at"})[0].text
+
+    diff = len(pronunciations) - len(definition)
+    pronunciations = pronunciations[diff:len(pronunciations)]
+
+    print(Counter(pronunciations))
+    print(diff)
+
+    if (diff == 1):
+        rootWordPronunciation = pronunciations[0]
+    elif (diff == 2):
+        rootWordPronunciation = pronunciations[0]
+    else:
+        rootWordPronunciation = Counter(pronunciations).most_common(1)[0][0]
+
+
+    # print(rootWordPronunciation)
+    # print(diff)
+
+    df = pd.DataFrame({'arabicWord':arabicWord})
+    df['pronunciations'] = pronunciations
+    df['definition'] = definition
+    df['arabicAyah'] = arabicAyah
+    df['wordmorphologies'] = wordmorphologies
+
+    # df.iloc[:, 0:3]
+
+
+    with open("pckl-words/" + str(count) + ".pckl", "wb") as fp:
+        pickle.dump(df, fp)
+
+    df.to_csv("csv/" + rootWordPronunciation, sep=',', encoding='utf-8')

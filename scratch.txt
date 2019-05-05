@@ -1,0 +1,47 @@
+In [34]: counts[:10]
+Out[34]:
+[[61, 2851],
+ [1245, 1722],
+ [59, 1464],
+ [1305, 1390],
+ [524, 980],
+ [75, 879],
+ [1016, 854],
+ [63, 742],
+ [58, 663],
+ [1246, 660]]
+
+open_word(61)[0]
+
+http://corpus.quran.com/qurandictionary.jsp?q=Alh#(5:98:7)
+The triliteral root hamza lām hā (أ ل ه) occurs 2851 times in the Quran, in three derived forms:
+
+147 times as the noun ilāh (إِلَٰه)
+2699 times as the proper noun allah (ٱللَّه)
+five times as the form of address allahumma (ٱللَّهُمَّ)
+
+ilāh, إِلَٰه, god
+allah, ٱللَّه, Allah
+allahumma, ٱللَّهُمَّ, Allah
+
+================================================================================
+
+open_word(1245)[0]
+
+http://corpus.quran.com/qurandictionary.jsp?q=qwl#(23:82:1)
+
+The triliteral root qāf wāw lām (ق و ل) occurs 1722 times in the Quran, in six derived forms:
+
+1618 times as the form I verb qāla (قَالَ)
+twice as the form V verb taqawwala (تَقَوَّلَ)
+once as the noun aqāwīl (أَقَاوِيل)
+four times as the noun qīl (قِيل)
+92 times as the verbal noun qawl (قَوْل)
+five times as the active participle qāil (قَآئِل)
+
+qāla, قَالَ,  to say
+taqawwala, تَقَوَّلَ, to fabricate, to make up
+aqāwīl, أَقَاوِيل, sayings
+qīl, قِيل, 	a saying
+qawl, قَوْل, 	the word
+qāil, قَآئِل, a speaker
