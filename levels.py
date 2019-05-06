@@ -1,3 +1,4 @@
+from collections import Counter
 import pickle
 import time
 
@@ -12,22 +13,22 @@ def open_word(key):
         # print(l)
     return l
 
-# counts = []
-# for num in range(1, 1665):
-#     with open('pckl-words/' + str(num) + '.pckl', 'rb') as fp:
-#          l = pickle.load(fp)
-#     counts.append([num, len(l[0])])
-#
-#
-# counts.sort(key=lambda x:x[1], reverse=True)
-# print(counts)
-# with open("counts.pckl", "wb") as fp:
-#     pickle.dump(counts, fp)
-#
+counts = []
+for num in range(1, 1665):
+    l = open_word(num)
+    counts.append([num, len(l)])
+
+
+
+counts.sort(key=lambda x:x[1], reverse=True)
+print(counts)
+with open("counts.pckl", "wb") as fp:
+    pickle.dump(counts, fp)
+
 # with open("counts.pckl", "rb") as fp:
 #     counts = pickle.load(fp)
-#
-# # total word count
+
+# total word count
 # total_word_count = [sum(x) for x in zip(*counts)][1]
 # print(total_word_count)
 #
@@ -64,19 +65,28 @@ def open_word(key):
 # w4 = open_word(1305)[1]
 # w4
 #
-#
 
-# print(open_word(91))
-for i in range(21, 1000, 3):
-    try:
-        w = open_word(i)
-        # print('{',
-        #         'question:'+ '\''+ w[4][50]+'\''+ ','+
-        #         'answer:'+ '\''+ w[1][50]+'\''+ ','+
-        #         'qid:'+ str(i) + ','+
-        #         'tlit:'+ '\''+ w[2][50]+'\'',
-        #         '}'+ ',')
+# top 20 most frequent (root) words indices
+top20 = [x for [x,y] in counts[:20]]
 
-        print('\''+w[1][50]+'\''+',')
-    except IndexError:
-        pass
+for i in top20:
+    w = open_word(i)
+
+    w2 = w.iloc[:, 0:3]
+
+    question = Counter(w['arabicWord']).most_common()[0][0]
+    answer = Counter(w['definition']).most_common()[0][0]
+    tlit = Counter(w['pronunciations']).most_common()[0][0]
+
+    print('{',
+            'question:'+ '\''+ w[4][50]+'\''+ ','+
+            'answer:'+ '\''+ w[1][50]+'\''+ ','+
+            'pcklId:'+ str(i) + ','+
+            'tlit:'+ '\''+ w[2][50]+'\'',
+            '}'+ ',')
+
+    print('\''+w[1][50]+'\''+',')
+
+# w.iloc[:, 0:3]
+Counter(w['arabicWord']).most_common()
+Counter(w['definition']).most_common()
