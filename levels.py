@@ -21,7 +21,7 @@ for num in range(1, 1665):
 
 
 counts.sort(key=lambda x:x[1], reverse=True)
-print(counts)
+# print(counts)
 with open("counts.pckl", "wb") as fp:
     pickle.dump(counts, fp)
 
@@ -67,25 +67,29 @@ with open("counts.pckl", "wb") as fp:
 #
 
 # top 20 most frequent (root) words indices
-top20 = [x for [x,y] in counts[:20]]
+top20 = [x for [x,y] in counts[:50]]
 
 for i in top20:
     w = open_word(i)
 
     w2 = w.iloc[:, 0:3]
+    w3 = w2.groupby(['arabicWord', 'pronunciations']).size().sort_values(ascending=False)
+
+    # w4 = w2.groupby(['arabicWord', 'pronunciations', 'definition']).size().sort_values(ascending=False)
+
 
     question = Counter(w['arabicWord']).most_common()[0][0]
     answer = Counter(w['definition']).most_common()[0][0]
     tlit = Counter(w['pronunciations']).most_common()[0][0]
 
-    print('{',
-            'question:'+ '\''+ w[4][50]+'\''+ ','+
-            'answer:'+ '\''+ w[1][50]+'\''+ ','+
-            'pcklId:'+ str(i) + ','+
-            'tlit:'+ '\''+ w[2][50]+'\'',
-            '}'+ ',')
+    # print('{',
+    #         'question:'+ '\''+ question +'\''+ ','+
+    #         'answer:'+ '\''+ answer +'\''+ ','+
+    #         'pcklId:'+ str(i) + ','+
+    #         'tlit:'+ '\''+ tlit +'\'',
+    #         '}'+ ',')
 
-    print('\''+w[1][50]+'\''+',')
+    print('\''+ answer +'\''+',')
 
 # w.iloc[:, 0:3]
 Counter(w['arabicWord']).most_common()
