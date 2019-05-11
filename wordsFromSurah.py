@@ -31,12 +31,14 @@ def getSurah(surahNumber, ayahStart, ayahEnd, minCount, maxCount):
                 answer = w['definition'][i]
                 tlit = w['pronunciations'][i]
                 ayah = ",".join(wm[i].split('(')[1].split(':')[0:2])
-
+                answer = ' '.join(answer.split('\''))
                 print('{',
                         'question:'+ '\''+ question +'\''+ ','+
                         'answer:'+ '\''+ answer +'\''+ ','+
                         'pcklId:'+ str(i) + ','+
-                        'tlit:'+ '\''+ tlit +'\'',
-                        'num:'+ '\''+ str(len(w)) +'\'',
-                        'ayah:'+ '\''+ ayah +'\'',
+                        'tlit:'+ '\''+ tlit +'\''+ ',',
+                        'num:'+ '\''+ str(len(w)) +'\''+ ',',
+                        'ayah:'+ '\''+ ayah +'\''+ ',',
                         '}'+ ',')
+
+                # print('\''+ answer +'\''+',')
