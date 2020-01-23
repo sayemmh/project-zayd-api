@@ -15,7 +15,7 @@ def open_word(key):
     return l
 
 def getSurah(surahNumber, ayahStart, ayahEnd, minCount, maxCount):
-
+    count = 0
     for num in range(1, 1665):
         w = open_word(num)
         if (len(w) <= minCount or len(w) > maxCount):
@@ -24,8 +24,11 @@ def getSurah(surahNumber, ayahStart, ayahEnd, minCount, maxCount):
 
         w2 = []
 
+
         for i in range(0, len(wm)):
             if (int(wm[i].split('(')[1].split(':')[0]) == surahNumber and int(wm[i].split('(')[1].split(':')[1]) >= ayahStart and int(wm[i].split('(')[1].split(':')[1]) < ayahEnd):
+                count = count + 1
+                # print(count)
                 # w2.append(w.iloc[i])
                 question = w['arabicWord'][i]
                 answer = w['definition'][i]
@@ -41,4 +44,8 @@ def getSurah(surahNumber, ayahStart, ayahEnd, minCount, maxCount):
                         'ayah:'+ '\''+ ayah +'\''+ ',',
                         '}'+ ',')
 
+
                 # print('\''+ answer +'\''+',')
+
+if __name__ == '__main__':
+    getSurah(1, 0, 8, 0, 100000)
