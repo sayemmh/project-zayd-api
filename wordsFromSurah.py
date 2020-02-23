@@ -2,6 +2,7 @@ from collections import Counter
 import pickle
 import time
 import pandas as pd
+import ujson
 
 '''
 Open the DataFrame associated with a particular root word. The `id`s
@@ -33,16 +34,19 @@ get words with a frequency above `minCount` and lower than `maxCount`.
 def getSurah(surahNumber, ayahStart, ayahEnd, minCount, maxCount):
     ayahStart += 1
     ayahEnd += 1
-
     count = 0
+    list_of_jsons = []
     for num in range(1, 1665):
         w = open_rootword(num)
         if (len(w) <= minCount or len(w) > maxCount):
             continue
         wm = w['wordmorphologies']
 
+
+
         for i in range(0, len(wm)):
             if (int(wm[i].split('(')[1].split(':')[0]) == surahNumber and int(wm[i].split('(')[1].split(':')[1]) >= ayahStart and int(wm[i].split('(')[1].split(':')[1]) < ayahEnd):
+                print("hi")
                 count = count + 1
                 # print(count)
                 # w2.append(w.iloc[i])
@@ -51,17 +55,31 @@ def getSurah(surahNumber, ayahStart, ayahEnd, minCount, maxCount):
                 tlit = w['pronunciations'][i]
                 ayah = ",".join(wm[i].split('(')[1].split(':')[0:2])
                 answer = ' '.join(answer.split('\''))
-                print('{',
-                        'question:'+ '\''+ question +'\''+ ','+
-                        'answer:'+ '\''+ answer +'\''+ ','+
-                        'pcklId:'+ str(i) + ','+
-                        'tlit:'+ '\''+ tlit +'\''+ ',',
-                        'num:'+ '\''+ str(len(w)) +'\''+ ',',
-                        'ayah:'+ '\''+ ayah +'\''+ ',',
-                        '}'+ ',')
+                # print('{',
+                #         'question:'+ '\''+ question +'\''+ ','+
+                #         'answer:'+ '\''+ answer +'\''+ ','+
+                #         'pcklId:'+ str(i) + ','+
+                #         'tlit:'+ '\''+ tlit +'\''+ ',',
+                #         'num:'+ '\''+ str(len(w)) +'\''+ ',',
+                #         'ayah:'+ '\''+ ayah +'\''+ ',',
+                #         '}'+ ',')
+                word_json = {
+                                'question': question,
+                                'answer': answer,
+                                'pcklId': str(i),
+                                'tlit': tlit,
+                                'num': str(len(w)),
+                                'ayah': ayah
+                            }
 
+                # print(word_json)
 
+                list_of_jsons.append(word_json)
+                print(len(list_of_jsons))
                 # print('\''+ answer +'\''+',')
+    return ujson.dumps(list_of_jsons)
+
 
 if __name__ == '__main__':
-    getSurah(1, 1, 7, 0, 100000)
+    a = getSurah(1, 1, 7, 0, 100000)
+    print(a)
