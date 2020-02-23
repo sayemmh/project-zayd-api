@@ -4,11 +4,11 @@ import time
 
 def get_audio():
     baseurl = 'https://verses.quran.com/wbw/' # '001_001_100.mp3'
-    start_time = time.time()
+    # start_time = time.time()
     for x in range(64, 114 + 1):
         for y in range(1, 286 + 1):
             for z in range(1, 142 + 1):
-                elapsed_time = time.time() - start_time
+                # elapsed_time = time.time() - start_time
                 # print(str(round(elapsed_time)) + " " + "seconds elapsed")
                 surah = append0s(x)
                 ayat = append0s(y)
@@ -18,7 +18,7 @@ def get_audio():
                     wget.download(url)
                     print("\n" + surah + "_" + ayat + "_" + part + ".mp3")
                     time.sleep(1)
-                except urllib.error.HTTPError as e:
+                except urllib.error.HTTPError:
                     print("ERROR: " + url)
                     break
 

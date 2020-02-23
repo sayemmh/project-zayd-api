@@ -50,17 +50,17 @@ def getSurah(surahNumber, ayahStart, ayahEnd, minCount, maxCount):
                 tlit = w['pronunciations'][i]
                 ayah = ",".join(wm[i].split('(')[1].split(':')[0:2])
                 answer = ' '.join(answer.split('\''))
-                # print('{',
-                #         'question:'+ '\''+ question +'\''+ ','+
-                #         'answer:'+ '\''+ answer +'\''+ ','+
-                #         'pcklId:'+ str(i) + ','+
-                #         'tlit:'+ '\''+ tlit +'\''+ ',',
-                #         'num:'+ '\''+ str(len(w)) +'\''+ ',',
-                #         'ayah:'+ '\''+ ayah +'\''+ ',',
-                #         '}'+ ',')
+                print('{',
+                        'question:'+ '\''+ question +'\''+ ','+
+                        'answer:'+ '\''+ answer +'\''+ ','+
+                        'pcklId:'+ str(i) + ','+
+                        'tlit:'+ '\''+ tlit +'\''+ ',',
+                        'num:'+ '\''+ str(len(w)) +'\''+ ',',
+                        'ayah:'+ '\''+ ayah +'\''+ ',',
+                        '}'+ ',')
 
 
-                print('\''+ answer +'\''+',')
+                # print('\''+ answer +'\''+',')
 
 if __name__ == '__main__':
     getSurah(1, 1, 7, 0, 100000)
