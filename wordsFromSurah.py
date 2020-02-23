@@ -3,36 +3,36 @@ import pickle
 import time
 import pandas as pd
 
-def open_rootword(id):
-    '''
-    Open the DataFrame associated with a particular root word. The `id`s
-    go from 1 to 1664 representing the 1664 root words in the corpus.
+'''
+Open the DataFrame associated with a particular root word. The `id`s
+go from 1 to 1664 representing the 1664 root words in the corpus.
 
-    :param int id: the id of the rootword to open
-    :return: DataFrame containing all words in this root words' group
-    :rtype: pandas.core.frame.DataFrame
-    '''
+:param int id: the id of the rootword to open
+:return: DataFrame containing all words in this root words' group
+:rtype: pandas.core.frame.DataFrame
+'''
+def open_rootword(id):
+
     with open('pckl-words/' + str(id) + '.pckl', 'rb') as fp:
         l = pickle.load(fp)
     return l
 
+'''
+Get words within a surah starting from one ayah to another. Optional -
+get words with a frequency above `minCount` and lower than `maxCount`.
+
+:param int surahNumber: which surah to get
+:param int ayahStart: which ayah to start at
+:param int ayahEnd: which ayah to end at
+:param int minCount: min frequency of a word to return
+:param int maxCount: max frequency of a word to return
+:return:
+:rtype:
+'''
 def getSurah(surahNumber, ayahStart, ayahEnd, minCount, maxCount):
-    '''
-    Get words within a surah starting from one ayah to another. Optional - 
-    get words with a frequency above `minCount` and lower than `maxCount`.
-
-    :param int surahNumber: which surah to get
-    :param int ayahStart: which ayah to start at
-    :param int ayahEnd: which ayah to end at
-    :param int minCount: min frequency of a word to return
-    :param int maxCount: max frequency of a word to return
-    :return: 
-    :rtype: 
-    '''
-
     ayahStart += 1
     ayahEnd += 1
-    
+
     count = 0
     for num in range(1, 1665):
         w = open_rootword(num)
