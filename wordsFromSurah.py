@@ -17,6 +17,7 @@ def open_rootword(id):
         l = pickle.load(fp)
     return l
 
+
 '''
 Get words within a surah starting from one ayah to another. Optional -
 get words with a frequency above `minCount` and lower than `maxCount`.
