@@ -76,8 +76,10 @@ def get_surah(surahNumber, minCount, maxCount):
     return list_of_jsons
 
 def build_jsons_for_all_surahs():
-    for i in range(1, 2 + 1):
+    for i in range(1, NUM_SURAHS_IN_QURAN + 1):
+        print("Building for surah: " + str(i))
         data = get_surah(i, 0, ALL_AYAHS)
+        print("Num words in surah: " + str(len(data)))
         with open(str(i) + '.json', 'w') as f:
             ujson.dump(data, f, ensure_ascii=False, indent=4)
 
