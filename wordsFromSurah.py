@@ -3,7 +3,7 @@ import pickle
 import time
 import pandas as pd
 import ujson
-
+from constants import NUM_SURAHS_IN_QURAN, NUM_ROOT_WORDS_IN_CORPUS, ALL_AYAHS
 
 def open_rootword(id):
     '''
@@ -19,24 +19,20 @@ def open_rootword(id):
     return l
 
 
-def getSurah(surahNumber, ayahStart, ayahEnd, minCount, maxCount):
+def get_surah(surahNumber, minCount, maxCount):
     '''
     Get words within a surah starting from one ayah to another. Optional -
     get words with a frequency above `minCount` and lower than `maxCount`.
 
     :param int surahNumber: which surah to get
-    :param int ayahStart: which ayah to start at
-    :param int ayahEnd: which ayah to end at
     :param int minCount: min frequency of a word to return
     :param int maxCount: max frequency of a word to return
     :return:
     :rtype:
     '''
-    ayahStart += 1
-    ayahEnd += 1
     count = 0
     list_of_jsons = []
-    for num in range(1, 1665):
+    for num in range(1, NUM_ROOT_WORDS_IN_CORPUS + 1):
         w = open_rootword(num)
         if (len(w) <= minCount or len(w) > maxCount):
             continue
@@ -45,8 +41,7 @@ def getSurah(surahNumber, ayahStart, ayahEnd, minCount, maxCount):
 
 
         for i in range(0, len(wm)):
-            if (int(wm[i].split('(')[1].split(':')[0]) == surahNumber and int(wm[i].split('(')[1].split(':')[1]) >= ayahStart and int(wm[i].split('(')[1].split(':')[1]) < ayahEnd):
-                print("hi")
+            if (int(wm[i].split('(')[1].split(':')[0]) == surahNumber):
                 count = count + 1
                 # print(count)
                 # w2.append(w.iloc[i])
@@ -68,18 +63,25 @@ def getSurah(surahNumber, ayahStart, ayahEnd, minCount, maxCount):
                                 'answer': answer,
                                 'pcklId': str(i),
                                 'tlit': tlit,
-                                'num': str(len(w)),
-                                'ayah': ayah
+                                'frequency': str(len(w)),
+                                'surah': ayah.split(',')[0],
+                                'ayah': ayah.split(',')[1]
                             }
 
                 # print(word_json)
 
                 list_of_jsons.append(word_json)
-                print(len(list_of_jsons))
+                # print(len(list_of_jsons))
                 # print('\''+ answer +'\''+',')
-    return ujson.dumps(list_of_jsons)
+    return list_of_jsons
+
+def build_jsons_for_all_surahs():
+    for i in range(1, 2 + 1):
+        data = get_surah(i, 0, ALL_AYAHS)
+        with open(str(i) + '.json', 'w') as f:
+            ujson.dump(data, f, ensure_ascii=False, indent=4)
 
 
 if __name__ == '__main__':
-    a = getSurah(1, 1, 7, 0, 100000)
-    print(a)
+    # print(get_surah(1, 0, ALL_AYAHS))
+    build_jsons_for_all_surahs()
