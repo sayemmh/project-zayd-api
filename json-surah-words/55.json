@@ -1,0 +1,2351 @@
+[
+    {
+        "question": "فَيُؤْخَذُ",
+        "answer": "and will be seized",
+        "pcklId": "118",
+        "tlit": "fayu'khadhu",
+        "frequency": "273",
+        "surah": "55",
+        "ayah": "41"
+    },
+    {
+        "question": "فَإِذَا",
+        "answer": "Then when",
+        "pcklId": "313",
+        "tlit": "fa-idhā",
+        "frequency": "409",
+        "surah": "55",
+        "ayah": "37"
+    },
+    {
+        "question": "وَالْأَرْضَ",
+        "answer": "And the earth",
+        "pcklId": "412",
+        "tlit": "wal-arḍa",
+        "frequency": "461",
+        "surah": "55",
+        "ayah": "10"
+    },
+    {
+        "question": "وَالْأَرْضِ",
+        "answer": "and the earth",
+        "pcklId": "413",
+        "tlit": "wal-arḍi",
+        "frequency": "461",
+        "surah": "55",
+        "ayah": "29"
+    },
+    {
+        "question": "وَالْأَرْضِ",
+        "answer": "and the earth",
+        "pcklId": "414",
+        "tlit": "wal-arḍi",
+        "frequency": "461",
+        "surah": "55",
+        "ayah": "33"
+    },
+    {
+        "question": "إِسْتَبْرَقٍ",
+        "answer": "brocade",
+        "pcklId": "2",
+        "tlit": "is'tabraqin",
+        "frequency": "4",
+        "surah": "55",
+        "ayah": "54"
+    },
+    {
+        "question": "إِلَّا",
+        "answer": "except",
+        "pcklId": "518",
+        "tlit": "illā",
+        "frequency": "663",
+        "surah": "55",
+        "ayah": "33"
+    },
+    {
+        "question": "إِلَّا",
+        "answer": "but",
+        "pcklId": "519",
+        "tlit": "illā",
+        "frequency": "663",
+        "surah": "55",
+        "ayah": "60"
+    },
+    {
+        "question": "الَّتِي",
+        "answer": "which",
+        "pcklId": "1279",
+        "tlit": "allatī",
+        "frequency": "1464",
+        "surah": "55",
+        "ayah": "43"
+    },
+    {
+        "question": "آلَاءِ",
+        "answer": "(of the) favors",
+        "pcklId": "6",
+        "tlit": "ālāi",
+        "frequency": "37",
+        "surah": "55",
+        "ayah": "13"
+    },
+    {
+        "question": "آلَاءِ",
+        "answer": "(of the) favors",
+        "pcklId": "7",
+        "tlit": "ālāi",
+        "frequency": "37",
+        "surah": "55",
+        "ayah": "16"
+    },
+    {
+        "question": "آلَاءِ",
+        "answer": "(of the) favors",
+        "pcklId": "8",
+        "tlit": "ālāi",
+        "frequency": "37",
+        "surah": "55",
+        "ayah": "18"
+    },
+    {
+        "question": "آلَاءِ",
+        "answer": "(of the) favors",
+        "pcklId": "9",
+        "tlit": "ālāi",
+        "frequency": "37",
+        "surah": "55",
+        "ayah": "21"
+    },
+    {
+        "question": "آلَاءِ",
+        "answer": "(of the) favors",
+        "pcklId": "10",
+        "tlit": "ālāi",
+        "frequency": "37",
+        "surah": "55",
+        "ayah": "23"
+    },
+    {
+        "question": "آلَاءِ",
+        "answer": "(of the) favors",
+        "pcklId": "11",
+        "tlit": "ālāi",
+        "frequency": "37",
+        "surah": "55",
+        "ayah": "25"
+    },
+    {
+        "question": "آلَاءِ",
+        "answer": "(of the) favors",
+        "pcklId": "12",
+        "tlit": "ālāi",
+        "frequency": "37",
+        "surah": "55",
+        "ayah": "28"
+    },
+    {
+        "question": "آلَاءِ",
+        "answer": "(of the) favors",
+        "pcklId": "13",
+        "tlit": "ālāi",
+        "frequency": "37",
+        "surah": "55",
+        "ayah": "30"
+    },
+    {
+        "question": "آلَاءِ",
+        "answer": "(of the) favors",
+        "pcklId": "14",
+        "tlit": "ālāi",
+        "frequency": "37",
+        "surah": "55",
+        "ayah": "32"
+    },
+    {
+        "question": "آلَاءِ",
+        "answer": "(of the) favors",
+        "pcklId": "15",
+        "tlit": "ālāi",
+        "frequency": "37",
+        "surah": "55",
+        "ayah": "34"
+    },
+    {
+        "question": "آلَاءِ",
+        "answer": "(of the) favors",
+        "pcklId": "16",
+        "tlit": "ālāi",
+        "frequency": "37",
+        "surah": "55",
+        "ayah": "36"
+    },
+    {
+        "question": "آلَاءِ",
+        "answer": "(of the) favors",
+        "pcklId": "17",
+        "tlit": "ālāi",
+        "frequency": "37",
+        "surah": "55",
+        "ayah": "38"
+    },
+    {
+        "question": "آلَاءِ",
+        "answer": "(of the) favors",
+        "pcklId": "18",
+        "tlit": "ālāi",
+        "frequency": "37",
+        "surah": "55",
+        "ayah": "40"
+    },
+    {
+        "question": "آلَاءِ",
+        "answer": "(of the) favors",
+        "pcklId": "19",
+        "tlit": "ālāi",
+        "frequency": "37",
+        "surah": "55",
+        "ayah": "42"
+    },
+    {
+        "question": "آلَاءِ",
+        "answer": "(of the) favors",
+        "pcklId": "20",
+        "tlit": "ālāi",
+        "frequency": "37",
+        "surah": "55",
+        "ayah": "45"
+    },
+    {
+        "question": "آلَاءِ",
+        "answer": "(of the) favors",
+        "pcklId": "21",
+        "tlit": "ālāi",
+        "frequency": "37",
+        "surah": "55",
+        "ayah": "47"
+    },
+    {
+        "question": "آلَاءِ",
+        "answer": "(of the) favors",
+        "pcklId": "22",
+        "tlit": "ālāi",
+        "frequency": "37",
+        "surah": "55",
+        "ayah": "49"
+    },
+    {
+        "question": "آلَاءِ",
+        "answer": "(of the) favors",
+        "pcklId": "23",
+        "tlit": "ālāi",
+        "frequency": "37",
+        "surah": "55",
+        "ayah": "51"
+    },
+    {
+        "question": "آلَاءِ",
+        "answer": "(of the) favors",
+        "pcklId": "24",
+        "tlit": "ālāi",
+        "frequency": "37",
+        "surah": "55",
+        "ayah": "53"
+    },
+    {
+        "question": "آلَاءِ",
+        "answer": "(of the) favors",
+        "pcklId": "25",
+        "tlit": "ālāi",
+        "frequency": "37",
+        "surah": "55",
+        "ayah": "55"
+    },
+    {
+        "question": "آلَاءِ",
+        "answer": "(of the) favors",
+        "pcklId": "26",
+        "tlit": "ālāi",
+        "frequency": "37",
+        "surah": "55",
+        "ayah": "57"
+    },
+    {
+        "question": "آلَاءِ",
+        "answer": "(of the) favors",
+        "pcklId": "27",
+        "tlit": "ālāi",
+        "frequency": "37",
+        "surah": "55",
+        "ayah": "59"
+    },
+    {
+        "question": "آلَاءِ",
+        "answer": "(of the) favors",
+        "pcklId": "28",
+        "tlit": "ālāi",
+        "frequency": "37",
+        "surah": "55",
+        "ayah": "61"
+    },
+    {
+        "question": "آلَاءِ",
+        "answer": "(of the) favors",
+        "pcklId": "29",
+        "tlit": "ālāi",
+        "frequency": "37",
+        "surah": "55",
+        "ayah": "63"
+    },
+    {
+        "question": "آلَاءِ",
+        "answer": "(of the) favors",
+        "pcklId": "30",
+        "tlit": "ālāi",
+        "frequency": "37",
+        "surah": "55",
+        "ayah": "65"
+    },
+    {
+        "question": "آلَاءِ",
+        "answer": "(of the) favors",
+        "pcklId": "31",
+        "tlit": "ālāi",
+        "frequency": "37",
+        "surah": "55",
+        "ayah": "67"
+    },
+    {
+        "question": "آلَاءِ",
+        "answer": "(of the) favors",
+        "pcklId": "32",
+        "tlit": "ālāi",
+        "frequency": "37",
+        "surah": "55",
+        "ayah": "69"
+    },
+    {
+        "question": "آلَاءِ",
+        "answer": "(of the) favors",
+        "pcklId": "33",
+        "tlit": "ālāi",
+        "frequency": "37",
+        "surah": "55",
+        "ayah": "71"
+    },
+    {
+        "question": "آلَاءِ",
+        "answer": "(of the) favors",
+        "pcklId": "34",
+        "tlit": "ālāi",
+        "frequency": "37",
+        "surah": "55",
+        "ayah": "73"
+    },
+    {
+        "question": "آلَاءِ",
+        "answer": "(of the) favors",
+        "pcklId": "35",
+        "tlit": "ālāi",
+        "frequency": "37",
+        "surah": "55",
+        "ayah": "75"
+    },
+    {
+        "question": "آلَاءِ",
+        "answer": "(of the) favors",
+        "pcklId": "36",
+        "tlit": "ālāi",
+        "frequency": "37",
+        "surah": "55",
+        "ayah": "77"
+    },
+    {
+        "question": "وَالْإِنْسِ",
+        "answer": "and the men",
+        "pcklId": "18",
+        "tlit": "wal-insi",
+        "frequency": "97",
+        "surah": "55",
+        "ayah": "33"
+    },
+    {
+        "question": "إِنْسٌ",
+        "answer": "any man",
+        "pcklId": "19",
+        "tlit": "insun",
+        "frequency": "97",
+        "surah": "55",
+        "ayah": "39"
+    },
+    {
+        "question": "إِنْسٌ",
+        "answer": "any man",
+        "pcklId": "20",
+        "tlit": "insun",
+        "frequency": "97",
+        "surah": "55",
+        "ayah": "56"
+    },
+    {
+        "question": "إِنْسٌ",
+        "answer": "any man",
+        "pcklId": "21",
+        "tlit": "insun",
+        "frequency": "97",
+        "surah": "55",
+        "ayah": "74"
+    },
+    {
+        "question": "الْإِنْسَانَ",
+        "answer": "[the] man",
+        "pcklId": "67",
+        "tlit": "l-insāna",
+        "frequency": "97",
+        "surah": "55",
+        "ayah": "3"
+    },
+    {
+        "question": "الْإِنْسَانَ",
+        "answer": "the man",
+        "pcklId": "68",
+        "tlit": "l-insāna",
+        "frequency": "97",
+        "surah": "55",
+        "ayah": "14"
+    },
+    {
+        "question": "لِلْأَنَامِ",
+        "answer": "for the creatures",
+        "pcklId": "0",
+        "tlit": "lil'anāmi",
+        "frequency": "1",
+        "surah": "55",
+        "ayah": "10"
+    },
+    {
+        "question": "آنٍ",
+        "answer": "heated",
+        "pcklId": "33",
+        "tlit": "ānin",
+        "frequency": "36",
+        "surah": "55",
+        "ayah": "44"
+    },
+    {
+        "question": "الْبَحْرَيْنِ",
+        "answer": "the two seas",
+        "pcklId": "37",
+        "tlit": "l-baḥrayni",
+        "frequency": "42",
+        "surah": "55",
+        "ayah": "19"
+    },
+    {
+        "question": "الْبَحْرِ",
+        "answer": "the sea",
+        "pcklId": "38",
+        "tlit": "l-baḥri",
+        "frequency": "42",
+        "surah": "55",
+        "ayah": "24"
+    },
+    {
+        "question": "تَبَارَكَ",
+        "answer": "Blessed is",
+        "pcklId": "15",
+        "tlit": "tabāraka",
+        "frequency": "32",
+        "surah": "55",
+        "ayah": "78"
+    },
+    {
+        "question": "بَطَائِنُهَا",
+        "answer": "(whose) inner linings",
+        "pcklId": "3",
+        "tlit": "baṭāinuhā",
+        "frequency": "25",
+        "surah": "55",
+        "ayah": "54"
+    },
+    {
+        "question": "يَبْغِيَانِ",
+        "answer": "they transgress",
+        "pcklId": "24",
+        "tlit": "yabghiyāni",
+        "frequency": "96",
+        "surah": "55",
+        "ayah": "20"
+    },
+    {
+        "question": "وَيَبْقَىٰ",
+        "answer": "But will remain",
+        "pcklId": "2",
+        "tlit": "wayabqā",
+        "frequency": "21",
+        "surah": "55",
+        "ayah": "27"
+    },
+    {
+        "question": "الْبَيَانَ",
+        "answer": "[the] speech",
+        "pcklId": "56",
+        "tlit": "l-bayāna",
+        "frequency": "523",
+        "surah": "55",
+        "ayah": "4"
+    },
+    {
+        "question": "بَيْنَهُمَا",
+        "answer": "Between both of them",
+        "pcklId": "278",
+        "tlit": "baynahumā",
+        "frequency": "523",
+        "surah": "55",
+        "ayah": "20"
+    },
+    {
+        "question": "بَيْنَهَا",
+        "answer": "between it",
+        "pcklId": "279",
+        "tlit": "baynahā",
+        "frequency": "523",
+        "surah": "55",
+        "ayah": "44"
+    },
+    {
+        "question": "وَبَيْنَ",
+        "answer": "and between",
+        "pcklId": "280",
+        "tlit": "wabayna",
+        "frequency": "523",
+        "surah": "55",
+        "ayah": "44"
+    },
+    {
+        "question": "الثَّقَلَانِ",
+        "answer": "two classes",
+        "pcklId": "10",
+        "tlit": "l-thaqalāni",
+        "frequency": "28",
+        "surah": "55",
+        "ayah": "31"
+    },
+    {
+        "question": "الْمُجْرِمُونَ",
+        "answer": "the criminals",
+        "pcklId": "51",
+        "tlit": "l-muj'rimūna",
+        "frequency": "66",
+        "surah": "55",
+        "ayah": "41"
+    },
+    {
+        "question": "الْمُجْرِمُونَ",
+        "answer": "the criminals",
+        "pcklId": "52",
+        "tlit": "l-muj'rimūna",
+        "frequency": "66",
+        "surah": "55",
+        "ayah": "43"
+    },
+    {
+        "question": "تَجْرِيَانِ",
+        "answer": "flowing",
+        "pcklId": "48",
+        "tlit": "tajriyāni",
+        "frequency": "64",
+        "surah": "55",
+        "ayah": "50"
+    },
+    {
+        "question": "الْجَوَارِ",
+        "answer": "(are) the ships",
+        "pcklId": "63",
+        "tlit": "l-jawāri",
+        "frequency": "64",
+        "surah": "55",
+        "ayah": "24"
+    },
+    {
+        "question": "جَزَاءُ",
+        "answer": "(the) reward",
+        "pcklId": "108",
+        "tlit": "jazāu",
+        "frequency": "118",
+        "surah": "55",
+        "ayah": "60"
+    },
+    {
+        "question": "الْجَلَالِ",
+        "answer": "(of) Majesty",
+        "pcklId": "0",
+        "tlit": "l-jalāli",
+        "frequency": "2",
+        "surah": "55",
+        "ayah": "27"
+    },
+    {
+        "question": "الْجَلَالِ",
+        "answer": "(of) Majesty",
+        "pcklId": "1",
+        "tlit": "l-jalāli",
+        "frequency": "2",
+        "surah": "55",
+        "ayah": "78"
+    },
+    {
+        "question": "الْجِنِّ",
+        "answer": "(of) the jinn",
+        "pcklId": "20",
+        "tlit": "l-jini",
+        "frequency": "201",
+        "surah": "55",
+        "ayah": "33"
+    },
+    {
+        "question": "جَنَّتَانِ",
+        "answer": "(are) two gardens",
+        "pcklId": "106",
+        "tlit": "jannatāni",
+        "frequency": "201",
+        "surah": "55",
+        "ayah": "46"
+    },
+    {
+        "question": "الْجَنَّتَيْنِ",
+        "answer": "(of) both the gardens",
+        "pcklId": "107",
+        "tlit": "l-janatayni",
+        "frequency": "201",
+        "surah": "55",
+        "ayah": "54"
+    },
+    {
+        "question": "جَنَّتَانِ",
+        "answer": "(are) two gardens",
+        "pcklId": "108",
+        "tlit": "jannatāni",
+        "frequency": "201",
+        "surah": "55",
+        "ayah": "62"
+    },
+    {
+        "question": "الْجَانَّ",
+        "answer": "the jinn",
+        "pcklId": "186",
+        "tlit": "l-jāna",
+        "frequency": "201",
+        "surah": "55",
+        "ayah": "15"
+    },
+    {
+        "question": "جَانٌّ",
+        "answer": "any jinn",
+        "pcklId": "187",
+        "tlit": "jānnun",
+        "frequency": "201",
+        "surah": "55",
+        "ayah": "39"
+    },
+    {
+        "question": "جَانٌّ",
+        "answer": "any jinn",
+        "pcklId": "188",
+        "tlit": "jānnun",
+        "frequency": "201",
+        "surah": "55",
+        "ayah": "56"
+    },
+    {
+        "question": "جَانٌّ",
+        "answer": "any jinn",
+        "pcklId": "189",
+        "tlit": "jānnun",
+        "frequency": "201",
+        "surah": "55",
+        "ayah": "74"
+    },
+    {
+        "question": "وَجَنَى",
+        "answer": "and (the) fruit",
+        "pcklId": "1",
+        "tlit": "wajanā",
+        "frequency": "2",
+        "surah": "55",
+        "ayah": "54"
+    },
+    {
+        "question": "وَالْحَبُّ",
+        "answer": "And the grain",
+        "pcklId": "77",
+        "tlit": "wal-ḥabu",
+        "frequency": "95",
+        "surah": "55",
+        "ayah": "12"
+    },
+    {
+        "question": "بِحُسْبَانٍ",
+        "answer": "by (precise) calculation",
+        "pcklId": "63",
+        "tlit": "biḥus'bānin",
+        "frequency": "109",
+        "surah": "55",
+        "ayah": "5"
+    },
+    {
+        "question": "حِسَانٌ",
+        "answer": "and beautiful ones",
+        "pcklId": "74",
+        "tlit": "ḥisānun",
+        "frequency": "194",
+        "surah": "55",
+        "ayah": "70"
+    },
+    {
+        "question": "حِسَانٍ",
+        "answer": "beautiful",
+        "pcklId": "75",
+        "tlit": "ḥisānin",
+        "frequency": "194",
+        "surah": "55",
+        "ayah": "76"
+    },
+    {
+        "question": "الْإِحْسَانِ",
+        "answer": "for the good",
+        "pcklId": "153",
+        "tlit": "l-iḥ'sāni",
+        "frequency": "194",
+        "surah": "55",
+        "ayah": "60"
+    },
+    {
+        "question": "الْإِحْسَانُ",
+        "answer": "good",
+        "pcklId": "154",
+        "tlit": "l-iḥ'sānu",
+        "frequency": "194",
+        "surah": "55",
+        "ayah": "60"
+    },
+    {
+        "question": "حَمِيمٍ",
+        "answer": "scalding water",
+        "pcklId": "6",
+        "tlit": "ḥamīmin",
+        "frequency": "21",
+        "surah": "55",
+        "ayah": "44"
+    },
+    {
+        "question": "حُورٌ",
+        "answer": "Fair ones",
+        "pcklId": "10",
+        "tlit": "ḥūrun",
+        "frequency": "13",
+        "surah": "55",
+        "ayah": "72"
+    },
+    {
+        "question": "يَخْرُجُ",
+        "answer": "Come forth",
+        "pcklId": "44",
+        "tlit": "yakhruju",
+        "frequency": "182",
+        "surah": "55",
+        "ayah": "22"
+    },
+    {
+        "question": "تُخْسِرُوا",
+        "answer": "make deficient",
+        "pcklId": "16",
+        "tlit": "tukh'sirū",
+        "frequency": "65",
+        "surah": "55",
+        "ayah": "9"
+    },
+    {
+        "question": "خُضْرٍ",
+        "answer": "green",
+        "pcklId": "4",
+        "tlit": "khuḍ'rin",
+        "frequency": "8",
+        "surah": "55",
+        "ayah": "76"
+    },
+    {
+        "question": "خَلَقَ",
+        "answer": "He created",
+        "pcklId": "148",
+        "tlit": "khalaqa",
+        "frequency": "261",
+        "surah": "55",
+        "ayah": "3"
+    },
+    {
+        "question": "خَلَقَ",
+        "answer": "He created",
+        "pcklId": "149",
+        "tlit": "khalaqa",
+        "frequency": "261",
+        "surah": "55",
+        "ayah": "14"
+    },
+    {
+        "question": "وَخَلَقَ",
+        "answer": "And He created",
+        "pcklId": "150",
+        "tlit": "wakhalaqa",
+        "frequency": "261",
+        "surah": "55",
+        "ayah": "15"
+    },
+    {
+        "question": "خَافَ",
+        "answer": "fears",
+        "pcklId": "75",
+        "tlit": "khāfa",
+        "frequency": "124",
+        "surah": "55",
+        "ayah": "46"
+    },
+    {
+        "question": "خَيْرَاتٌ",
+        "answer": "(are) good",
+        "pcklId": "193",
+        "tlit": "khayrātun",
+        "frequency": "196",
+        "surah": "55",
+        "ayah": "70"
+    },
+    {
+        "question": "الْخِيَامِ",
+        "answer": "the pavilions",
+        "pcklId": "0",
+        "tlit": "l-khiyāmi",
+        "frequency": "1",
+        "surah": "55",
+        "ayah": "72"
+    },
+    {
+        "question": "دَانٍ",
+        "answer": "(is) near",
+        "pcklId": "129",
+        "tlit": "dānin",
+        "frequency": "133",
+        "surah": "55",
+        "ayah": "54"
+    },
+    {
+        "question": "مُدْهَامَّتَانِ",
+        "answer": "Dark green",
+        "pcklId": "0",
+        "tlit": "mud'hāmmatāni",
+        "frequency": "1",
+        "surah": "55",
+        "ayah": "64"
+    },
+    {
+        "question": "كَالدِّهَانِ",
+        "answer": "like murky oil",
+        "pcklId": "2",
+        "tlit": "kal-dihāni",
+        "frequency": "5",
+        "surah": "55",
+        "ayah": "37"
+    },
+    {
+        "question": "دُونِهِمَا",
+        "answer": "Besides these two",
+        "pcklId": "129",
+        "tlit": "dūnihimā",
+        "frequency": "144",
+        "surah": "55",
+        "ayah": "62"
+    },
+    {
+        "question": "ذَنْبِهِ",
+        "answer": "his sin",
+        "pcklId": "31",
+        "tlit": "dhanbihi",
+        "frequency": "39",
+        "surah": "55",
+        "ayah": "39"
+    },
+    {
+        "question": "رَبِّكُمَا",
+        "answer": "(of) your Lord",
+        "pcklId": "822",
+        "tlit": "rabbikumā",
+        "frequency": "980",
+        "surah": "55",
+        "ayah": "13"
+    },
+    {
+        "question": "رَبِّكُمَا",
+        "answer": "(of) your Lord",
+        "pcklId": "823",
+        "tlit": "rabbikumā",
+        "frequency": "980",
+        "surah": "55",
+        "ayah": "16"
+    },
+    {
+        "question": "رَبُّ",
+        "answer": "Lord",
+        "pcklId": "824",
+        "tlit": "rabbu",
+        "frequency": "980",
+        "surah": "55",
+        "ayah": "17"
+    },
+    {
+        "question": "وَرَبُّ",
+        "answer": "and Lord",
+        "pcklId": "825",
+        "tlit": "warabbu",
+        "frequency": "980",
+        "surah": "55",
+        "ayah": "17"
+    },
+    {
+        "question": "رَبِّكُمَا",
+        "answer": "(of) your Lord",
+        "pcklId": "826",
+        "tlit": "rabbikumā",
+        "frequency": "980",
+        "surah": "55",
+        "ayah": "18"
+    },
+    {
+        "question": "رَبِّكُمَا",
+        "answer": "(of) your Lord",
+        "pcklId": "827",
+        "tlit": "rabbikumā",
+        "frequency": "980",
+        "surah": "55",
+        "ayah": "21"
+    },
+    {
+        "question": "رَبِّكُمَا",
+        "answer": "(of) your Lord",
+        "pcklId": "828",
+        "tlit": "rabbikumā",
+        "frequency": "980",
+        "surah": "55",
+        "ayah": "23"
+    },
+    {
+        "question": "رَبِّكُمَا",
+        "answer": "(of) your Lord",
+        "pcklId": "829",
+        "tlit": "rabbikumā",
+        "frequency": "980",
+        "surah": "55",
+        "ayah": "25"
+    },
+    {
+        "question": "رَبِّكَ",
+        "answer": "(of) your Lord",
+        "pcklId": "830",
+        "tlit": "rabbika",
+        "frequency": "980",
+        "surah": "55",
+        "ayah": "27"
+    },
+    {
+        "question": "رَبِّكُمَا",
+        "answer": "(of) your Lord",
+        "pcklId": "831",
+        "tlit": "rabbikumā",
+        "frequency": "980",
+        "surah": "55",
+        "ayah": "28"
+    },
+    {
+        "question": "رَبِّكُمَا",
+        "answer": "(of) your Lord",
+        "pcklId": "832",
+        "tlit": "rabbikumā",
+        "frequency": "980",
+        "surah": "55",
+        "ayah": "30"
+    },
+    {
+        "question": "رَبِّكُمَا",
+        "answer": "(of) your Lord",
+        "pcklId": "833",
+        "tlit": "rabbikumā",
+        "frequency": "980",
+        "surah": "55",
+        "ayah": "32"
+    },
+    {
+        "question": "رَبِّكُمَا",
+        "answer": "(of) your Lord",
+        "pcklId": "834",
+        "tlit": "rabbikumā",
+        "frequency": "980",
+        "surah": "55",
+        "ayah": "34"
+    },
+    {
+        "question": "رَبِّكُمَا",
+        "answer": "(of) your Lord",
+        "pcklId": "835",
+        "tlit": "rabbikumā",
+        "frequency": "980",
+        "surah": "55",
+        "ayah": "36"
+    },
+    {
+        "question": "رَبِّكُمَا",
+        "answer": "(of) your Lord",
+        "pcklId": "836",
+        "tlit": "rabbikumā",
+        "frequency": "980",
+        "surah": "55",
+        "ayah": "38"
+    },
+    {
+        "question": "رَبِّكُمَا",
+        "answer": "(of) your Lord",
+        "pcklId": "837",
+        "tlit": "rabbikumā",
+        "frequency": "980",
+        "surah": "55",
+        "ayah": "40"
+    },
+    {
+        "question": "رَبِّكُمَا",
+        "answer": "(of) your Lord",
+        "pcklId": "838",
+        "tlit": "rabbikumā",
+        "frequency": "980",
+        "surah": "55",
+        "ayah": "42"
+    },
+    {
+        "question": "رَبِّكُمَا",
+        "answer": "(of) your Lord",
+        "pcklId": "839",
+        "tlit": "rabbikumā",
+        "frequency": "980",
+        "surah": "55",
+        "ayah": "45"
+    },
+    {
+        "question": "رَبِّهِ",
+        "answer": "(before) his Lord",
+        "pcklId": "840",
+        "tlit": "rabbihi",
+        "frequency": "980",
+        "surah": "55",
+        "ayah": "46"
+    },
+    {
+        "question": "رَبِّكُمَا",
+        "answer": "(of) your Lord",
+        "pcklId": "841",
+        "tlit": "rabbikumā",
+        "frequency": "980",
+        "surah": "55",
+        "ayah": "47"
+    },
+    {
+        "question": "رَبِّكُمَا",
+        "answer": "(of) your Lord",
+        "pcklId": "842",
+        "tlit": "rabbikumā",
+        "frequency": "980",
+        "surah": "55",
+        "ayah": "49"
+    },
+    {
+        "question": "رَبِّكُمَا",
+        "answer": "(of) your Lord",
+        "pcklId": "843",
+        "tlit": "rabbikumā",
+        "frequency": "980",
+        "surah": "55",
+        "ayah": "51"
+    },
+    {
+        "question": "رَبِّكُمَا",
+        "answer": "(of) your Lord",
+        "pcklId": "844",
+        "tlit": "rabbikumā",
+        "frequency": "980",
+        "surah": "55",
+        "ayah": "53"
+    },
+    {
+        "question": "رَبِّكُمَا",
+        "answer": "(of) your Lord",
+        "pcklId": "845",
+        "tlit": "rabbikumā",
+        "frequency": "980",
+        "surah": "55",
+        "ayah": "55"
+    },
+    {
+        "question": "رَبِّكُمَا",
+        "answer": "(of) your Lord",
+        "pcklId": "846",
+        "tlit": "rabbikumā",
+        "frequency": "980",
+        "surah": "55",
+        "ayah": "57"
+    },
+    {
+        "question": "رَبِّكُمَا",
+        "answer": "(of) your Lord",
+        "pcklId": "847",
+        "tlit": "rabbikumā",
+        "frequency": "980",
+        "surah": "55",
+        "ayah": "59"
+    },
+    {
+        "question": "رَبِّكُمَا",
+        "answer": "(of) your Lord",
+        "pcklId": "848",
+        "tlit": "rabbikumā",
+        "frequency": "980",
+        "surah": "55",
+        "ayah": "61"
+    },
+    {
+        "question": "رَبِّكُمَا",
+        "answer": "(of) your Lord",
+        "pcklId": "849",
+        "tlit": "rabbikumā",
+        "frequency": "980",
+        "surah": "55",
+        "ayah": "63"
+    },
+    {
+        "question": "رَبِّكُمَا",
+        "answer": "(of) your Lord",
+        "pcklId": "850",
+        "tlit": "rabbikumā",
+        "frequency": "980",
+        "surah": "55",
+        "ayah": "65"
+    },
+    {
+        "question": "رَبِّكُمَا",
+        "answer": "(of) your Lord",
+        "pcklId": "851",
+        "tlit": "rabbikumā",
+        "frequency": "980",
+        "surah": "55",
+        "ayah": "67"
+    },
+    {
+        "question": "رَبِّكُمَا",
+        "answer": "(of) your Lord",
+        "pcklId": "852",
+        "tlit": "rabbikumā",
+        "frequency": "980",
+        "surah": "55",
+        "ayah": "69"
+    },
+    {
+        "question": "رَبِّكُمَا",
+        "answer": "(of) your Lord",
+        "pcklId": "853",
+        "tlit": "rabbikumā",
+        "frequency": "980",
+        "surah": "55",
+        "ayah": "71"
+    },
+    {
+        "question": "رَبِّكُمَا",
+        "answer": "(of) your Lord",
+        "pcklId": "854",
+        "tlit": "rabbikumā",
+        "frequency": "980",
+        "surah": "55",
+        "ayah": "73"
+    },
+    {
+        "question": "رَبِّكُمَا",
+        "answer": "(of) your Lord",
+        "pcklId": "855",
+        "tlit": "rabbikumā",
+        "frequency": "980",
+        "surah": "55",
+        "ayah": "75"
+    },
+    {
+        "question": "رَبِّكُمَا",
+        "answer": "(of) your Lord",
+        "pcklId": "856",
+        "tlit": "rabbikumā",
+        "frequency": "980",
+        "surah": "55",
+        "ayah": "77"
+    },
+    {
+        "question": "رَبِّكَ",
+        "answer": "(of) your Lord",
+        "pcklId": "857",
+        "tlit": "rabbika",
+        "frequency": "980",
+        "surah": "55",
+        "ayah": "78"
+    },
+    {
+        "question": "الرَّحْمَٰنُ",
+        "answer": "The Most Gracious",
+        "pcklId": "101",
+        "tlit": "al-raḥmānu",
+        "frequency": "339",
+        "surah": "55",
+        "ayah": "1"
+    },
+    {
+        "question": "يُرْسَلُ",
+        "answer": "Will be sent",
+        "pcklId": "119",
+        "tlit": "yur'salu",
+        "frequency": "513",
+        "surah": "55",
+        "ayah": "35"
+    },
+    {
+        "question": "رَفْرَفٍ",
+        "answer": "cushions",
+        "pcklId": "0",
+        "tlit": "rafrafin",
+        "frequency": "1",
+        "surah": "55",
+        "ayah": "76"
+    },
+    {
+        "question": "رَفَعَهَا",
+        "answer": "He raised it",
+        "pcklId": "17",
+        "tlit": "rafaʿahā",
+        "frequency": "29",
+        "surah": "55",
+        "ayah": "7"
+    },
+    {
+        "question": "وَرُمَّانٌ",
+        "answer": "and pomegranates",
+        "pcklId": "2",
+        "tlit": "warummānun",
+        "frequency": "3",
+        "surah": "55",
+        "ayah": "68"
+    },
+    {
+        "question": "وَالرَّيْحَانُ",
+        "answer": "and scented plants",
+        "pcklId": "55",
+        "tlit": "wal-rayḥānu",
+        "frequency": "57",
+        "surah": "55",
+        "ayah": "12"
+    },
+    {
+        "question": "زَوْجَانِ",
+        "answer": "(in) pairs",
+        "pcklId": "69",
+        "tlit": "zawjāni",
+        "frequency": "81",
+        "surah": "55",
+        "ayah": "52"
+    },
+    {
+        "question": "يَسْأَلُهُ",
+        "answer": "Asks Him",
+        "pcklId": "93",
+        "tlit": "yasaluhu",
+        "frequency": "129",
+        "surah": "55",
+        "ayah": "29"
+    },
+    {
+        "question": "يُسْأَلُ",
+        "answer": "will be asked",
+        "pcklId": "94",
+        "tlit": "yus'alu",
+        "frequency": "129",
+        "surah": "55",
+        "ayah": "39"
+    },
+    {
+        "question": "يَسْجُدَانِ",
+        "answer": "both prostrate",
+        "pcklId": "31",
+        "tlit": "yasjudāni",
+        "frequency": "92",
+        "surah": "55",
+        "ayah": "6"
+    },
+    {
+        "question": "بِسُلْطَانٍ",
+        "answer": "by authority",
+        "pcklId": "37",
+        "tlit": "bisul'ṭānin",
+        "frequency": "39",
+        "surah": "55",
+        "ayah": "33"
+    },
+    {
+        "question": "اسْمُ",
+        "answer": "(the) name",
+        "pcklId": "36",
+        "tlit": "us'mu",
+        "frequency": "381",
+        "surah": "55",
+        "ayah": "78"
+    },
+    {
+        "question": "وَالسَّمَاءَ",
+        "answer": "And the heaven",
+        "pcklId": "313",
+        "tlit": "wal-samāa",
+        "frequency": "381",
+        "surah": "55",
+        "ayah": "7"
+    },
+    {
+        "question": "السَّمَاوَاتِ",
+        "answer": "the heavens",
+        "pcklId": "314",
+        "tlit": "l-samāwāti",
+        "frequency": "381",
+        "surah": "55",
+        "ayah": "29"
+    },
+    {
+        "question": "السَّمَاوَاتِ",
+        "answer": "(of) the heavens",
+        "pcklId": "315",
+        "tlit": "l-samāwāti",
+        "frequency": "381",
+        "surah": "55",
+        "ayah": "33"
+    },
+    {
+        "question": "السَّمَاءُ",
+        "answer": "the heaven",
+        "pcklId": "316",
+        "tlit": "l-samāu",
+        "frequency": "381",
+        "surah": "55",
+        "ayah": "37"
+    },
+    {
+        "question": "بِسِيمَاهُمْ",
+        "answer": "by their marks",
+        "pcklId": "10",
+        "tlit": "bisīmāhum",
+        "frequency": "15",
+        "surah": "55",
+        "ayah": "41"
+    },
+    {
+        "question": "شَأْنٍ",
+        "answer": "a matter",
+        "pcklId": "2",
+        "tlit": "shanin",
+        "frequency": "4",
+        "surah": "55",
+        "ayah": "29"
+    },
+    {
+        "question": "وَالشَّجَرُ",
+        "answer": "and the trees",
+        "pcklId": "6",
+        "tlit": "wal-shajaru",
+        "frequency": "27",
+        "surah": "55",
+        "ayah": "6"
+    },
+    {
+        "question": "الْمَشْرِقَيْنِ",
+        "answer": "(of) the two Easts",
+        "pcklId": "11",
+        "tlit": "l-mashriqayni",
+        "frequency": "17",
+        "surah": "55",
+        "ayah": "17"
+    },
+    {
+        "question": "انْشَقَّتِ",
+        "answer": "is split",
+        "pcklId": "14",
+        "tlit": "inshaqqati",
+        "frequency": "28",
+        "surah": "55",
+        "ayah": "37"
+    },
+    {
+        "question": "الشَّمْسُ",
+        "answer": "The sun",
+        "pcklId": "27",
+        "tlit": "al-shamsu",
+        "frequency": "33",
+        "surah": "55",
+        "ayah": "5"
+    },
+    {
+        "question": "شُوَاظٌ",
+        "answer": "a flame",
+        "pcklId": "0",
+        "tlit": "shuwāẓun",
+        "frequency": "1",
+        "surah": "55",
+        "ayah": "35"
+    },
+    {
+        "question": "صَلْصَالٍ",
+        "answer": "clay",
+        "pcklId": "3",
+        "tlit": "ṣalṣālin",
+        "frequency": "4",
+        "surah": "55",
+        "ayah": "14"
+    },
+    {
+        "question": "الطَّرْفِ",
+        "answer": "(will be) companions of modest gaze",
+        "pcklId": "5",
+        "tlit": "l-ṭarfi",
+        "frequency": "11",
+        "surah": "55",
+        "ayah": "56"
+    },
+    {
+        "question": "تَطْغَوْا",
+        "answer": "you may transgress",
+        "pcklId": "6",
+        "tlit": "taṭghaw",
+        "frequency": "39",
+        "surah": "55",
+        "ayah": "8"
+    },
+    {
+        "question": "يَطْمِثْهُنَّ",
+        "answer": "has touched them",
+        "pcklId": "0",
+        "tlit": "yaṭmith'hunna",
+        "frequency": "2",
+        "surah": "55",
+        "ayah": "56"
+    },
+    {
+        "question": "يَطْمِثْهُنَّ",
+        "answer": "has touched them",
+        "pcklId": "1",
+        "tlit": "yaṭmith'hunna",
+        "frequency": "2",
+        "surah": "55",
+        "ayah": "74"
+    },
+    {
+        "question": "اسْتَطَعْتُمْ",
+        "answer": "you are able",
+        "pcklId": "115",
+        "tlit": "is'taṭaʿtum",
+        "frequency": "129",
+        "surah": "55",
+        "ayah": "33"
+    },
+    {
+        "question": "يَطُوفُونَ",
+        "answer": "They will go around",
+        "pcklId": "3",
+        "tlit": "yaṭūfūna",
+        "frequency": "41",
+        "surah": "55",
+        "ayah": "44"
+    },
+    {
+        "question": "وَعَبْقَرِيٍّ",
+        "answer": "and carpets",
+        "pcklId": "0",
+        "tlit": "waʿabqariyyin",
+        "frequency": "1",
+        "surah": "55",
+        "ayah": "76"
+    },
+    {
+        "question": "يُعْرَفُ",
+        "answer": "Will be known",
+        "pcklId": "18",
+        "tlit": "yuʿ'rafu",
+        "frequency": "70",
+        "surah": "55",
+        "ayah": "41"
+    },
+    {
+        "question": "يَا مَعْشَرَ",
+        "answer": "O assembly",
+        "pcklId": "26",
+        "tlit": "yāmaʿshara",
+        "frequency": "27",
+        "surah": "55",
+        "ayah": "33"
+    },
+    {
+        "question": "الْعَصْفِ",
+        "answer": "husk",
+        "pcklId": "1",
+        "tlit": "l-ʿaṣfi",
+        "frequency": "7",
+        "surah": "55",
+        "ayah": "12"
+    },
+    {
+        "question": "عَلَّمَ",
+        "answer": "He taught",
+        "pcklId": "418",
+        "tlit": "ʿallama",
+        "frequency": "854",
+        "surah": "55",
+        "ayah": "2"
+    },
+    {
+        "question": "عَلَّمَهُ",
+        "answer": "He taught him",
+        "pcklId": "419",
+        "tlit": "ʿallamahu",
+        "frequency": "854",
+        "surah": "55",
+        "ayah": "4"
+    },
+    {
+        "question": "كَالْأَعْلَامِ",
+        "answer": "like mountains",
+        "pcklId": "426",
+        "tlit": "kal-aʿlāmi",
+        "frequency": "854",
+        "surah": "55",
+        "ayah": "24"
+    },
+    {
+        "question": "عَيْنَانِ",
+        "answer": "(are) two springs",
+        "pcklId": "47",
+        "tlit": "ʿaynāni",
+        "frequency": "65",
+        "surah": "55",
+        "ayah": "50"
+    },
+    {
+        "question": "عَيْنَانِ",
+        "answer": "(are) two springs",
+        "pcklId": "48",
+        "tlit": "ʿaynāni",
+        "frequency": "65",
+        "surah": "55",
+        "ayah": "66"
+    },
+    {
+        "question": "الْمَغْرِبَيْنِ",
+        "answer": "(of) the two Wests",
+        "pcklId": "16",
+        "tlit": "l-maghribayni",
+        "frequency": "19",
+        "surah": "55",
+        "ayah": "17"
+    },
+    {
+        "question": "كَالْفَخَّارِ",
+        "answer": "like the pottery",
+        "pcklId": "0",
+        "tlit": "kal-fakhāri",
+        "frequency": "6",
+        "surah": "55",
+        "ayah": "14"
+    },
+    {
+        "question": "فُرُشٍ",
+        "answer": "couches",
+        "pcklId": "2",
+        "tlit": "furushin",
+        "frequency": "6",
+        "surah": "55",
+        "ayah": "54"
+    },
+    {
+        "question": "سَنَفْرُغُ",
+        "answer": "Soon We will attend",
+        "pcklId": "0",
+        "tlit": "sanafrughu",
+        "frequency": "6",
+        "surah": "55",
+        "ayah": "31"
+    },
+    {
+        "question": "فَاكِهَةٌ",
+        "answer": "(is) fruit",
+        "pcklId": "6",
+        "tlit": "fākihatun",
+        "frequency": "19",
+        "surah": "55",
+        "ayah": "11"
+    },
+    {
+        "question": "فَاكِهَةٍ",
+        "answer": "fruits",
+        "pcklId": "7",
+        "tlit": "fākihatin",
+        "frequency": "19",
+        "surah": "55",
+        "ayah": "52"
+    },
+    {
+        "question": "فَاكِهَةٌ",
+        "answer": "(are) fruits",
+        "pcklId": "8",
+        "tlit": "fākihatun",
+        "frequency": "19",
+        "surah": "55",
+        "ayah": "68"
+    },
+    {
+        "question": "أَفْنَانٍ",
+        "answer": "branches",
+        "pcklId": "0",
+        "tlit": "afnānin",
+        "frequency": "1",
+        "surah": "55",
+        "ayah": "48"
+    },
+    {
+        "question": "فَانٍ",
+        "answer": "(will) perish",
+        "pcklId": "0",
+        "tlit": "fānin",
+        "frequency": "1",
+        "surah": "55",
+        "ayah": "26"
+    },
+    {
+        "question": "قَبْلَهُمْ",
+        "answer": "before them",
+        "pcklId": "271",
+        "tlit": "qablahum",
+        "frequency": "294",
+        "surah": "55",
+        "ayah": "56"
+    },
+    {
+        "question": "قَبْلَهُمْ",
+        "answer": "before them",
+        "pcklId": "272",
+        "tlit": "qablahum",
+        "frequency": "294",
+        "surah": "55",
+        "ayah": "74"
+    },
+    {
+        "question": "وَالْأَقْدَامِ",
+        "answer": "and the feet",
+        "pcklId": "43",
+        "tlit": "wal-aqdāmi",
+        "frequency": "48",
+        "surah": "55",
+        "ayah": "41"
+    },
+    {
+        "question": "الْقُرْآنَ",
+        "answer": "the Quran",
+        "pcklId": "77",
+        "tlit": "l-qur'āna",
+        "frequency": "88",
+        "surah": "55",
+        "ayah": "2"
+    },
+    {
+        "question": "بِالْقِسْطِ",
+        "answer": "in justice",
+        "pcklId": "18",
+        "tlit": "bil-qis'ṭi",
+        "frequency": "25",
+        "surah": "55",
+        "ayah": "9"
+    },
+    {
+        "question": "مَقْصُورَاتٌ",
+        "answer": "restrained",
+        "pcklId": "6",
+        "tlit": "maqṣūrātun",
+        "frequency": "11",
+        "surah": "55",
+        "ayah": "72"
+    },
+    {
+        "question": "قَاصِرَاتُ",
+        "answer": "(will be) companions of modest gaze",
+        "pcklId": "9",
+        "tlit": "qāṣirātu",
+        "frequency": "11",
+        "surah": "55",
+        "ayah": "56"
+    },
+    {
+        "question": "أَقْطَارِ",
+        "answer": "(the) regions",
+        "pcklId": "1",
+        "tlit": "aqṭāri",
+        "frequency": "5",
+        "surah": "55",
+        "ayah": "33"
+    },
+    {
+        "question": "وَالْقَمَرُ",
+        "answer": "and the moon",
+        "pcklId": "20",
+        "tlit": "wal-qamaru",
+        "frequency": "27",
+        "surah": "55",
+        "ayah": "5"
+    },
+    {
+        "question": "وَأَقِيمُوا",
+        "answer": "And establish",
+        "pcklId": "82",
+        "tlit": "wa-aqīmū",
+        "frequency": "660",
+        "surah": "55",
+        "ayah": "9"
+    },
+    {
+        "question": "مَقَامَ",
+        "answer": "(the) standing",
+        "pcklId": "581",
+        "tlit": "maqāma",
+        "frequency": "660",
+        "surah": "55",
+        "ayah": "46"
+    },
+    {
+        "question": "تُكَذِّبَانِ",
+        "answer": "will you both deny",
+        "pcklId": "130",
+        "tlit": "tukadhibāni",
+        "frequency": "282",
+        "surah": "55",
+        "ayah": "13"
+    },
+    {
+        "question": "تُكَذِّبَانِ",
+        "answer": "will you both deny",
+        "pcklId": "131",
+        "tlit": "tukadhibāni",
+        "frequency": "282",
+        "surah": "55",
+        "ayah": "16"
+    },
+    {
+        "question": "تُكَذِّبَانِ",
+        "answer": "will you both deny",
+        "pcklId": "132",
+        "tlit": "tukadhibāni",
+        "frequency": "282",
+        "surah": "55",
+        "ayah": "18"
+    },
+    {
+        "question": "تُكَذِّبَانِ",
+        "answer": "will you both deny",
+        "pcklId": "133",
+        "tlit": "tukadhibāni",
+        "frequency": "282",
+        "surah": "55",
+        "ayah": "21"
+    },
+    {
+        "question": "تُكَذِّبَانِ",
+        "answer": "will you both deny",
+        "pcklId": "134",
+        "tlit": "tukadhibāni",
+        "frequency": "282",
+        "surah": "55",
+        "ayah": "23"
+    },
+    {
+        "question": "تُكَذِّبَانِ",
+        "answer": "will you both deny",
+        "pcklId": "135",
+        "tlit": "tukadhibāni",
+        "frequency": "282",
+        "surah": "55",
+        "ayah": "25"
+    },
+    {
+        "question": "تُكَذِّبَانِ",
+        "answer": "will you both deny",
+        "pcklId": "136",
+        "tlit": "tukadhibāni",
+        "frequency": "282",
+        "surah": "55",
+        "ayah": "28"
+    },
+    {
+        "question": "تُكَذِّبَانِ",
+        "answer": "will you both deny",
+        "pcklId": "137",
+        "tlit": "tukadhibāni",
+        "frequency": "282",
+        "surah": "55",
+        "ayah": "30"
+    },
+    {
+        "question": "تُكَذِّبَانِ",
+        "answer": "will you both deny",
+        "pcklId": "138",
+        "tlit": "tukadhibāni",
+        "frequency": "282",
+        "surah": "55",
+        "ayah": "32"
+    },
+    {
+        "question": "تُكَذِّبَانِ",
+        "answer": "will you both deny",
+        "pcklId": "139",
+        "tlit": "tukadhibāni",
+        "frequency": "282",
+        "surah": "55",
+        "ayah": "34"
+    },
+    {
+        "question": "تُكَذِّبَانِ",
+        "answer": "will you both deny",
+        "pcklId": "140",
+        "tlit": "tukadhibāni",
+        "frequency": "282",
+        "surah": "55",
+        "ayah": "36"
+    },
+    {
+        "question": "تُكَذِّبَانِ",
+        "answer": "will you both deny",
+        "pcklId": "141",
+        "tlit": "tukadhibāni",
+        "frequency": "282",
+        "surah": "55",
+        "ayah": "38"
+    },
+    {
+        "question": "تُكَذِّبَانِ",
+        "answer": "will you both deny",
+        "pcklId": "142",
+        "tlit": "tukadhibāni",
+        "frequency": "282",
+        "surah": "55",
+        "ayah": "40"
+    },
+    {
+        "question": "تُكَذِّبَانِ",
+        "answer": "will you both deny",
+        "pcklId": "143",
+        "tlit": "tukadhibāni",
+        "frequency": "282",
+        "surah": "55",
+        "ayah": "42"
+    },
+    {
+        "question": "يُكَذِّبُ",
+        "answer": "deny",
+        "pcklId": "144",
+        "tlit": "yukadhibu",
+        "frequency": "282",
+        "surah": "55",
+        "ayah": "43"
+    },
+    {
+        "question": "تُكَذِّبَانِ",
+        "answer": "will you both deny",
+        "pcklId": "145",
+        "tlit": "tukadhibāni",
+        "frequency": "282",
+        "surah": "55",
+        "ayah": "45"
+    },
+    {
+        "question": "تُكَذِّبَانِ",
+        "answer": "will you both deny",
+        "pcklId": "146",
+        "tlit": "tukadhibāni",
+        "frequency": "282",
+        "surah": "55",
+        "ayah": "47"
+    },
+    {
+        "question": "تُكَذِّبَانِ",
+        "answer": "will you both deny",
+        "pcklId": "147",
+        "tlit": "tukadhibāni",
+        "frequency": "282",
+        "surah": "55",
+        "ayah": "49"
+    },
+    {
+        "question": "تُكَذِّبَانِ",
+        "answer": "will you both deny",
+        "pcklId": "148",
+        "tlit": "tukadhibāni",
+        "frequency": "282",
+        "surah": "55",
+        "ayah": "51"
+    },
+    {
+        "question": "تُكَذِّبَانِ",
+        "answer": "will you both deny",
+        "pcklId": "149",
+        "tlit": "tukadhibāni",
+        "frequency": "282",
+        "surah": "55",
+        "ayah": "53"
+    },
+    {
+        "question": "تُكَذِّبَانِ",
+        "answer": "will you both deny",
+        "pcklId": "150",
+        "tlit": "tukadhibāni",
+        "frequency": "282",
+        "surah": "55",
+        "ayah": "55"
+    },
+    {
+        "question": "تُكَذِّبَانِ",
+        "answer": "will you both deny",
+        "pcklId": "151",
+        "tlit": "tukadhibāni",
+        "frequency": "282",
+        "surah": "55",
+        "ayah": "57"
+    },
+    {
+        "question": "تُكَذِّبَانِ",
+        "answer": "will you both deny",
+        "pcklId": "152",
+        "tlit": "tukadhibāni",
+        "frequency": "282",
+        "surah": "55",
+        "ayah": "59"
+    },
+    {
+        "question": "تُكَذِّبَانِ",
+        "answer": "will you both deny",
+        "pcklId": "153",
+        "tlit": "tukadhibāni",
+        "frequency": "282",
+        "surah": "55",
+        "ayah": "61"
+    },
+    {
+        "question": "تُكَذِّبَانِ",
+        "answer": "will you both deny",
+        "pcklId": "154",
+        "tlit": "tukadhibāni",
+        "frequency": "282",
+        "surah": "55",
+        "ayah": "63"
+    },
+    {
+        "question": "تُكَذِّبَانِ",
+        "answer": "will you both deny",
+        "pcklId": "155",
+        "tlit": "tukadhibāni",
+        "frequency": "282",
+        "surah": "55",
+        "ayah": "65"
+    },
+    {
+        "question": "تُكَذِّبَانِ",
+        "answer": "will you both deny",
+        "pcklId": "156",
+        "tlit": "tukadhibāni",
+        "frequency": "282",
+        "surah": "55",
+        "ayah": "67"
+    },
+    {
+        "question": "تُكَذِّبَانِ",
+        "answer": "will you both deny",
+        "pcklId": "157",
+        "tlit": "tukadhibāni",
+        "frequency": "282",
+        "surah": "55",
+        "ayah": "69"
+    },
+    {
+        "question": "تُكَذِّبَانِ",
+        "answer": "will you both deny",
+        "pcklId": "158",
+        "tlit": "tukadhibāni",
+        "frequency": "282",
+        "surah": "55",
+        "ayah": "71"
+    },
+    {
+        "question": "تُكَذِّبَانِ",
+        "answer": "will you both deny",
+        "pcklId": "159",
+        "tlit": "tukadhibāni",
+        "frequency": "282",
+        "surah": "55",
+        "ayah": "73"
+    },
+    {
+        "question": "تُكَذِّبَانِ",
+        "answer": "will you both deny",
+        "pcklId": "160",
+        "tlit": "tukadhibāni",
+        "frequency": "282",
+        "surah": "55",
+        "ayah": "75"
+    },
+    {
+        "question": "تُكَذِّبَانِ",
+        "answer": "will you both deny",
+        "pcklId": "161",
+        "tlit": "tukadhibāni",
+        "frequency": "282",
+        "surah": "55",
+        "ayah": "77"
+    },
+    {
+        "question": "وَالْإِكْرَامِ",
+        "answer": "and Honor",
+        "pcklId": "39",
+        "tlit": "wal-ik'rāmi",
+        "frequency": "47",
+        "surah": "55",
+        "ayah": "27"
+    },
+    {
+        "question": "وَالْإِكْرَامِ",
+        "answer": "and Honor",
+        "pcklId": "40",
+        "tlit": "wal-ik'rāmi",
+        "frequency": "47",
+        "surah": "55",
+        "ayah": "78"
+    },
+    {
+        "question": "كُلُّ",
+        "answer": "Everyone",
+        "pcklId": "326",
+        "tlit": "kullu",
+        "frequency": "377",
+        "surah": "55",
+        "ayah": "26"
+    },
+    {
+        "question": "كُلَّ",
+        "answer": "Every",
+        "pcklId": "327",
+        "tlit": "kulla",
+        "frequency": "377",
+        "surah": "55",
+        "ayah": "29"
+    },
+    {
+        "question": "كُلِّ",
+        "answer": "(are) every",
+        "pcklId": "328",
+        "tlit": "kulli",
+        "frequency": "377",
+        "surah": "55",
+        "ayah": "52"
+    },
+    {
+        "question": "الْأَكْمَامِ",
+        "answer": "sheaths",
+        "pcklId": "1",
+        "tlit": "l-akmāmi",
+        "frequency": "2",
+        "surah": "55",
+        "ayah": "11"
+    },
+    {
+        "question": "فَكَانَتْ",
+        "answer": "and it becomes",
+        "pcklId": "1244",
+        "tlit": "fakānat",
+        "frequency": "1390",
+        "surah": "55",
+        "ayah": "37"
+    },
+    {
+        "question": "اللُّؤْلُؤُ",
+        "answer": "the pearl",
+        "pcklId": "3",
+        "tlit": "l-lu'lu-u",
+        "frequency": "6",
+        "surah": "55",
+        "ayah": "22"
+    },
+    {
+        "question": "يَلْتَقِيَانِ",
+        "answer": "meeting",
+        "pcklId": "104",
+        "tlit": "yaltaqiyāni",
+        "frequency": "146",
+        "surah": "55",
+        "ayah": "19"
+    },
+    {
+        "question": "مَرَجَ",
+        "answer": "He released",
+        "pcklId": "1",
+        "tlit": "maraja",
+        "frequency": "6",
+        "surah": "55",
+        "ayah": "19"
+    },
+    {
+        "question": "وَالْمَرْجَانُ",
+        "answer": "and the coral",
+        "pcklId": "2",
+        "tlit": "wal-marjānu",
+        "frequency": "6",
+        "surah": "55",
+        "ayah": "22"
+    },
+    {
+        "question": "وَالْمَرْجَانُ",
+        "answer": "and coral",
+        "pcklId": "3",
+        "tlit": "wal-marjānu",
+        "frequency": "6",
+        "surah": "55",
+        "ayah": "58"
+    },
+    {
+        "question": "مَارِجٍ",
+        "answer": "a smokeless flame",
+        "pcklId": "5",
+        "tlit": "mārijin",
+        "frequency": "6",
+        "surah": "55",
+        "ayah": "15"
+    },
+    {
+        "question": "وَالنَّجْمُ",
+        "answer": "And the stars",
+        "pcklId": "8",
+        "tlit": "wal-najmu",
+        "frequency": "13",
+        "surah": "55",
+        "ayah": "6"
+    },
+    {
+        "question": "وَنُحَاسٌ",
+        "answer": "and smoke",
+        "pcklId": "0",
+        "tlit": "wanuḥāsun",
+        "frequency": "3",
+        "surah": "55",
+        "ayah": "35"
+    },
+    {
+        "question": "وَالنَّخْلُ",
+        "answer": "and date-palms",
+        "pcklId": "7",
+        "tlit": "wal-nakhlu",
+        "frequency": "20",
+        "surah": "55",
+        "ayah": "11"
+    },
+    {
+        "question": "وَنَخْلٌ",
+        "answer": "and date-palms",
+        "pcklId": "8",
+        "tlit": "wanakhlun",
+        "frequency": "20",
+        "surah": "55",
+        "ayah": "68"
+    },
+    {
+        "question": "الْمُنْشَآتُ",
+        "answer": "elevated",
+        "pcklId": "27",
+        "tlit": "l-munshaātu",
+        "frequency": "28",
+        "surah": "55",
+        "ayah": "24"
+    },
+    {
+        "question": "تَنْتَصِرَانِ",
+        "answer": "you will (be able to) defend yourselves",
+        "pcklId": "66",
+        "tlit": "tantaṣirāni",
+        "frequency": "158",
+        "surah": "55",
+        "ayah": "35"
+    },
+    {
+        "question": "بِالنَّوَاصِي",
+        "answer": "by the forelocks",
+        "pcklId": "3",
+        "tlit": "bil-nawāṣī",
+        "frequency": "4",
+        "surah": "55",
+        "ayah": "41"
+    },
+    {
+        "question": "نَضَّاخَتَانِ",
+        "answer": "gushing forth",
+        "pcklId": "0",
+        "tlit": "naḍḍākhatāni",
+        "frequency": "1",
+        "surah": "55",
+        "ayah": "66"
+    },
+    {
+        "question": "تَنْفُذُوا",
+        "answer": "pass beyond",
+        "pcklId": "0",
+        "tlit": "tanfudhū",
+        "frequency": "3",
+        "surah": "55",
+        "ayah": "33"
+    },
+    {
+        "question": "فَانْفُذُوا",
+        "answer": "then pass",
+        "pcklId": "1",
+        "tlit": "fa-unfudhū",
+        "frequency": "3",
+        "surah": "55",
+        "ayah": "33"
+    },
+    {
+        "question": "تَنْفُذُونَ",
+        "answer": "you (can) pass",
+        "pcklId": "2",
+        "tlit": "tanfudhūna",
+        "frequency": "3",
+        "surah": "55",
+        "ayah": "33"
+    },
+    {
+        "question": "نَارٍ",
+        "answer": "fire",
+        "pcklId": "122",
+        "tlit": "nārin",
+        "frequency": "194",
+        "surah": "55",
+        "ayah": "15"
+    },
+    {
+        "question": "نَارٍ",
+        "answer": "fire",
+        "pcklId": "123",
+        "tlit": "nārin",
+        "frequency": "194",
+        "surah": "55",
+        "ayah": "35"
+    },
+    {
+        "question": "وَجْهُ",
+        "answer": "(the) Face",
+        "pcklId": "62",
+        "tlit": "wajhu",
+        "frequency": "78",
+        "surah": "55",
+        "ayah": "27"
+    },
+    {
+        "question": "وَرْدَةً",
+        "answer": "rose-colored",
+        "pcklId": "5",
+        "tlit": "wardatan",
+        "frequency": "11",
+        "surah": "55",
+        "ayah": "37"
+    },
+    {
+        "question": "الْمِيزَانَ",
+        "answer": "the balance",
+        "pcklId": "13",
+        "tlit": "l-mīzāna",
+        "frequency": "23",
+        "surah": "55",
+        "ayah": "7"
+    },
+    {
+        "question": "الْمِيزَانِ",
+        "answer": "the balance",
+        "pcklId": "14",
+        "tlit": "l-mīzāni",
+        "frequency": "23",
+        "surah": "55",
+        "ayah": "8"
+    },
+    {
+        "question": "الْمِيزَانَ",
+        "answer": "the balance",
+        "pcklId": "15",
+        "tlit": "l-mīzāna",
+        "frequency": "23",
+        "surah": "55",
+        "ayah": "9"
+    },
+    {
+        "question": "الْوَزْنَ",
+        "answer": "the weight",
+        "pcklId": "21",
+        "tlit": "l-wazna",
+        "frequency": "23",
+        "surah": "55",
+        "ayah": "9"
+    },
+    {
+        "question": "وَوَضَعَ",
+        "answer": "and He has set up",
+        "pcklId": "16",
+        "tlit": "wawaḍaʿa",
+        "frequency": "26",
+        "surah": "55",
+        "ayah": "7"
+    },
+    {
+        "question": "وَضَعَهَا",
+        "answer": "He laid it",
+        "pcklId": "17",
+        "tlit": "waḍaʿahā",
+        "frequency": "26",
+        "surah": "55",
+        "ayah": "10"
+    },
+    {
+        "question": "مُتَّكِئِينَ",
+        "answer": "Reclining",
+        "pcklId": "6",
+        "tlit": "muttakiīna",
+        "frequency": "11",
+        "surah": "55",
+        "ayah": "54"
+    },
+    {
+        "question": "مُتَّكِئِينَ",
+        "answer": "Reclining",
+        "pcklId": "7",
+        "tlit": "muttakiīna",
+        "frequency": "11",
+        "surah": "55",
+        "ayah": "76"
+    },
+    {
+        "question": "يَوْمٍ",
+        "answer": "day",
+        "pcklId": "276",
+        "tlit": "yawmin",
+        "frequency": "405",
+        "surah": "55",
+        "ayah": "29"
+    }
+]

@@ -1,0 +1,92 @@
+[
+    {
+        "question": "أَحَدٌ",
+        "answer": "the One",
+        "pcklId": "72",
+        "tlit": "aḥadun",
+        "frequency": "85",
+        "surah": "112",
+        "ayah": "1"
+    },
+    {
+        "question": "أَحَدٌ",
+        "answer": "any [one]",
+        "pcklId": "73",
+        "tlit": "aḥadun",
+        "frequency": "85",
+        "surah": "112",
+        "ayah": "4"
+    },
+    {
+        "question": "اللَّهُ",
+        "answer": "(is) Allah",
+        "pcklId": "2844",
+        "tlit": "l-lahu",
+        "frequency": "2851",
+        "surah": "112",
+        "ayah": "1"
+    },
+    {
+        "question": "اللَّهُ",
+        "answer": "Allah",
+        "pcklId": "2845",
+        "tlit": "al-lahu",
+        "frequency": "2851",
+        "surah": "112",
+        "ayah": "2"
+    },
+    {
+        "question": "الصَّمَدُ",
+        "answer": "the Eternal, the Absolute",
+        "pcklId": "0",
+        "tlit": "l-ṣamadu",
+        "frequency": "1",
+        "surah": "112",
+        "ayah": "2"
+    },
+    {
+        "question": "قُلْ",
+        "answer": "Say",
+        "pcklId": "1615",
+        "tlit": "qul",
+        "frequency": "1722",
+        "surah": "112",
+        "ayah": "1"
+    },
+    {
+        "question": "كُفُوًا",
+        "answer": "equivalent",
+        "pcklId": "0",
+        "tlit": "kufuwan",
+        "frequency": "1",
+        "surah": "112",
+        "ayah": "4"
+    },
+    {
+        "question": "يَكُنْ",
+        "answer": "is",
+        "pcklId": "1357",
+        "tlit": "yakun",
+        "frequency": "1390",
+        "surah": "112",
+        "ayah": "4"
+    },
+    {
+        "question": "يَلِدْ",
+        "answer": "He begets",
+        "pcklId": "7",
+        "tlit": "yalid",
+        "frequency": "102",
+        "surah": "112",
+        "ayah": "3"
+    },
+    {
+        "question": "يُولَدْ",
+        "answer": "He is begotten",
+        "pcklId": "8",
+        "tlit": "yūlad",
+        "frequency": "102",
+        "surah": "112",
+        "ayah": "3"
+    }
+]
