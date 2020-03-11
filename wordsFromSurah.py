@@ -32,6 +32,7 @@ def get_surah(surahNumber, minCount, maxCount):
     '''
     count = 0
     list_of_jsons = []
+    answers = []
     for num in range(1, NUM_ROOT_WORDS_IN_CORPUS + 1):
         w = open_rootword(num)
         if (len(w) <= minCount or len(w) > maxCount):
@@ -59,22 +60,32 @@ def get_surah(surahNumber, minCount, maxCount):
                                 'ayah': ayah.split(',')[1]
                             }
 
+                answers.append(answer)
+
                 # print(word_json)
 
                 list_of_jsons.append(word_json)
                 # print(len(list_of_jsons))
                 # print('\''+ answer +'\''+',')
-    return list_of_jsons
+    return list_of_jsons, answers
 
 def build_jsons_for_all_surahs():
     for i in range(1, NUM_SURAHS_IN_QURAN + 1):
         print("Building for surah: " + str(i))
-        data = get_surah(i, 0, ALL_AYAHS)
+        data, answers = get_surah(i, 0, ALL_AYAHS)
         print("Num words in surah: " + str(len(data)))
+        print(answers)
         with open(str(i) + '.json', 'w') as f:
-            f.write("var a = \n")
+            f.write("var words = \n")
             ujson.dump(data, f, ensure_ascii=False, indent=4)
+            f.write("; \n")
+            f.write("export default words;")
 
+        with open(str(i) + '_answers' + '.json', 'w') as f:
+            f.write("var answers = \n")
+            ujson.dump(answers, f)
+            f.write("; \n")
+            f.write("export default answers;")
 
 if __name__ == '__main__':
     # print(get_surah(1, 0, ALL_AYAHS))
