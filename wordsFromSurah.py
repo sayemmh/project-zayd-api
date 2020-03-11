@@ -62,11 +62,10 @@ def get_surah(surahNumber, minCount, maxCount):
 
                 answers.append(answer)
 
-                # print(word_json)
-
                 list_of_jsons.append(word_json)
                 # print(len(list_of_jsons))
                 # print('\''+ answer +'\''+',')
+    answers = list(set(answers))
     return list_of_jsons, answers
 
 def build_jsons_for_all_surahs():
