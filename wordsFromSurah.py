@@ -38,8 +38,6 @@ def get_surah(surahNumber, minCount, maxCount):
             continue
         wm = w['wordmorphologies']
 
-
-
         for i in range(0, len(wm)):
             if (int(wm[i].split('(')[1].split(':')[0]) == surahNumber):
                 count = count + 1
@@ -50,14 +48,7 @@ def get_surah(surahNumber, minCount, maxCount):
                 tlit = w['pronunciations'][i]
                 ayah = ",".join(wm[i].split('(')[1].split(':')[0:2])
                 answer = ' '.join(answer.split('\''))
-                # print('{',
-                #         'question:'+ '\''+ question +'\''+ ','+
-                #         'answer:'+ '\''+ answer +'\''+ ','+
-                #         'pcklId:'+ str(i) + ','+
-                #         'tlit:'+ '\''+ tlit +'\''+ ',',
-                #         'num:'+ '\''+ str(len(w)) +'\''+ ',',
-                #         'ayah:'+ '\''+ ayah +'\''+ ',',
-                #         '}'+ ',')
+
                 word_json = {
                                 'question': question,
                                 'answer': answer,
@@ -81,6 +72,7 @@ def build_jsons_for_all_surahs():
         data = get_surah(i, 0, ALL_AYAHS)
         print("Num words in surah: " + str(len(data)))
         with open(str(i) + '.json', 'w') as f:
+            f.write("var a = \n")
             ujson.dump(data, f, ensure_ascii=False, indent=4)
 
 

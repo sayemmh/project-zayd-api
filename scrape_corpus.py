@@ -6,15 +6,15 @@ import csv
 import pandas as pd
 from collections import Counter
 
-#####
-# downloads / serializes all 1665 root words from corpus.quran.com and saves in pckl-words/ directory
-# * do not remove time.sleep or requests will time out *
-# run time is ~15 minutes
-#####
+'''
+downloads / serializes all 1665 root words from corpus.quran.com and saves in pckl-words/ directory
+* do not remove time.sleep() or requests will time out *
+run time is ~15 minutes
+'''
 
 letterHomes = ['?q=A','?q=b','?q=t','?q=v','?q=j','?q=H','?q=x','?q=d','?q=*','?q=r','?q=z','?q=s','?q=$','?q=S','?q=D','?q=T','?q=Z','?q=E','?q=g','?q=f','?q=q','?q=k','?q=l','?q=m','?q=n','?q=h','?q=w','?q=y']
 
-# letterHomes = ['?q=A']
+
 def visit_page(morphology):
     base = "http://corpus.quran.com/qurandictionary.jsp" + morphology
     page_response = requests.get(base , timeout=5)
