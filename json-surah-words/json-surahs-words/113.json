@@ -1,0 +1,157 @@
+var words = 
+[
+    {
+        "question": "إِذَا",
+        "answer": "when",
+        "pcklId": "403",
+        "tlit": "idhā",
+        "frequency": "409",
+        "surah": "113",
+        "ayah": "3"
+    },
+    {
+        "question": "إِذَا",
+        "answer": "when",
+        "pcklId": "404",
+        "tlit": "idhā",
+        "frequency": "409",
+        "surah": "113",
+        "ayah": "5"
+    },
+    {
+        "question": "حَسَدَ",
+        "answer": "he envies",
+        "pcklId": "2",
+        "tlit": "ḥasada",
+        "frequency": "5",
+        "surah": "113",
+        "ayah": "5"
+    },
+    {
+        "question": "حَاسِدٍ",
+        "answer": "(of) an envier",
+        "pcklId": "4",
+        "tlit": "ḥāsidin",
+        "frequency": "5",
+        "surah": "113",
+        "ayah": "5"
+    },
+    {
+        "question": "خَلَقَ",
+        "answer": "He created",
+        "pcklId": "183",
+        "tlit": "khalaqa",
+        "frequency": "261",
+        "surah": "113",
+        "ayah": "2"
+    },
+    {
+        "question": "بِرَبِّ",
+        "answer": "in (the) Lord",
+        "pcklId": "973",
+        "tlit": "birabbi",
+        "frequency": "980",
+        "surah": "113",
+        "ayah": "1"
+    },
+    {
+        "question": "شَرِّ",
+        "answer": "(the) evil",
+        "pcklId": "25",
+        "tlit": "sharri",
+        "frequency": "31",
+        "surah": "113",
+        "ayah": "2"
+    },
+    {
+        "question": "شَرِّ",
+        "answer": "(the) evil",
+        "pcklId": "26",
+        "tlit": "sharri",
+        "frequency": "31",
+        "surah": "113",
+        "ayah": "3"
+    },
+    {
+        "question": "شَرِّ",
+        "answer": "(the) evil",
+        "pcklId": "27",
+        "tlit": "sharri",
+        "frequency": "31",
+        "surah": "113",
+        "ayah": "4"
+    },
+    {
+        "question": "شَرِّ",
+        "answer": "(the) evil",
+        "pcklId": "28",
+        "tlit": "sharri",
+        "frequency": "31",
+        "surah": "113",
+        "ayah": "5"
+    },
+    {
+        "question": "الْعُقَدِ",
+        "answer": "the knots",
+        "pcklId": "5",
+        "tlit": "l-ʿuqadi",
+        "frequency": "7",
+        "surah": "113",
+        "ayah": "4"
+    },
+    {
+        "question": "أَعُوذُ",
+        "answer": "I seek refuge",
+        "pcklId": "8",
+        "tlit": "aʿūdhu",
+        "frequency": "17",
+        "surah": "113",
+        "ayah": "1"
+    },
+    {
+        "question": "غَاسِقٍ",
+        "answer": "(of) darkness",
+        "pcklId": "3",
+        "tlit": "ghāsiqin",
+        "frequency": "4",
+        "surah": "113",
+        "ayah": "3"
+    },
+    {
+        "question": "الْفَلَقِ",
+        "answer": "(of) the dawn",
+        "pcklId": "1",
+        "tlit": "l-falaqi",
+        "frequency": "4",
+        "surah": "113",
+        "ayah": "1"
+    },
+    {
+        "question": "قُلْ",
+        "answer": "Say",
+        "pcklId": "1616",
+        "tlit": "qul",
+        "frequency": "1722",
+        "surah": "113",
+        "ayah": "1"
+    },
+    {
+        "question": "النَّفَّاثَاتِ",
+        "answer": "(of) the blowers",
+        "pcklId": "0",
+        "tlit": "l-nafāthāti",
+        "frequency": "1",
+        "surah": "113",
+        "ayah": "4"
+    },
+    {
+        "question": "وَقَبَ",
+        "answer": "it spreads",
+        "pcklId": "0",
+        "tlit": "waqaba",
+        "frequency": "1",
+        "surah": "113",
+        "ayah": "3"
+    }
+]; 
+export default words;

@@ -1,0 +1,220 @@
+var words = 
+[
+    {
+        "question": "الَّذِينَ",
+        "answer": "(of) those",
+        "pcklId": "0",
+        "tlit": "alladhīna",
+        "frequency": "1464",
+        "surah": "1",
+        "ayah": "7"
+    },
+    {
+        "question": "اللَّهِ",
+        "answer": "(of) Allah",
+        "pcklId": "147",
+        "tlit": "l-lahi",
+        "frequency": "2851",
+        "surah": "1",
+        "ayah": "1"
+    },
+    {
+        "question": "لِلَّهِ",
+        "answer": "(be) to Allah",
+        "pcklId": "148",
+        "tlit": "lillahi",
+        "frequency": "2851",
+        "surah": "1",
+        "ayah": "2"
+    },
+    {
+        "question": "الْحَمْدُ",
+        "answer": "All praises and thanks",
+        "pcklId": "1",
+        "tlit": "al-ḥamdu",
+        "frequency": "63",
+        "surah": "1",
+        "ayah": "2"
+    },
+    {
+        "question": "الدِّينِ",
+        "answer": "(of the) Judgment",
+        "pcklId": "2",
+        "tlit": "l-dīni",
+        "frequency": "101",
+        "surah": "1",
+        "ayah": "4"
+    },
+    {
+        "question": "رَبِّ",
+        "answer": "the Lord",
+        "pcklId": "0",
+        "tlit": "rabbi",
+        "frequency": "980",
+        "surah": "1",
+        "ayah": "2"
+    },
+    {
+        "question": "الرَّحْمَٰنِ",
+        "answer": "the Most Gracious",
+        "pcklId": "90",
+        "tlit": "l-raḥmāni",
+        "frequency": "339",
+        "surah": "1",
+        "ayah": "1"
+    },
+    {
+        "question": "الرَّحْمَٰنِ",
+        "answer": "The Most Gracious",
+        "pcklId": "91",
+        "tlit": "al-raḥmāni",
+        "frequency": "339",
+        "surah": "1",
+        "ayah": "3"
+    },
+    {
+        "question": "الرَّحِيمِ",
+        "answer": "the Most Merciful",
+        "pcklId": "216",
+        "tlit": "l-raḥīmi",
+        "frequency": "339",
+        "surah": "1",
+        "ayah": "1"
+    },
+    {
+        "question": "الرَّحِيمِ",
+        "answer": "the Most Merciful",
+        "pcklId": "217",
+        "tlit": "l-raḥīmi",
+        "frequency": "339",
+        "surah": "1",
+        "ayah": "3"
+    },
+    {
+        "question": "بِسْمِ",
+        "answer": "In (the) name",
+        "pcklId": "8",
+        "tlit": "bis'mi",
+        "frequency": "381",
+        "surah": "1",
+        "ayah": "1"
+    },
+    {
+        "question": "الصِّرَاطَ",
+        "answer": "(to) the path",
+        "pcklId": "0",
+        "tlit": "l-ṣirāṭa",
+        "frequency": "45",
+        "surah": "1",
+        "ayah": "6"
+    },
+    {
+        "question": "صِرَاطَ",
+        "answer": "(The) path",
+        "pcklId": "1",
+        "tlit": "ṣirāṭa",
+        "frequency": "45",
+        "surah": "1",
+        "ayah": "7"
+    },
+    {
+        "question": "الضَّالِّينَ",
+        "answer": "(of) those who go astray",
+        "pcklId": "173",
+        "tlit": "l-ḍālīna",
+        "frequency": "191",
+        "surah": "1",
+        "ayah": "7"
+    },
+    {
+        "question": "نَعْبُدُ",
+        "answer": "we worship",
+        "pcklId": "0",
+        "tlit": "naʿbudu",
+        "frequency": "275",
+        "surah": "1",
+        "ayah": "5"
+    },
+    {
+        "question": "الْعَالَمِينَ",
+        "answer": "of the universe",
+        "pcklId": "476",
+        "tlit": "l-ʿālamīna",
+        "frequency": "854",
+        "surah": "1",
+        "ayah": "2"
+    },
+    {
+        "question": "نَسْتَعِينُ",
+        "answer": "we ask for help",
+        "pcklId": "4",
+        "tlit": "nastaʿīnu",
+        "frequency": "11",
+        "surah": "1",
+        "ayah": "5"
+    },
+    {
+        "question": "الْمَغْضُوبِ",
+        "answer": "those who earned (Your) wrath",
+        "pcklId": "22",
+        "tlit": "l-maghḍūbi",
+        "frequency": "24",
+        "surah": "1",
+        "ayah": "7"
+    },
+    {
+        "question": "غَيْرِ",
+        "answer": "not (of)",
+        "pcklId": "5",
+        "tlit": "ghayri",
+        "frequency": "154",
+        "surah": "1",
+        "ayah": "7"
+    },
+    {
+        "question": "الْمُسْتَقِيمَ",
+        "answer": "the straight",
+        "pcklId": "646",
+        "tlit": "l-mus'taqīma",
+        "frequency": "660",
+        "surah": "1",
+        "ayah": "6"
+    },
+    {
+        "question": "مَالِكِ",
+        "answer": "(The) Master",
+        "pcklId": "202",
+        "tlit": "māliki",
+        "frequency": "206",
+        "surah": "1",
+        "ayah": "4"
+    },
+    {
+        "question": "أَنْعَمْتَ",
+        "answer": "You have bestowed (Your) Favors",
+        "pcklId": "19",
+        "tlit": "anʿamta",
+        "frequency": "140",
+        "surah": "1",
+        "ayah": "7"
+    },
+    {
+        "question": "اهْدِنَا",
+        "answer": "Guide us",
+        "pcklId": "0",
+        "tlit": "ih'dinā",
+        "frequency": "316",
+        "surah": "1",
+        "ayah": "6"
+    },
+    {
+        "question": "يَوْمِ",
+        "answer": "(of the) Day",
+        "pcklId": "0",
+        "tlit": "yawmi",
+        "frequency": "405",
+        "surah": "1",
+        "ayah": "4"
+    }
+]; 
+export default words;

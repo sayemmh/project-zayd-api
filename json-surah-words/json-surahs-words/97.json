@@ -1,0 +1,193 @@
+var words = 
+[
+    {
+        "question": "بِإِذْنِ",
+        "answer": "by (the) permission",
+        "pcklId": "99",
+        "tlit": "bi-idh'ni",
+        "frequency": "102",
+        "surah": "97",
+        "ayah": "4"
+    },
+    {
+        "question": "أَلْفِ",
+        "answer": "a thousand",
+        "pcklId": "18",
+        "tlit": "alfi",
+        "frequency": "22",
+        "surah": "97",
+        "ayah": "3"
+    },
+    {
+        "question": "أَمْرٍ",
+        "answer": "affair",
+        "pcklId": "245",
+        "tlit": "amrin",
+        "frequency": "248",
+        "surah": "97",
+        "ayah": "4"
+    },
+    {
+        "question": "خَيْرٌ",
+        "answer": "(is) better",
+        "pcklId": "150",
+        "tlit": "khayrun",
+        "frequency": "196",
+        "surah": "97",
+        "ayah": "3"
+    },
+    {
+        "question": "أَدْرَاكَ",
+        "answer": "can make you know",
+        "pcklId": "25",
+        "tlit": "adrāka",
+        "frequency": "29",
+        "surah": "97",
+        "ayah": "2"
+    },
+    {
+        "question": "رَبِّهِمْ",
+        "answer": "(of) their Lord",
+        "pcklId": "963",
+        "tlit": "rabbihim",
+        "frequency": "980",
+        "surah": "97",
+        "ayah": "4"
+    },
+    {
+        "question": "وَالرُّوحُ",
+        "answer": "and the Spirit",
+        "pcklId": "25",
+        "tlit": "wal-rūḥu",
+        "frequency": "57",
+        "surah": "97",
+        "ayah": "4"
+    },
+    {
+        "question": "سَلَامٌ",
+        "answer": "Peace",
+        "pcklId": "68",
+        "tlit": "salāmun",
+        "frequency": "140",
+        "surah": "97",
+        "ayah": "5"
+    },
+    {
+        "question": "شَهْرٍ",
+        "answer": "month(s)",
+        "pcklId": "20",
+        "tlit": "shahrin",
+        "frequency": "21",
+        "surah": "97",
+        "ayah": "3"
+    },
+    {
+        "question": "مَطْلَعِ",
+        "answer": "(the) emergence",
+        "pcklId": "16",
+        "tlit": "maṭlaʿi",
+        "frequency": "19",
+        "surah": "97",
+        "ayah": "5"
+    },
+    {
+        "question": "الْفَجْرِ",
+        "answer": "(of) the dawn",
+        "pcklId": "15",
+        "tlit": "l-fajri",
+        "frequency": "24",
+        "surah": "97",
+        "ayah": "5"
+    },
+    {
+        "question": "الْقَدْرِ",
+        "answer": "(of) Power",
+        "pcklId": "56",
+        "tlit": "l-qadri",
+        "frequency": "132",
+        "surah": "97",
+        "ayah": "1"
+    },
+    {
+        "question": "الْقَدْرِ",
+        "answer": "(of) Power (is)",
+        "pcklId": "57",
+        "tlit": "l-qadri",
+        "frequency": "132",
+        "surah": "97",
+        "ayah": "2"
+    },
+    {
+        "question": "الْقَدْرِ",
+        "answer": "(of) Power",
+        "pcklId": "58",
+        "tlit": "l-qadri",
+        "frequency": "132",
+        "surah": "97",
+        "ayah": "3"
+    },
+    {
+        "question": "كُلِّ",
+        "answer": "every",
+        "pcklId": "356",
+        "tlit": "kulli",
+        "frequency": "377",
+        "surah": "97",
+        "ayah": "4"
+    },
+    {
+        "question": "لَيْلَةِ",
+        "answer": "(the) Night",
+        "pcklId": "88",
+        "tlit": "laylati",
+        "frequency": "92",
+        "surah": "97",
+        "ayah": "1"
+    },
+    {
+        "question": "لَيْلَةُ",
+        "answer": "(the) Night",
+        "pcklId": "89",
+        "tlit": "laylatu",
+        "frequency": "92",
+        "surah": "97",
+        "ayah": "2"
+    },
+    {
+        "question": "لَيْلَةُ",
+        "answer": "(The) Night",
+        "pcklId": "90",
+        "tlit": "laylatu",
+        "frequency": "92",
+        "surah": "97",
+        "ayah": "3"
+    },
+    {
+        "question": "الْمَلَائِكَةُ",
+        "answer": "the Angels",
+        "pcklId": "196",
+        "tlit": "l-malāikatu",
+        "frequency": "206",
+        "surah": "97",
+        "ayah": "4"
+    },
+    {
+        "question": "أَنْزَلْنَاهُ",
+        "answer": "revealed it",
+        "pcklId": "250",
+        "tlit": "anzalnāhu",
+        "frequency": "293",
+        "surah": "97",
+        "ayah": "1"
+    },
+    {
+        "question": "تَنَزَّلُ",
+        "answer": "Descend",
+        "pcklId": "257",
+        "tlit": "tanazzalu",
+        "frequency": "293",
+        "surah": "97",
+        "ayah": "4"
+    }
+]; 
+export default words;

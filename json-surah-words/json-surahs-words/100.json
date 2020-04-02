@@ -1,0 +1,229 @@
+var words = 
+[
+    {
+        "question": "إِذَا",
+        "answer": "when",
+        "pcklId": "401",
+        "tlit": "idhā",
+        "frequency": "409",
+        "surah": "100",
+        "ayah": "9"
+    },
+    {
+        "question": "الْإِنْسَانَ",
+        "answer": "mankind",
+        "pcklId": "93",
+        "tlit": "l-insāna",
+        "frequency": "97",
+        "surah": "100",
+        "ayah": "6"
+    },
+    {
+        "question": "بُعْثِرَ",
+        "answer": "will be scattered",
+        "pcklId": "1",
+        "tlit": "buʿ'thira",
+        "frequency": "2",
+        "surah": "100",
+        "ayah": "9"
+    },
+    {
+        "question": "فَأَثَرْنَ",
+        "answer": "Then raise",
+        "pcklId": "4",
+        "tlit": "fa-atharna",
+        "frequency": "5",
+        "surah": "100",
+        "ayah": "4"
+    },
+    {
+        "question": "جَمْعًا",
+        "answer": "collectively",
+        "pcklId": "66",
+        "tlit": "jamʿan",
+        "frequency": "129",
+        "surah": "100",
+        "ayah": "5"
+    },
+    {
+        "question": "لِحُبِّ",
+        "answer": "in (the) love",
+        "pcklId": "88",
+        "tlit": "liḥubbi",
+        "frequency": "95",
+        "surah": "100",
+        "ayah": "8"
+    },
+    {
+        "question": "وَحُصِّلَ",
+        "answer": "And is made apparent",
+        "pcklId": "0",
+        "tlit": "waḥuṣṣila",
+        "frequency": "1",
+        "surah": "100",
+        "ayah": "10"
+    },
+    {
+        "question": "لَخَبِيرٌ",
+        "answer": "(is) surely All-Aware",
+        "pcklId": "51",
+        "tlit": "lakhabīrun",
+        "frequency": "52",
+        "surah": "100",
+        "ayah": "11"
+    },
+    {
+        "question": "الْخَيْرِ",
+        "answer": "(of) wealth",
+        "pcklId": "153",
+        "tlit": "l-khayri",
+        "frequency": "196",
+        "surah": "100",
+        "ayah": "8"
+    },
+    {
+        "question": "لِرَبِّهِ",
+        "answer": "to his Lord",
+        "pcklId": "967",
+        "tlit": "lirabbihi",
+        "frequency": "980",
+        "surah": "100",
+        "ayah": "6"
+    },
+    {
+        "question": "رَبَّهُمْ",
+        "answer": "their Lord",
+        "pcklId": "968",
+        "tlit": "rabbahum",
+        "frequency": "980",
+        "surah": "100",
+        "ayah": "11"
+    },
+    {
+        "question": "لَشَدِيدٌ",
+        "answer": "(is) surely intense",
+        "pcklId": "101",
+        "tlit": "lashadīdun",
+        "frequency": "102",
+        "surah": "100",
+        "ayah": "8"
+    },
+    {
+        "question": "لَشَهِيدٌ",
+        "answer": "surely (is) a witness",
+        "pcklId": "118",
+        "tlit": "lashahīdun",
+        "frequency": "160",
+        "surah": "100",
+        "ayah": "7"
+    },
+    {
+        "question": "صُبْحًا",
+        "answer": "(at) dawn",
+        "pcklId": "34",
+        "tlit": "ṣub'ḥan",
+        "frequency": "45",
+        "surah": "100",
+        "ayah": "3"
+    },
+    {
+        "question": "الصُّدُورِ",
+        "answer": "the breasts",
+        "pcklId": "44",
+        "tlit": "l-ṣudūri",
+        "frequency": "46",
+        "surah": "100",
+        "ayah": "10"
+    },
+    {
+        "question": "ضَبْحًا",
+        "answer": "panting",
+        "pcklId": "0",
+        "tlit": "ḍabḥan",
+        "frequency": "1",
+        "surah": "100",
+        "ayah": "1"
+    },
+    {
+        "question": "وَالْعَادِيَاتِ",
+        "answer": "By the racers",
+        "pcklId": "102",
+        "tlit": "wal-ʿādiyāti",
+        "frequency": "106",
+        "surah": "100",
+        "ayah": "1"
+    },
+    {
+        "question": "يَعْلَمُ",
+        "answer": "he know",
+        "pcklId": "378",
+        "tlit": "yaʿlamu",
+        "frequency": "854",
+        "surah": "100",
+        "ayah": "9"
+    },
+    {
+        "question": "فَالْمُغِيرَاتِ",
+        "answer": "And the chargers",
+        "pcklId": "153",
+        "tlit": "fal-mughīrāti",
+        "frequency": "154",
+        "surah": "100",
+        "ayah": "3"
+    },
+    {
+        "question": "الْقُبُورِ",
+        "answer": "the graves",
+        "pcklId": "6",
+        "tlit": "l-qubūri",
+        "frequency": "8",
+        "surah": "100",
+        "ayah": "9"
+    },
+    {
+        "question": "قَدْحًا",
+        "answer": "striking",
+        "pcklId": "0",
+        "tlit": "qadḥan",
+        "frequency": "1",
+        "surah": "100",
+        "ayah": "2"
+    },
+    {
+        "question": "لَكَنُودٌ",
+        "answer": "(is) surely ungrateful",
+        "pcklId": "0",
+        "tlit": "lakanūdun",
+        "frequency": "1",
+        "surah": "100",
+        "ayah": "6"
+    },
+    {
+        "question": "نَقْعًا",
+        "answer": "dust",
+        "pcklId": "0",
+        "tlit": "naqʿan",
+        "frequency": "1",
+        "surah": "100",
+        "ayah": "4"
+    },
+    {
+        "question": "فَالْمُورِيَاتِ",
+        "answer": "And the producers of sparks",
+        "pcklId": "31",
+        "tlit": "fal-mūriyāti",
+        "frequency": "32",
+        "surah": "100",
+        "ayah": "2"
+    },
+    {
+        "question": "فَوَسَطْنَ",
+        "answer": "Then penetrate (in the) center",
+        "pcklId": "0",
+        "tlit": "fawasaṭna",
+        "frequency": "5",
+        "surah": "100",
+        "ayah": "5"
+    }
+]; 
+export default words;

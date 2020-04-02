@@ -1,0 +1,3 @@
+var answers = 
+["disbelievers","I worship","(is) my religion","Say","(is) your religion","you worship","(are) worshippers","a worshipper"]; 
+export default answers;

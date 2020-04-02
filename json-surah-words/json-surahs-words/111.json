@@ -1,0 +1,157 @@
+var words = 
+[
+    {
+        "question": "أَبِي",
+        "answer": "(of) Abu",
+        "pcklId": "109",
+        "tlit": "abī",
+        "frequency": "117",
+        "surah": "111",
+        "ayah": "1"
+    },
+    {
+        "question": "تَبَّتْ",
+        "answer": "Perish",
+        "pcklId": "0",
+        "tlit": "tabbat",
+        "frequency": "4",
+        "surah": "111",
+        "ayah": "1"
+    },
+    {
+        "question": "وَتَبَّ",
+        "answer": "and perish he",
+        "pcklId": "1",
+        "tlit": "watabba",
+        "frequency": "4",
+        "surah": "111",
+        "ayah": "1"
+    },
+    {
+        "question": "جِيدِهَا",
+        "answer": "her neck",
+        "pcklId": "0",
+        "tlit": "jīdihā",
+        "frequency": "1",
+        "surah": "111",
+        "ayah": "5"
+    },
+    {
+        "question": "حَبْلٌ",
+        "answer": "(will be) a rope",
+        "pcklId": "6",
+        "tlit": "ḥablun",
+        "frequency": "7",
+        "surah": "111",
+        "ayah": "5"
+    },
+    {
+        "question": "الْحَطَبِ",
+        "answer": "(of) firewood",
+        "pcklId": "1",
+        "tlit": "l-ḥaṭabi",
+        "frequency": "2",
+        "surah": "111",
+        "ayah": "4"
+    },
+    {
+        "question": "حَمَّالَةَ",
+        "answer": "(the) carrier",
+        "pcklId": "63",
+        "tlit": "ḥammālata",
+        "frequency": "64",
+        "surah": "111",
+        "ayah": "4"
+    },
+    {
+        "question": "سَيَصْلَىٰ",
+        "answer": "He will be burnt",
+        "pcklId": "12",
+        "tlit": "sayaṣlā",
+        "frequency": "25",
+        "surah": "111",
+        "ayah": "3"
+    },
+    {
+        "question": "أَغْنَىٰ",
+        "answer": "(will) avail",
+        "pcklId": "14",
+        "tlit": "aghnā",
+        "frequency": "73",
+        "surah": "111",
+        "ayah": "2"
+    },
+    {
+        "question": "كَسَبَ",
+        "answer": "he earned",
+        "pcklId": "61",
+        "tlit": "kasaba",
+        "frequency": "67",
+        "surah": "111",
+        "ayah": "2"
+    },
+    {
+        "question": "لَهَبٍ",
+        "answer": "Lahab",
+        "pcklId": "1",
+        "tlit": "lahabin",
+        "frequency": "3",
+        "surah": "111",
+        "ayah": "1"
+    },
+    {
+        "question": "لَهَبٍ",
+        "answer": "Blazing Flames",
+        "pcklId": "2",
+        "tlit": "lahabin",
+        "frequency": "3",
+        "surah": "111",
+        "ayah": "3"
+    },
+    {
+        "question": "وَامْرَأَتُهُ",
+        "answer": "And his wife",
+        "pcklId": "26",
+        "tlit": "wa-im'ra-atuhu",
+        "frequency": "38",
+        "surah": "111",
+        "ayah": "4"
+    },
+    {
+        "question": "مَسَدٍ",
+        "answer": "palm-fiber",
+        "pcklId": "0",
+        "tlit": "masadin",
+        "frequency": "1",
+        "surah": "111",
+        "ayah": "5"
+    },
+    {
+        "question": "مَالُهُ",
+        "answer": "his wealth",
+        "pcklId": "85",
+        "tlit": "māluhu",
+        "frequency": "86",
+        "surah": "111",
+        "ayah": "2"
+    },
+    {
+        "question": "نَارًا",
+        "answer": "(in) a Fire",
+        "pcklId": "144",
+        "tlit": "nāran",
+        "frequency": "194",
+        "surah": "111",
+        "ayah": "3"
+    },
+    {
+        "question": "يَدَا",
+        "answer": "(the) hands",
+        "pcklId": "119",
+        "tlit": "yadā",
+        "frequency": "120",
+        "surah": "111",
+        "ayah": "1"
+    }
+]; 
+export default words;

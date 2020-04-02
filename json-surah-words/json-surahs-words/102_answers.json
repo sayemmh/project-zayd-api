@@ -1,0 +1,3 @@
+var answers = 
+["(of) certainty","(with) a knowledge","Surely you will see","the graves","you know","Diverts you","the Hellfire","the competition to increase","(with the) eye","you visit","surely you will see it","surely you will be asked","you will know","the pleasures"]; 
+export default answers;

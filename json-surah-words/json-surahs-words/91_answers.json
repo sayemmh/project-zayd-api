@@ -1,0 +1,3 @@
+var answers = 
+["and leveled them","(the) Messenger","constructed it","So destroyed","buries it","and its brightness","when","and its righteousness","and her drink","it covers it","And the heaven","for their sin","And the earth","spread it","But said","(was) sent forth","and they hamstrung her","(of) Allah","And the day","(the) most wicked of them","He fears","it follows it","But they denied him","By the sun","Denied","And He inspired it","When","it displays it","(It is the) she-camel","proportioned it","purifies it","he succeeds","he fails","(to distinguish) its wickedness","And the night","by their transgression","its consequences","And the moon","their Lord","And (the) soul"]; 
+export default answers;

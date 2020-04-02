@@ -1,0 +1,121 @@
+var words = 
+[
+    {
+        "question": "لِإِيلَافِ",
+        "answer": "For (the) familiarity",
+        "pcklId": "20",
+        "tlit": "liīlāfi",
+        "frequency": "22",
+        "surah": "106",
+        "ayah": "1"
+    },
+    {
+        "question": "إِيلَافِهِمْ",
+        "answer": "Their familiarity",
+        "pcklId": "21",
+        "tlit": "īlāfihim",
+        "frequency": "22",
+        "surah": "106",
+        "ayah": "2"
+    },
+    {
+        "question": "الَّذِي",
+        "answer": "The One Who",
+        "pcklId": "1436",
+        "tlit": "alladhī",
+        "frequency": "1464",
+        "surah": "106",
+        "ayah": "4"
+    },
+    {
+        "question": "وَآمَنَهُمْ",
+        "answer": "and gives them security",
+        "pcklId": "556",
+        "tlit": "waāmanahum",
+        "frequency": "879",
+        "surah": "106",
+        "ayah": "4"
+    },
+    {
+        "question": "الْبَيْتِ",
+        "answer": "House",
+        "pcklId": "72",
+        "tlit": "l-bayti",
+        "frequency": "73",
+        "surah": "106",
+        "ayah": "3"
+    },
+    {
+        "question": "جُوعٍ",
+        "answer": "(against) hunger",
+        "pcklId": "4",
+        "tlit": "jūʿin",
+        "frequency": "5",
+        "surah": "106",
+        "ayah": "4"
+    },
+    {
+        "question": "خَوْفٍ",
+        "answer": "fear",
+        "pcklId": "112",
+        "tlit": "khawfin",
+        "frequency": "124",
+        "surah": "106",
+        "ayah": "4"
+    },
+    {
+        "question": "رَبَّ",
+        "answer": "(the) Lord",
+        "pcklId": "970",
+        "tlit": "rabba",
+        "frequency": "980",
+        "surah": "106",
+        "ayah": "3"
+    },
+    {
+        "question": "رِحْلَةَ",
+        "answer": "(with the) journey",
+        "pcklId": "3",
+        "tlit": "riḥ'lata",
+        "frequency": "4",
+        "surah": "106",
+        "ayah": "2"
+    },
+    {
+        "question": "الشِّتَاءِ",
+        "answer": "(of) winter",
+        "pcklId": "0",
+        "tlit": "l-shitāi",
+        "frequency": "1",
+        "surah": "106",
+        "ayah": "2"
+    },
+    {
+        "question": "وَالصَّيْفِ",
+        "answer": "and summer",
+        "pcklId": "0",
+        "tlit": "wal-ṣayfi",
+        "frequency": "1",
+        "surah": "106",
+        "ayah": "2"
+    },
+    {
+        "question": "أَطْعَمَهُمْ",
+        "answer": "feeds them",
+        "pcklId": "17",
+        "tlit": "aṭʿamahum",
+        "frequency": "48",
+        "surah": "106",
+        "ayah": "4"
+    },
+    {
+        "question": "فَلْيَعْبُدُوا",
+        "answer": "So let them worship",
+        "pcklId": "116",
+        "tlit": "falyaʿbudū",
+        "frequency": "275",
+        "surah": "106",
+        "ayah": "3"
+    }
+]; 
+export default words;
