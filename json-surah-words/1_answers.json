@@ -1,3 +1,3 @@
 var answers = 
-["(of) those who go astray","(of) Allah","(be) to Allah","the Most Gracious","(to) the path","Guide us","(of the) Judgment","not (of)","You have bestowed (Your) Favors","In (the) name","(of) those","The Most Gracious","we worship","the Lord","(The) Master","(The) path","the Most Merciful","we ask for help","of the universe","(of the) Day","All praises and thanks","the straight","those who earned (Your) wrath"]; 
+["(The) Master","You have bestowed (Your) Favors","of the universe","(of) Allah","we worship","(of the) Judgment","the straight","not (of)","(The) path","Guide us","(of the) Day","(be) to Allah","we ask for help","those who earned (Your) wrath","In (the) name","(of) those who go astray","the Lord","the Most Merciful","the Most Gracious","The Most Gracious","All praises and thanks","(of) those","(to) the path"]; 
 export default answers;
