@@ -1,0 +1,3 @@
+var answers = 
+["(of) your Lord","the orphan","So as for","narrate","when","By the morning brightness","your Lord","(the) Favor","it covers with darkness","He find you","(is) better","But as for","the first","then you will be satisfied","will give you","oppress","and give shelter","And He found you","lost","so He made self-sufficient","He is displeased","an orphan","And the night","And surely the Hereafter","in need","so He guided","has forsaken you","And as for","one who asks","repel"]; 
+export default answers;

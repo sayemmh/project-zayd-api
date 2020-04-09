@@ -1,0 +1,3 @@
+var answers = 
+["he desists","We will call","(of) your Lord","the one who","sees","(is) the return","taught","A forelock","when","your Lord","Have you seen","and turns away","man","surely We will drag him","A slave","a clinging substance","lying","his associates","he prays","He created","obey him","[of the] righteousness","he knew","and your Lord","[the] guidance","forbids","by the pen","surely transgresses","Then let him call","he sees himself","he denies","the Angels of Hell","sinful","in (the) name","he know","Read","he is","and draw near (to Allah)","to","Allah","he enjoins","the One Who","self-sufficient","But prostrate","by the forelock","(is) the Most Generous","The One Who","created ","Taught"]; 
+export default answers;

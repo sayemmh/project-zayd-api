@@ -38,7 +38,6 @@ def get_surah(surahNumber, minCount, maxCount):
         if (len(w) <= minCount or len(w) > maxCount):
             continue
         wm = w['wordmorphologies']
-
         for i in range(0, len(wm)):
             if (int(wm[i].split('(')[1].split(':')[0]) == surahNumber):
                 count = count + 1
@@ -47,6 +46,14 @@ def get_surah(surahNumber, minCount, maxCount):
                 question = w['arabicWord'][i]
                 answer = w['definition'][i]
                 tlit = w['pronunciations'][i]
+                rootWord = w['rootWord'][i]
+                rootWordType = w['rootWordType'][i]
+                wordForms = w['wordForms'][i]
+                wordFormDefs = w['wordFormDefs'][i]
+                wordFormTlits = w['wordFormTlits'][i]
+                wordFormTypes = w['wordFormTypes'][i]
+                arabicAyah = w['arabicAyah'][i]
+
                 ayah = ",".join(wm[i].split('(')[1].split(':')[0:2])
                 answer = ' '.join(answer.split('\''))
 
@@ -54,10 +61,18 @@ def get_surah(surahNumber, minCount, maxCount):
                                 'question': question,
                                 'answer': answer,
                                 'pcklId': str(i),
+                                'rootWordId': num,
                                 'tlit': tlit,
                                 'frequency': str(len(w)),
                                 'surah': ayah.split(',')[0],
-                                'ayah': ayah.split(',')[1]
+                                'ayah': ayah.split(',')[1],
+                                'arabicAyah' : arabicAyah,
+                                'rootWord': rootWord,
+                                'rootWordType':rootWordType,
+                                'wazn': wordForms,
+                                'waznEnglish' : wordFormDefs,
+                                'waznTlit' : wordFormTlits,
+                                'waznType' : wordFormTypes
                             }
 
                 answers.append(answer)
@@ -72,6 +87,7 @@ def build_jsons_for_all_surahs():
     for i in range(1, NUM_SURAHS_IN_QURAN + 1):
         print("Building for surah: " + str(i))
         data, answers = get_surah(i, 0, ALL_AYAHS)
+        print(data)
         print("Num words in surah: " + str(len(data)))
         print(answers)
         with open(str(i) + '.json', 'w') as f:
@@ -79,13 +95,15 @@ def build_jsons_for_all_surahs():
             ujson.dump(data, f, ensure_ascii=False, indent=4)
             f.write("; \n")
             f.write("export default words;")
+            f.close()
 
         with open(str(i) + '_answers' + '.json', 'w') as f:
             f.write("var answers = \n")
             ujson.dump(answers, f)
             f.write("; \n")
             f.write("export default answers;")
-
+            f.close()
+        # input()    
 if __name__ == '__main__':
     # print(get_surah(1, 0, ALL_AYAHS))
     build_jsons_for_all_surahs()

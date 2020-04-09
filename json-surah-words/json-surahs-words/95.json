@@ -1,0 +1,247 @@
+var words = 
+[
+    {
+        "question": "أَجْرٌ",
+        "answer": "(is a) reward",
+        "pcklId": "107",
+        "tlit": "ajrun",
+        "frequency": "108",
+        "surah": "95",
+        "ayah": "6"
+    },
+    {
+        "question": "إِلَّا",
+        "answer": "Except",
+        "pcklId": "658",
+        "tlit": "illā",
+        "frequency": "663",
+        "surah": "95",
+        "ayah": "6"
+    },
+    {
+        "question": "الَّذِينَ",
+        "answer": "those who",
+        "pcklId": "1425",
+        "tlit": "alladhīna",
+        "frequency": "1464",
+        "surah": "95",
+        "ayah": "6"
+    },
+    {
+        "question": "اللَّهُ",
+        "answer": "Allah",
+        "pcklId": "2836",
+        "tlit": "l-lahu",
+        "frequency": "2851",
+        "surah": "95",
+        "ayah": "8"
+    },
+    {
+        "question": "آمَنُوا",
+        "answer": "believe",
+        "pcklId": "553",
+        "tlit": "āmanū",
+        "frequency": "879",
+        "surah": "95",
+        "ayah": "6"
+    },
+    {
+        "question": "الْأَمِينِ",
+        "answer": "[the] secure",
+        "pcklId": "584",
+        "tlit": "l-amīni",
+        "frequency": "879",
+        "surah": "95",
+        "ayah": "3"
+    },
+    {
+        "question": "الْإِنْسَانَ",
+        "answer": "man",
+        "pcklId": "88",
+        "tlit": "l-insāna",
+        "frequency": "97",
+        "surah": "95",
+        "ayah": "4"
+    },
+    {
+        "question": "بَعْدُ",
+        "answer": "after (this)",
+        "pcklId": "201",
+        "tlit": "baʿdu",
+        "frequency": "235",
+        "surah": "95",
+        "ayah": "7"
+    },
+    {
+        "question": "الْبَلَدِ",
+        "answer": "[the] city",
+        "pcklId": "13",
+        "tlit": "l-baladi",
+        "frequency": "19",
+        "surah": "95",
+        "ayah": "3"
+    },
+    {
+        "question": "وَالتِّينِ",
+        "answer": "By the fig",
+        "pcklId": "0",
+        "tlit": "wal-tīni",
+        "frequency": "1",
+        "surah": "95",
+        "ayah": "1"
+    },
+    {
+        "question": "أَحْسَنِ",
+        "answer": "(the) best",
+        "pcklId": "58",
+        "tlit": "aḥsani",
+        "frequency": "194",
+        "surah": "95",
+        "ayah": "4"
+    },
+    {
+        "question": "بِأَحْكَمِ",
+        "answer": "(the) Most Just",
+        "pcklId": "51",
+        "tlit": "bi-aḥkami",
+        "frequency": "210",
+        "surah": "95",
+        "ayah": "8"
+    },
+    {
+        "question": "الْحَاكِمِينَ",
+        "answer": "(of) the Judges",
+        "pcklId": "206",
+        "tlit": "l-ḥākimīna",
+        "frequency": "210",
+        "surah": "95",
+        "ayah": "8"
+    },
+    {
+        "question": "خَلَقْنَا",
+        "answer": "We created",
+        "pcklId": "180",
+        "tlit": "khalaqnā",
+        "frequency": "261",
+        "surah": "95",
+        "ayah": "4"
+    },
+    {
+        "question": "بِالدِّينِ",
+        "answer": "the judgment",
+        "pcklId": "87",
+        "tlit": "bil-dīni",
+        "frequency": "101",
+        "surah": "95",
+        "ayah": "7"
+    },
+    {
+        "question": "رَدَدْنَاهُ",
+        "answer": "We returned him",
+        "pcklId": "35",
+        "tlit": "radadnāhu",
+        "frequency": "59",
+        "surah": "95",
+        "ayah": "5"
+    },
+    {
+        "question": "وَالزَّيْتُونِ",
+        "answer": "and the olive",
+        "pcklId": "5",
+        "tlit": "wal-zaytūni",
+        "frequency": "7",
+        "surah": "95",
+        "ayah": "1"
+    },
+    {
+        "question": "أَسْفَلَ",
+        "answer": "(to the) lowest",
+        "pcklId": "4",
+        "tlit": "asfala",
+        "frequency": "10",
+        "surah": "95",
+        "ayah": "5"
+    },
+    {
+        "question": "سَافِلِينَ",
+        "answer": "(of the) low",
+        "pcklId": "9",
+        "tlit": "sāfilīna",
+        "frequency": "10",
+        "surah": "95",
+        "ayah": "5"
+    },
+    {
+        "question": "الصَّالِحَاتِ",
+        "answer": "righteous deeds",
+        "pcklId": "165",
+        "tlit": "l-ṣāliḥāti",
+        "frequency": "180",
+        "surah": "95",
+        "ayah": "6"
+    },
+    {
+        "question": "وَطُورِ",
+        "answer": "And (the) Mount",
+        "pcklId": "10",
+        "tlit": "waṭūri",
+        "frequency": "11",
+        "surah": "95",
+        "ayah": "2"
+    },
+    {
+        "question": "وَعَمِلُوا",
+        "answer": "and do",
+        "pcklId": "271",
+        "tlit": "waʿamilū",
+        "frequency": "360",
+        "surah": "95",
+        "ayah": "6"
+    },
+    {
+        "question": "غَيْرُ",
+        "answer": "never",
+        "pcklId": "148",
+        "tlit": "ghayru",
+        "frequency": "154",
+        "surah": "95",
+        "ayah": "6"
+    },
+    {
+        "question": "تَقْوِيمٍ",
+        "answer": "mould",
+        "pcklId": "605",
+        "tlit": "taqwīmin",
+        "frequency": "660",
+        "surah": "95",
+        "ayah": "4"
+    },
+    {
+        "question": "يُكَذِّبُكَ",
+        "answer": "causes you to deny",
+        "pcklId": "184",
+        "tlit": "yukadhibuka",
+        "frequency": "282",
+        "surah": "95",
+        "ayah": "7"
+    },
+    {
+        "question": "أَلَيْسَ",
+        "answer": "Is not",
+        "pcklId": "88",
+        "tlit": "alaysa",
+        "frequency": "89",
+        "surah": "95",
+        "ayah": "8"
+    },
+    {
+        "question": "مَمْنُونٍ",
+        "answer": "ending",
+        "pcklId": "26",
+        "tlit": "mamnūnin",
+        "frequency": "27",
+        "surah": "95",
+        "ayah": "6"
+    }
+]; 
+export default words;

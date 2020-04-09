@@ -1,0 +1,3 @@
+var answers = 
+["(to the) lowest","(the) best","righteous deeds","and do","(of) the Judges","mould","(of the) low","and the olive","man","causes you to deny","the judgment","Except","after (this)","Is not","never","those who","(the) Most Just","ending","(is a) reward","Allah","[the] city","[the] secure","We created","We returned him","And (the) Mount","By the fig","believe"]; 
+export default answers;

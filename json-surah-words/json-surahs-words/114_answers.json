@@ -1,0 +1,3 @@
+var answers = 
+["and men","(of) mankind","whispers","(the) evil","I seek refuge","in (the) Lord","The one who","(the) breasts","the one who withdraws","(of) the whisperer","Say","(The) King","(The) God","the jinn"]; 
+export default answers;
