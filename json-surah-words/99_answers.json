@@ -1,3 +1,3 @@
 var answers = 
-["the earth","their deeds","does","your Lord","will see it","its burdens","man","will proceed","evil","its news","(equal to the) weight","(of) an atom","it will report","is shaken","the mankind","When","And says","inspired","(with) its earthquake","good","And brings forth","to be shown","(in) scattered groups"]; 
+["the earth","their deeds","good","(in) scattered groups","does","(of) an atom","the mankind","evil","(with) its earthquake","inspired","And brings forth","your Lord","its news","will see it","its burdens","it will report","When","(equal to the) weight","will proceed","And says","man","to be shown","is shaken"]; 
 export default answers;

@@ -1,3 +1,3 @@
 var answers = 
-["the Angels","(The) Night","Peace","(of) Power","every","revealed it","Descend","affair","and the Spirit","(of) the dawn","(the) Night","a thousand","can make you know","(of) Power (is)","(of) their Lord","month(s)","by (the) permission","(is) better","(the) emergence"]; 
+["(the) emergence","a thousand","(of) their Lord","(of) the dawn","(of) Power (is)","by (the) permission","month(s)","Peace","the Angels","revealed it","(The) Night","(is) better","and the Spirit","(the) Night","(of) Power","every","can make you know","affair","Descend"]; 
 export default answers;

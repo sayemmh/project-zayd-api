@@ -1,3 +1,3 @@
 var answers = 
-["feel the urge","the Judgment","the orphan","the one who","(is) the one who","their prayers","to those who pray","[the] small kindnesses","make show","denies","(are) neglectful","feed","And they deny","the poor","Those who","Have you seen","repulses"]; 
+["(are) neglectful","repulses","make show","the orphan","(is) the one who","feel the urge","the one who","their prayers","to those who pray","And they deny","Those who","denies","Have you seen","feed","the poor","the Judgment","[the] small kindnesses"]; 
 export default answers;

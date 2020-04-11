@@ -1,3 +1,3 @@
 var answers = 
-["(of) an envier","he envies","(the) evil","(of) the blowers","He created","I seek refuge","(of) the dawn","in (the) Lord","(of) darkness","when","the knots","Say","it spreads"]; 
+["he envies","the knots","(of) darkness","when","I seek refuge","(of) an envier","(of) the dawn","it spreads","He created","(the) evil","Say","in (the) Lord","(of) the blowers"]; 
 export default answers;

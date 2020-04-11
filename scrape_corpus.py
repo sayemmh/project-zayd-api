@@ -12,7 +12,6 @@ downloads / serializes all 1665 root words from corpus.quran.com and saves in pc
 run time is ~15 minutes
 '''
 
-letterHomes = ['?q=A','?q=b','?q=t','?q=v','?q=j','?q=H','?q=x','?q=d','?q=*','?q=r','?q=z','?q=s','?q=$','?q=S','?q=D','?q=T','?q=Z','?q=E','?q=g','?q=f','?q=q','?q=k','?q=l','?q=m','?q=n','?q=h','?q=w','?q=y']
 
 
 def visit_page(morphology):
@@ -22,7 +21,7 @@ def visit_page(morphology):
     return page_content
 
 visited = []
-to_visit = ['?q=Ans']
+to_visit = ['?q=A%5Edam']
 count = 0
 
 while len(to_visit) != 0:
@@ -63,7 +62,6 @@ while len(to_visit) != 0:
         for y in x.find_all("span"):
             # content
             arabicWord.append(y.text)
-
     count = count + 1
 
     rootWord = page_content.find_all("span", {"class": "at"})[0].text
@@ -96,8 +94,6 @@ while len(to_visit) != 0:
         wordFormTlit = page_content.find_all("i",{"class":"ab"})[0].text
         wordFormArabic = rootWord
         wordFormInfo[0] = wordFormInfo[0] + (wordFormTlit,wordFormArabic)
-    print(wordFormInfo)
-    input()
     wordVarBlocks = str(page_content.prettify()).split('<h4 class="dxe">')[1:]
     for i , wordVarBlock in enumerate(wordVarBlocks):
         wordVarColl = BeautifulSoup(wordVarBlock, "html.parser")
