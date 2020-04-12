@@ -1,3 +1,1 @@
-var answers = 
-["(is) my religion","(are) worshippers","disbelievers","(is) your religion","you worship","Say","a worshipper","I worship"]; 
-export default answers;
+["a worshipper","(is) my religion","(are) worshippers","you worship","(is) your religion","Say","I worship","disbelievers"]

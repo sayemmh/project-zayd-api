@@ -3,3 +3,6 @@ __pycache__
 pckl-words/*
 venv/
 .vscode/
+word-images/*
+csv/*
+archive/*

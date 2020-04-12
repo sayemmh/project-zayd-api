@@ -1,3 +1,1 @@
-var answers = 
-["Diverts you","you know","(with) a knowledge","(of) certainty","surely you will be asked","the Hellfire","the competition to increase","surely you will see it","Surely you will see","you visit","you will know","(with the) eye","the pleasures","the graves"]; 
-export default answers;
+["Surely you will see","(with) a knowledge","you will know","the competition to increase","Diverts you","surely you will see it","the pleasures","the Hellfire","you visit","(with the) eye","(of) certainty","surely you will be asked","the graves","you know"]

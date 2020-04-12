@@ -1,3 +1,1 @@
-var answers = 
-["The Most Gracious","of the universe","You have bestowed (Your) Favors","(be) to Allah","not (of)","the straight","Guide us","(of the) Judgment","(of the) Day","(of) Allah","(of) those","the Most Merciful","(The) path","(to) the path","those who earned (Your) wrath","we ask for help","we worship","the Most Gracious","All praises and thanks","In (the) name","the Lord","(of) those who go astray","(The) Master"]; 
-export default answers;
+["(of the) Day","(of the) Judgment","(of) Allah","Guide us","(The) Master","(of) those who go astray","the Lord","of the universe","the straight","(be) to Allah","(of) those","not (of)","the Most Merciful","(The) path","In (the) name","we worship","You have bestowed (Your) Favors","The Most Gracious","the Most Gracious","we ask for help","those who earned (Your) wrath","All praises and thanks","(to) the path"]

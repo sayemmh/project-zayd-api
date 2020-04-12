@@ -1,3 +1,1 @@
-var answers = 
-["(The) King","(The) God","(of) mankind","The one who","I seek refuge","the one who withdraws","(the) breasts","and men","(of) the whisperer","(the) evil","Say","in (the) Lord","the jinn","whispers"]; 
-export default answers;
+["the jinn","the one who withdraws","(of) the whisperer","and men","(The) God","in (the) Lord","(of) mankind","whispers","Say","(the) breasts","The one who","(the) evil","I seek refuge","(The) King"]

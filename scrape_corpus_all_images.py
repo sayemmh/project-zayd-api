@@ -27,7 +27,7 @@ def getWordNum(wordRow):
     return wordRow.find_all("td")[0].find("span").text.split(":")[2].split(")")[0]
 
 def getImage(wordRow, surahNum, ayahNum, wordNum):
-    imageHyperlinkID = str(wordRow.find_all("td")[1].find_all("img")[-1]).split("wordimage?id=")[1].split("\"")[0]
+    imageHyperlinkID = str(wordRow.find_all("td")[1]).split("wordimage?id=")[1].split("\"")[0]
     imageHyperlink = "http://corpus.quran.com/wordimage?id=" + imageHyperlinkID
     resource = urllib.request.urlopen(imageHyperlink)
     with open("word-images/" + str(surahNum) + "_" + str(ayahNum) + "_" + str(wordNum) + ".png", "wb") as image:
@@ -70,23 +70,23 @@ def build_jsons_for_all_ayahs():
                 ayahNum = int(getAyahNum(wordRow))
                 wordNum = int(getWordNum(wordRow))
                 print("Building for surah: " + str(surahNum) + ", Ayah: " + str(ayahNum)+ ", Word: " + str(wordNum))
-                # getImage(wordRow, surahNum, ayahNum, wordNum)
-                morphemeEng = getEngBreakdown(wordRow)
-                morphemeArabic = getArabicBreakdown(wordRow)
-                word_json = {
-                                'surahnum': surahNum,
-                                'ayahnum': ayahNum,
-                                'wordnum': wordNum,
-                                'morphemeEnglishList': morphemeEng,
-                                'morphemeArabicList':morphemeArabic
-                            }
-                list_of_jsons.append(word_json)
-    with open('all_words_morphemes.json','w') as f:
-        f.write("var words = \n")
-        ujson.dump(list_of_jsons,f,ensure_ascii=False, indent=4)
-        f.write("; \n")
-        f.write("export default words;")
-        f.close()
+                getImage(wordRow, surahNum, ayahNum, wordNum)
+                # morphemeEng = getEngBreakdown(wordRow)
+                # morphemeArabic = getArabicBreakdown(wordRow)
+                # word_json = {
+                #                 'surahnum': surahNum,
+                #                 'ayahnum': ayahNum,
+                #                 'wordnum': wordNum,
+                #                 'morphemeEnglishList': morphemeEng,
+                #                 'morphemeArabicList':morphemeArabic
+                #             }
+                # list_of_jsons.append(word_json)
+        # with open('all_words_morphemes.json','w') as f:
+        #     f.write("var words = \n")
+        #     ujson.dump(list_of_jsons,f,ensure_ascii=False, indent=4)
+        #     f.write("; \n")
+        #     f.write("export default words;")
+        #     f.close()
 
 if __name__ == '__main__':
     build_jsons_for_all_ayahs()

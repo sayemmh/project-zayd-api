@@ -1,4 +1,3 @@
-var words = 
 [
     {
         "question": "دِينُكُمْ",
@@ -216,5 +215,4 @@ var words =
         "waznTlit": "kāfirūn",
         "waznType": "Active participle (Noun)"
     }
-]; 
-export default words;
+]

@@ -1,4 +1,3 @@
-var words = 
 [
     {
         "question": "أَبَابِيلَ",
@@ -324,5 +323,4 @@ var words =
         "waznTlit": "kāf yā fā",
         "waznType": "Nominal (Interogative particle)"
     }
-]; 
-export default words;
+]

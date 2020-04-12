@@ -1,4 +1,3 @@
-var words = 
 [
     {
         "question": "أَجْرٌ",
@@ -486,5 +485,4 @@ var words =
         "waznTlit": "mamnūn",
         "waznType": "Passive participle"
     }
-]; 
-export default words;
+]

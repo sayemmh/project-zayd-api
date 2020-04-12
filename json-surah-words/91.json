@@ -1,4 +1,3 @@
-var words = 
 [
     {
         "question": "إِذِ",
@@ -774,5 +773,4 @@ var words =
         "waznTlit": "taqwā",
         "waznType": "Noun"
     }
-]; 
-export default words;
+]

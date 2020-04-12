@@ -1,4 +1,3 @@
-var words = 
 [
     {
         "question": "وَلَلْآخِرَةُ",
@@ -576,5 +575,4 @@ var words =
         "waznTlit": "yā tā mīm",
         "waznType": "Nominal (Noun)"
     }
-]; 
-export default words;
+]
