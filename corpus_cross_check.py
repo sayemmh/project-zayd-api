@@ -1,9 +1,11 @@
 from bs4 import BeautifulSoup
 import requests
 import pandas as pd 
+import ujson
 import json
 import urllib
 from constants import NUM_SURAHS_IN_QURAN, NUM_ROOT_WORDS_IN_CORPUS, ALL_AYAHS
+
 def getPageContent(hyperlink):
     page_response = requests.get(hyperlink, timeout=5)
     page_content = BeautifulSoup(page_response.content, "html.parser")
@@ -14,11 +16,8 @@ def getAyahNum(wordRow):
 def getWordNum(wordRow):
     return wordRow.find_all("td")[0].find("span").text.split(":")[2].split(")")[0]
 
-def checkWord(surahNum, ayahNum, wordNum):
+def checkWord(surahNum, ayahNum, wordNum, all_rootwords_in_surah):
 	wordFound = False
-	with open('json-surah-words/' + str(surahNum) + '.json' , 'r' ) as f:
-		rootwords_in_surah = f.read()
-	all_rootwords_in_surah = json.loads(rootwords_in_surah)
 	for rootword_in_surah in all_rootwords_in_surah:
 		rootAyahNum = int(rootword_in_surah['ayahnum'])
 		rootWordNum = int(rootword_in_surah['wordnum'])
@@ -34,36 +33,46 @@ def checkWord(surahNum, ayahNum, wordNum):
 			if (getWordNum(wordRow) == str(wordNum)) and (getAyahNum(wordRow) == str(ayahNum)):
 				tlit = wordRow.find_all("td")[0].find("span", {"class":"phonetic"}).text
 				translation = str(wordRow.find_all("td")[0]).split("<br/>")[2].split("<")[0].strip().strip(",").strip(".")
-				print(surahNum)
-				print(ayahNum)
-				print(wordNum)
+				print(str(surahNum) + ':' + str(ayahNum) + ':' + str(wordNum))
 				print(tlit)
 				print(translation)
-				input()
-
-
-# import json
-
-# # some JSON:
-# x =  ['{ "name":"John", "age":30, "city":"New York"}', '{ "name":"John2", "age":302, "city":"New York2"}']
-
-# # parse x:
-# y = json.loads(x)
-
-# # the result is a Python dictionary:
-# print(y["age"])
+				return tlit, translation
 
 
 def build_jsons_for_leftovers():
+
 	with open("all_words_morphemes.json", 'r') as f:
 		json_data = f.read()
 	all_words_in_quran = json.loads(json_data)
-	for word in all_words_in_quran:
-		# surahNum = word[]
+	list_of_jsons = []
+	for count, word in enumerate(all_words_in_quran):
 		surahNum = word['surahnum']
 		ayahNum = word['ayahnum']
 		wordNum = word['wordnum']
-		checkWord(surahNum, ayahNum, wordNum)
 
+		if (surahNum <14):
+
+			continue
+
+		with open('json-surah-words/' + str(surahNum) + '.json' , 'r' ) as f:
+			rootwords_in_surah = f.read()
+		all_rootwords_in_surah = json.loads(rootwords_in_surah)
+	
+		result = checkWord(surahNum, ayahNum, wordNum, all_rootwords_in_surah)
+		if result is not None:
+			word_json = {
+	                        'surahnum': surahNum,
+	                        'ayahnum': ayahNum,
+	                        'wordnum': wordNum,
+	                        'answer' : result[1],
+	                        'tlit' : result[0]
+						}
+			print(word_json)
+			list_of_jsons.append(word_json)
+	
+		if (count % 100) == 0:
+			with open('cross_check_words_3.json','w') as f:
+				ujson.dump(list_of_jsons,f,ensure_ascii=False, indent=4)
+				f.close()	
 if __name__ == '__main__':
     build_jsons_for_leftovers()

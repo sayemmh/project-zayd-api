@@ -82,10 +82,7 @@ def build_jsons_for_all_ayahs():
                             }
                 list_of_jsons.append(word_json)
         with open('all_words_morphemes_2.json','w') as f:
-            f.write("var words = \n")
             ujson.dump(list_of_jsons,f,ensure_ascii=False, indent=4)
-            f.write("; \n")
-            f.write("export default words;")
             f.close()
 if __name__ == '__main__':
     build_jsons_for_all_ayahs()

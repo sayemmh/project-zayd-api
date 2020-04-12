@@ -54,7 +54,7 @@ def getArabicBreakdown(wordRow):
     return morphemeArabicArray
 
 def build_jsons_for_all_ayahs():
-    for surahNum in range(1, NUM_SURAHS_IN_QURAN+1):
+    for surahNum in range(26, NUM_SURAHS_IN_QURAN+1):
         list_of_jsons = []  
         ayahNum = 0
         hyperlinkArr = getHyperlinks(surahNum)
@@ -71,22 +71,7 @@ def build_jsons_for_all_ayahs():
                 wordNum = int(getWordNum(wordRow))
                 print("Building for surah: " + str(surahNum) + ", Ayah: " + str(ayahNum)+ ", Word: " + str(wordNum))
                 getImage(wordRow, surahNum, ayahNum, wordNum)
-                # morphemeEng = getEngBreakdown(wordRow)
-                # morphemeArabic = getArabicBreakdown(wordRow)
-                # word_json = {
-                #                 'surahnum': surahNum,
-                #                 'ayahnum': ayahNum,
-                #                 'wordnum': wordNum,
-                #                 'morphemeEnglishList': morphemeEng,
-                #                 'morphemeArabicList':morphemeArabic
-                #             }
-                # list_of_jsons.append(word_json)
-        # with open('all_words_morphemes.json','w') as f:
-        #     f.write("var words = \n")
-        #     ujson.dump(list_of_jsons,f,ensure_ascii=False, indent=4)
-        #     f.write("; \n")
-        #     f.write("export default words;")
-        #     f.close()
+
 
 if __name__ == '__main__':
     build_jsons_for_all_ayahs()
