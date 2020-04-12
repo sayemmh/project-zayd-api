@@ -1,0 +1,389 @@
+[
+    {
+        "Ayah": 1,
+        "Surah": 80,
+        "word_ids": [
+            950,
+            1648
+        ],
+        "Difficulty": 97.20834600913697
+    },
+    {
+        "Ayah": 2,
+        "Surah": 80,
+        "word_ids": [
+            281,
+            1025
+        ],
+        "Difficulty": 99.89363759430414
+    },
+    {
+        "Ayah": 3,
+        "Surah": 80,
+        "word_ids": [
+            469,
+            624
+        ],
+        "Difficulty": 99.88807823220398
+    },
+    {
+        "Ayah": 4,
+        "Surah": 80,
+        "word_ids": [
+            511,
+            511,
+            1502
+        ],
+        "Difficulty": 99.4280685696141
+    },
+    {
+        "Ayah": 5,
+        "Surah": 80,
+        "word_ids": [
+            73,
+            1086
+        ],
+        "Difficulty": 99.93393637353041
+    },
+    {
+        "Ayah": 6,
+        "Surah": 80,
+        "word_ids": [
+            831
+        ],
+        "Difficulty": 99.96557066621105
+    },
+    {
+        "Ayah": 7,
+        "Surah": 80,
+        "word_ids": [
+            624
+        ],
+        "Difficulty": 99.99039053822969
+    },
+    {
+        "Ayah": 8,
+        "Surah": 80,
+        "word_ids": [
+            73,
+            281,
+            692
+        ],
+        "Difficulty": 99.3169809624723
+    },
+    {
+        "Ayah": 9,
+        "Surah": 80,
+        "word_ids": [
+            410
+        ],
+        "Difficulty": 99.94334293308277
+    },
+    {
+        "Ayah": 10,
+        "Surah": 80,
+        "word_ids": [
+            1355
+        ],
+        "Difficulty": 99.96166328909281
+    },
+    {
+        "Ayah": 11,
+        "Surah": 80,
+        "word_ids": [
+            511
+        ],
+        "Difficulty": 99.80732887491337
+    },
+    {
+        "Ayah": 12,
+        "Surah": 80,
+        "word_ids": [
+            511,
+            810
+        ],
+        "Difficulty": 99.66585649485845
+    },
+    {
+        "Ayah": 13,
+        "Surah": 80,
+        "word_ids": [
+            823,
+            1267
+        ],
+        "Difficulty": 99.55433188757765
+    },
+    {
+        "Ayah": 14,
+        "Surah": 80,
+        "word_ids": [
+            573,
+            928
+        ],
+        "Difficulty": 99.41462671946313
+    },
+    {
+        "Ayah": 15,
+        "Surah": 80,
+        "word_ids": [
+            695,
+            1657
+        ],
+        "Difficulty": 99.9310229639044
+    },
+    {
+        "Ayah": 16,
+        "Surah": 80,
+        "word_ids": [
+            114,
+            1267
+        ],
+        "Difficulty": 99.78132776599062
+    },
+    {
+        "Ayah": 17,
+        "Surah": 80,
+        "word_ids": [
+            78,
+            1176,
+            1280
+        ],
+        "Difficulty": 99.94666796573723
+    },
+    {
+        "Ayah": 18,
+        "Surah": 80,
+        "word_ids": [
+            431,
+            810
+        ],
+        "Difficulty": 99.81975188757986
+    },
+    {
+        "Ayah": 19,
+        "Surah": 80,
+        "word_ids": [
+            431,
+            1181,
+            1485
+        ],
+        "Difficulty": 98.55755461791999
+    },
+    {
+        "Ayah": 20,
+        "Surah": 80,
+        "word_ids": [
+            656,
+            1658
+        ],
+        "Difficulty": 98.643482574987
+    },
+    {
+        "Ayah": 21,
+        "Surah": 80,
+        "word_ids": [
+            1171,
+            1424
+        ],
+        "Difficulty": 99.69678679821749
+    },
+    {
+        "Ayah": 22,
+        "Surah": 80,
+        "word_ids": [
+            27,
+            810,
+            1471
+        ],
+        "Difficulty": 98.5292397579882
+    },
+    {
+        "Ayah": 23,
+        "Surah": 80,
+        "word_ids": [
+            69,
+            1212
+        ],
+        "Difficulty": 99.9363265856795
+    },
+    {
+        "Ayah": 24,
+        "Surah": 80,
+        "word_ids": [
+            63,
+            78,
+            911,
+            1487
+        ],
+        "Difficulty": 99.65446058813323
+    },
+    {
+        "Ayah": 25,
+        "Surah": 80,
+        "word_ids": [
+            816,
+            816,
+            1428
+        ],
+        "Difficulty": 98.1874645914764
+    },
+    {
+        "Ayah": 26,
+        "Surah": 80,
+        "word_ids": [
+            32,
+            787,
+            787
+        ],
+        "Difficulty": 98.80542487066985
+    },
+    {
+        "Ayah": 27,
+        "Surah": 80,
+        "word_ids": [
+            284,
+            1435
+        ],
+        "Difficulty": 99.32969489488036
+    },
+    {
+        "Ayah": 28,
+        "Surah": 80,
+        "word_ids": [
+            1026,
+            1210
+        ],
+        "Difficulty": 99.43067007365956
+    },
+    {
+        "Ayah": 29,
+        "Surah": 80,
+        "word_ids": [
+            642,
+            1452
+        ],
+        "Difficulty": 99.8873792731174
+    },
+    {
+        "Ayah": 30,
+        "Surah": 80,
+        "word_ids": [
+            299,
+            1073
+        ],
+        "Difficulty": 99.73649408721624
+    },
+    {
+        "Ayah": 31,
+        "Surah": 80,
+        "word_ids": [
+            4,
+            1150
+        ],
+        "Difficulty": 98.24939609633421
+    },
+    {
+        "Ayah": 32,
+        "Surah": 80,
+        "word_ids": [
+            1367,
+            1492
+        ],
+        "Difficulty": 99.93584116109487
+    },
+    {
+        "Ayah": 33,
+        "Surah": 80,
+        "word_ids": [
+            27,
+            281,
+            824
+        ],
+        "Difficulty": 99.7220625586376
+    },
+    {
+        "Ayah": 34,
+        "Surah": 80,
+        "word_ids": [
+            23,
+            1118,
+            1381,
+            1664
+        ],
+        "Difficulty": 99.72821597983611
+    },
+    {
+        "Ayah": 35,
+        "Surah": 80,
+        "word_ids": [
+            10,
+            72
+        ],
+        "Difficulty": 99.9567174437508
+    },
+    {
+        "Ayah": 36,
+        "Surah": 80,
+        "word_ids": [
+            160,
+            822
+        ],
+        "Difficulty": 99.84985232905589
+    },
+    {
+        "Ayah": 37,
+        "Surah": 80,
+        "word_ids": [
+            753,
+            1086,
+            1288,
+            1381
+        ],
+        "Difficulty": 99.89962904993178
+    },
+    {
+        "Ayah": 38,
+        "Surah": 80,
+        "word_ids": [
+            695,
+            1592
+        ],
+        "Difficulty": 99.67302788623046
+    },
+    {
+        "Ayah": 39,
+        "Surah": 80,
+        "word_ids": [
+            128,
+            881
+        ],
+        "Difficulty": 99.51768319874537
+    },
+    {
+        "Ayah": 40,
+        "Surah": 80,
+        "word_ids": [
+            1048,
+            1592
+        ],
+        "Difficulty": 99.27282943156186
+    },
+    {
+        "Ayah": 41,
+        "Surah": 80,
+        "word_ids": [
+            596,
+            1175
+        ],
+        "Difficulty": 99.78156132103304
+    },
+    {
+        "Ayah": 42,
+        "Surah": 80,
+        "word_ids": [
+            1108,
+            1280
+        ],
+        "Difficulty": 99.73298201495287
+    }
+]
