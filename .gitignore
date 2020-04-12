@@ -3,3 +3,4 @@ __pycache__
 pckl-words/*
 venv/
 .vscode/
+bash-scripts/sayem.secrets
