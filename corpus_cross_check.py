@@ -50,7 +50,7 @@ def build_jsons_for_leftovers():
 		ayahNum = word['ayahnum']
 		wordNum = word['wordnum']
 
-		if (surahNum <14):
+		if (surahNum >4):
 
 			continue
 
@@ -71,8 +71,12 @@ def build_jsons_for_leftovers():
 			list_of_jsons.append(word_json)
 	
 		if (count % 100) == 0:
-			with open('cross_check_words_3.json','w') as f:
+			with open('cross_check_words_1.json','w') as f:
 				ujson.dump(list_of_jsons,f,ensure_ascii=False, indent=4)
-				f.close()	
+				f.close()
+
+	with open('cross_check_words_1.json','w') as f:
+		ujson.dump(list_of_jsons,f,ensure_ascii=False, indent=4)
+		f.close()	
 if __name__ == '__main__':
     build_jsons_for_leftovers()
