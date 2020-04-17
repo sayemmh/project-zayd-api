@@ -3,52 +3,103 @@
         "Ayah": 1,
         "Surah": 113,
         "word_ids": [
-            524,
-            1036,
-            1152,
-            1245
+            [
+                524,
+                "Noun"
+            ],
+            [
+                1036,
+                "Verb (form I)"
+            ],
+            [
+                1152,
+                "Noun"
+            ],
+            [
+                1245,
+                "Verb (form I)"
+            ]
         ],
-        "Difficulty": 99.64922715991706
+        "Difficulty": 39.63292258835564
     },
     {
         "Ayah": 2,
         "Surah": 113,
         "word_ids": [
-            431,
-            767
+            [
+                431,
+                "Verb (form I)"
+            ],
+            [
+                767,
+                "Noun"
+            ]
         ],
-        "Difficulty": 99.67063163732205
+        "Difficulty": 5.359624798451033
     },
     {
         "Ayah": 3,
         "Surah": 113,
         "word_ids": [
-            27,
-            767,
-            1062,
-            1634
+            [
+                27,
+                "Nominal (Time adverb)"
+            ],
+            [
+                767,
+                "Noun"
+            ],
+            [
+                1062,
+                "Active participle"
+            ],
+            [
+                1634,
+                "Verb (form I)"
+            ]
         ],
-        "Difficulty": 99.2409682279024
+        "Difficulty": 4.896238077760749
     },
     {
         "Ayah": 4,
         "Surah": 113,
         "word_ids": [
-            767,
-            1010,
-            1494
+            [
+                767,
+                "Noun"
+            ],
+            [
+                1010,
+                "Noun"
+            ],
+            [
+                1494,
+                "Noun"
+            ]
         ],
-        "Difficulty": 98.99573387203455
+        "Difficulty": 0.36158554433301987
     },
     {
         "Ayah": 5,
         "Surah": 113,
         "word_ids": [
-            27,
-            317,
-            317,
-            767
+            [
+                27,
+                "Nominal (Time adverb)"
+            ],
+            [
+                317,
+                "Verb (form I)"
+            ],
+            [
+                317,
+                "Active participle"
+            ],
+            [
+                767,
+                "Noun"
+            ]
         ],
-        "Difficulty": 98.43216422556456
+        "Difficulty": 4.905368802683134
     }
 ]

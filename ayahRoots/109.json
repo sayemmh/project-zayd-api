@@ -3,54 +3,90 @@
         "Ayah": 1,
         "Surah": 109,
         "word_ids": [
-            1245,
-            1280
+            [
+                1245,
+                "Verb (form I)"
+            ],
+            [
+                1280,
+                "Active participle (Noun)"
+            ]
         ],
-        "Difficulty": 99.94219494809816
+        "Difficulty": 53.82255902423175
     },
     {
         "Ayah": 2,
         "Surah": 109,
         "word_ids": [
-            948,
-            948
+            [
+                948,
+                "Verb (form I)"
+            ],
+            [
+                948,
+                "Verb (form I)"
+            ]
         ],
-        "Difficulty": 97.42510728719637
+        "Difficulty": 109.06735751295338
     },
     {
         "Ayah": 3,
         "Surah": 109,
         "word_ids": [
-            948,
-            948
+            [
+                948,
+                "Verb (form I)"
+            ],
+            [
+                948,
+                "Active participle (Noun)"
+            ]
         ],
-        "Difficulty": 97.42510728719637
+        "Difficulty": 55.184343880956085
     },
     {
         "Ayah": 4,
         "Surah": 109,
         "word_ids": [
-            948,
-            948
+            [
+                948,
+                "Verb (form I)"
+            ],
+            [
+                948,
+                "Active participle (Noun)"
+            ]
         ],
-        "Difficulty": 97.42510728719637
+        "Difficulty": 55.184343880956085
     },
     {
         "Ayah": 5,
         "Surah": 109,
         "word_ids": [
-            948,
-            948
+            [
+                948,
+                "Verb (form I)"
+            ],
+            [
+                948,
+                "Active participle (Noun)"
+            ]
         ],
-        "Difficulty": 97.42510728719637
+        "Difficulty": 55.184343880956085
     },
     {
         "Ayah": 6,
         "Surah": 109,
         "word_ids": [
-            498,
-            498
+            [
+                498,
+                "Noun"
+            ],
+            [
+                498,
+                "Noun"
+            ]
         ],
-        "Difficulty": 97.1607682622313
+        "Difficulty": 38.22170900311506
     }
 ]

@@ -3,75 +3,132 @@
         "Ayah": 1,
         "Surah": 94,
         "word_ids": [
-            764,
-            827
+            [
+                764,
+                "Verb (form I)"
+            ],
+            [
+                827,
+                "Noun"
+            ]
         ],
-        "Difficulty": 99.80140886148267
+        "Difficulty": 0.481830071081328
     },
     {
         "Ayah": 2,
         "Surah": 94,
         "word_ids": [
-            1605,
-            1621
+            [
+                1605,
+                "Noun"
+            ],
+            [
+                1621,
+                "Verb (form I)"
+            ]
         ],
-        "Difficulty": 96.63390189643818
+        "Difficulty": 0.6561511851010676
     },
     {
         "Ayah": 3,
         "Surah": 94,
         "word_ids": [
-            59,
-            945,
-            1510
+            [
+                59,
+                "Nominal (Relative pronoun)"
+            ],
+            [
+                945,
+                "Noun"
+            ],
+            [
+                1510,
+                "Verb (form IV)"
+            ]
         ],
-        "Difficulty": 99.6893113246023
+        "Difficulty": 29.123507029108307
     },
     {
         "Ayah": 4,
         "Surah": 94,
         "word_ids": [
-            511,
-            573
+            [
+                511,
+                "Verbal noun"
+            ],
+            [
+                573,
+                "Verb (form I)"
+            ]
         ],
-        "Difficulty": 99.23924486739571
+        "Difficulty": 1.8098709580343102
     },
     {
         "Ayah": 5,
         "Surah": 94,
         "word_ids": [
-            986,
-            1658
+            [
+                986,
+                "Noun"
+            ],
+            [
+                1658,
+                "Noun"
+            ]
         ],
-        "Difficulty": 98.60827410432123
+        "Difficulty": 0.09174651014261602
     },
     {
         "Ayah": 6,
         "Surah": 94,
         "word_ids": [
-            986,
-            1658
+            [
+                986,
+                "Noun"
+            ],
+            [
+                1658,
+                "Noun"
+            ]
         ],
-        "Difficulty": 98.60827410432123
+        "Difficulty": 0.09174651014261602
     },
     {
         "Ayah": 7,
         "Surah": 94,
         "word_ids": [
-            27,
-            1123,
-            1474
+            [
+                27,
+                "Nominal (Time adverb)"
+            ],
+            [
+                1123,
+                "Verb (form I)"
+            ],
+            [
+                1474,
+                "Verb (form I)"
+            ]
         ],
-        "Difficulty": 99.61591709115962
+        "Difficulty": 9.40215222324727
     },
     {
         "Ayah": 8,
         "Surah": 94,
         "word_ids": [
-            63,
-            524,
-            566
+            [
+                63,
+                "Preposition"
+            ],
+            [
+                524,
+                "Noun"
+            ],
+            [
+                566,
+                "Verb (form I)"
+            ]
         ],
-        "Difficulty": 99.66007523204915
+        "Difficulty": 55.15508364174296
     }
 ]

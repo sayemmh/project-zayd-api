@@ -3,83 +3,164 @@
         "Ayah": 1,
         "Surah": 95,
         "word_ids": [
-            192,
-            642
+            [
+                192,
+                "Noun"
+            ],
+            [
+                642,
+                "Noun"
+            ]
         ],
-        "Difficulty": 98.43536555066875
+        "Difficulty": 1.0487041477824777
     },
     {
         "Ayah": 2,
         "Surah": 95,
         "word_ids": [
-            930
+            [
+                930,
+                "Noun"
+            ]
         ],
-        "Difficulty": 99.77620933037183
+        "Difficulty": 0.6541573419900267
     },
     {
         "Ayah": 3,
         "Surah": 95,
         "word_ids": [
-            75,
-            154
+            [
+                75,
+                "Adjective"
+            ],
+            [
+                154,
+                "Noun"
+            ]
         ],
-        "Difficulty": 99.84220485098469
+        "Difficulty": 1.0344112675670076
     },
     {
         "Ayah": 4,
         "Surah": 95,
         "word_ids": [
-            78,
-            321,
-            431,
-            1246
+            [
+                78,
+                "Noun"
+            ],
+            [
+                321,
+                "Nominal (Noun)"
+            ],
+            [
+                431,
+                "Verb (form I)"
+            ],
+            [
+                1246,
+                "Verbal noun (form II)"
+            ]
         ],
-        "Difficulty": 99.55737222648631
+        "Difficulty": 2.2174672495053667
     },
     {
         "Ayah": 5,
         "Surah": 95,
         "word_ids": [
-            547,
-            698,
-            698
+            [
+                547,
+                "Verb (form I)"
+            ],
+            [
+                698,
+                "Nominal (Location adverb)"
+            ],
+            [
+                698,
+                "Active participle"
+            ]
         ],
-        "Difficulty": 98.17408457924694
+        "Difficulty": 0.06843854893402262
     },
     {
         "Ayah": 6,
         "Surah": 95,
         "word_ids": [
-            18,
-            58,
-            59,
-            75,
-            854,
-            1022,
-            1095,
-            1419
+            [
+                18,
+                "Noun"
+            ],
+            [
+                58,
+                "Particle (Exceptive particle)"
+            ],
+            [
+                59,
+                "Nominal (Relative pronoun)"
+            ],
+            [
+                75,
+                "Verb (form IV)"
+            ],
+            [
+                854,
+                "Active participle"
+            ],
+            [
+                1022,
+                "Verb (form I)"
+            ],
+            [
+                1095,
+                "Nominal (Noun)"
+            ],
+            [
+                1419,
+                "Passive participle"
+            ]
         ],
-        "Difficulty": 99.57155192258689
+        "Difficulty": 5.895684720631108
     },
     {
         "Ayah": 7,
         "Surah": 95,
         "word_ids": [
-            139,
-            498,
-            1263
+            [
+                139,
+                "Nominal (Time adverb)"
+            ],
+            [
+                498,
+                "Noun"
+            ],
+            [
+                1263,
+                "Verb (form II)"
+            ]
         ],
-        "Difficulty": 97.87232430377696
+        "Difficulty": 11.99954886324506
     },
     {
         "Ayah": 8,
         "Surah": 95,
         "word_ids": [
-            61,
-            345,
-            345,
-            1363
+            [
+                61,
+                "Proper noun"
+            ],
+            [
+                345,
+                "Noun"
+            ],
+            [
+                345,
+                "Active participle"
+            ],
+            [
+                1363,
+                "Verb (form I)"
+            ]
         ],
-        "Difficulty": 99.18009166830127
+        "Difficulty": 67.07183127422067
     }
 ]

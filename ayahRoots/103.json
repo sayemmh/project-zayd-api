@@ -3,33 +3,69 @@
         "Ayah": 1,
         "Surah": 103,
         "word_ids": [
-            993
+            [
+                993,
+                "Noun"
+            ]
         ],
-        "Difficulty": 99.97243334775371
+        "Difficulty": 16.3265306122449
     },
     {
         "Ayah": 2,
         "Surah": 103,
         "word_ids": [
-            78,
-            406
+            [
+                78,
+                "Noun"
+            ],
+            [
+                406,
+                "Noun"
+            ]
         ],
-        "Difficulty": 99.94469668578034
+        "Difficulty": 0.49765780211614097
     },
     {
         "Ayah": 3,
         "Surah": 103,
         "word_ids": [
-            58,
-            59,
-            75,
-            344,
-            818,
-            854,
-            1022,
-            1620,
-            1620
+            [
+                58,
+                "Particle (Exceptive particle)"
+            ],
+            [
+                59,
+                "Nominal (Relative pronoun)"
+            ],
+            [
+                75,
+                "Verb (form IV)"
+            ],
+            [
+                344,
+                "Nominal (Noun)"
+            ],
+            [
+                818,
+                "Noun"
+            ],
+            [
+                854,
+                "Active participle"
+            ],
+            [
+                1022,
+                "Verb (form I)"
+            ],
+            [
+                1620,
+                "Verb (form VI)"
+            ],
+            [
+                1620,
+                "Verb (form VI)"
+            ]
         ],
-        "Difficulty": 98.77274356903611
+        "Difficulty": 4.506718022069853
     }
 ]

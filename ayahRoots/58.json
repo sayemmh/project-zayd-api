@@ -3,481 +3,1462 @@
         "Ayah": 1,
         "Surah": 58,
         "word_ids": [
-            59,
-            61,
-            61,
-            61,
-            61,
-            63,
-            129,
-            231,
-            367,
-            638,
-            722,
-            722,
-            722,
-            793,
-            1245
+            [
+                59,
+                "Nominal (Relative pronoun)"
+            ],
+            [
+                61,
+                "Proper noun"
+            ],
+            [
+                61,
+                "Proper noun"
+            ],
+            [
+                61,
+                "Proper noun"
+            ],
+            [
+                61,
+                "Proper noun"
+            ],
+            [
+                63,
+                "Preposition"
+            ],
+            [
+                129,
+                "Nominal (Adjective)"
+            ],
+            [
+                231,
+                "Verb (form III)"
+            ],
+            [
+                367,
+                "Verbal noun (form VI)"
+            ],
+            [
+                638,
+                "Noun"
+            ],
+            [
+                722,
+                "Verb (form I)"
+            ],
+            [
+                722,
+                "Verb (form I)"
+            ],
+            [
+                722,
+                "Nominal (Adjective)"
+            ],
+            [
+                793,
+                "Verb (form VIII)"
+            ],
+            [
+                1245,
+                "Verbal noun"
+            ]
         ],
-        "Difficulty": 97.11225466776574
+        "Difficulty": 20.49461115776545
     },
     {
         "Ayah": 2,
         "Surah": 58,
         "word_ids": [
-            58,
-            59,
-            61,
-            72,
-            72,
-            640,
-            945,
-            1008,
-            1071,
-            1245,
-            1245,
-            1468,
-            1517,
-            1647
+            [
+                58,
+                "Particle (Restriction particle)"
+            ],
+            [
+                59,
+                "Nominal (Relative pronoun)"
+            ],
+            [
+                61,
+                "Proper noun"
+            ],
+            [
+                72,
+                "Noun"
+            ],
+            [
+                72,
+                "Noun"
+            ],
+            [
+                640,
+                "Noun"
+            ],
+            [
+                945,
+                "Verb (form III)"
+            ],
+            [
+                1008,
+                "Noun"
+            ],
+            [
+                1071,
+                "Nominal (Adjective)"
+            ],
+            [
+                1245,
+                "Verb (form I)"
+            ],
+            [
+                1245,
+                "Verbal noun"
+            ],
+            [
+                1468,
+                "Noun"
+            ],
+            [
+                1517,
+                "Passive participle (form IV)"
+            ],
+            [
+                1647,
+                "Verb (form I)"
+            ]
         ],
-        "Difficulty": 97.10400749585921
+        "Difficulty": 8.21507819951409
     },
     {
         "Ayah": 3,
         "Surah": 58,
         "word_ids": [
-            59,
-            61,
-            305,
-            385,
-            575,
-            945,
-            1022,
-            1035,
-            1174,
-            1245,
-            1394,
-            1468,
-            1627
+            [
+                59,
+                "Nominal (Relative pronoun)"
+            ],
+            [
+                61,
+                "Proper noun"
+            ],
+            [
+                305,
+                "Verbal noun (form II)"
+            ],
+            [
+                385,
+                "Nominal (Noun)"
+            ],
+            [
+                575,
+                "Noun"
+            ],
+            [
+                945,
+                "Verb (form III)"
+            ],
+            [
+                1022,
+                "Verb (form I)"
+            ],
+            [
+                1035,
+                "Verb (form I)"
+            ],
+            [
+                1174,
+                "Nominal (Noun)"
+            ],
+            [
+                1245,
+                "Verb (form I)"
+            ],
+            [
+                1394,
+                "Verb (form VI)"
+            ],
+            [
+                1468,
+                "Noun"
+            ],
+            [
+                1627,
+                "Verb (form I)"
+            ]
         ],
-        "Difficulty": 96.99175549708177
+        "Difficulty": 9.243016487435426
     },
     {
         "Ayah": 4,
         "Surah": 58,
         "word_ids": [
-            60,
-            61,
-            61,
-            75,
-            176,
-            298,
-            555,
-            657,
-            708,
-            802,
-            872,
-            911,
-            931,
-            968,
-            1174,
-            1280,
-            1394,
-            1588
+            [
+                60,
+                "Adjective"
+            ],
+            [
+                61,
+                "Proper noun"
+            ],
+            [
+                61,
+                "Proper noun"
+            ],
+            [
+                75,
+                "Verb (form IV)"
+            ],
+            [
+                176,
+                "Active participle (form VI)"
+            ],
+            [
+                298,
+                "Noun"
+            ],
+            [
+                555,
+                "Noun"
+            ],
+            [
+                657,
+                "Noun"
+            ],
+            [
+                708,
+                "Nominal (Noun)"
+            ],
+            [
+                802,
+                "Noun"
+            ],
+            [
+                872,
+                "Noun"
+            ],
+            [
+                911,
+                "Verbal noun (form IV)"
+            ],
+            [
+                931,
+                "Verb (form X)"
+            ],
+            [
+                968,
+                "Noun"
+            ],
+            [
+                1174,
+                "Nominal (Noun)"
+            ],
+            [
+                1280,
+                "Active participle (Noun)"
+            ],
+            [
+                1394,
+                "Verb (form VI)"
+            ],
+            [
+                1588,
+                "Verb (form I)"
+            ]
         ],
-        "Difficulty": 98.08125001020476
+        "Difficulty": 7.020295529272059
     },
     {
         "Ayah": 5,
         "Surah": 58,
         "word_ids": [
-            59,
-            59,
-            61,
-            90,
-            173,
-            298,
-            555,
-            968,
-            1174,
-            1252,
-            1252,
-            1280,
-            1460,
-            1570
+            [
+                59,
+                "Nominal (Relative pronoun)"
+            ],
+            [
+                59,
+                "Nominal (Relative pronoun)"
+            ],
+            [
+                61,
+                "Proper noun"
+            ],
+            [
+                90,
+                "Noun"
+            ],
+            [
+                173,
+                "Nominal (Adjective)"
+            ],
+            [
+                298,
+                "Verb (form I)"
+            ],
+            [
+                555,
+                "Noun"
+            ],
+            [
+                968,
+                "Noun"
+            ],
+            [
+                1174,
+                "Nominal (Noun)"
+            ],
+            [
+                1252,
+                "Verb (form I)"
+            ],
+            [
+                1252,
+                "Verb (form I)"
+            ],
+            [
+                1280,
+                "Active participle (Noun)"
+            ],
+            [
+                1460,
+                "Verb (form IV)"
+            ],
+            [
+                1570,
+                "Active participle (form IV) (Adjective)"
+            ]
         ],
-        "Difficulty": 97.78753423636537
+        "Difficulty": 8.873909796108286
     },
     {
         "Ayah": 6,
         "Surah": 58,
         "word_ids": [
-            61,
-            61,
-            61,
-            137,
-            260,
-            329,
-            801,
-            810,
-            1022,
-            1288,
-            1434,
-            1469,
-            1664
+            [
+                61,
+                "Proper noun"
+            ],
+            [
+                61,
+                "Proper noun"
+            ],
+            [
+                61,
+                "Proper noun"
+            ],
+            [
+                137,
+                "Verb (form I)"
+            ],
+            [
+                260,
+                "Noun"
+            ],
+            [
+                329,
+                "Verb (form IV)"
+            ],
+            [
+                801,
+                "Nominal (Adjective)"
+            ],
+            [
+                810,
+                "Noun"
+            ],
+            [
+                1022,
+                "Verb (form I)"
+            ],
+            [
+                1288,
+                "Nominal (Noun)"
+            ],
+            [
+                1434,
+                "Verb (form II)"
+            ],
+            [
+                1469,
+                "Verb (form I)"
+            ],
+            [
+                1664,
+                "Nominal (Noun)"
+            ]
         ],
-        "Difficulty": 97.41945853844689
+        "Difficulty": 20.638965895598627
     },
     {
         "Ayah": 7,
         "Surah": 58,
         "word_ids": [
-            32,
-            58,
-            58,
-            58,
-            61,
-            61,
-            206,
-            436,
-            488,
-            523,
-            528,
-            673,
-            726,
-            810,
-            1016,
-            1016,
-            1022,
-            1246,
-            1259,
-            1288,
-            1305,
-            1305,
-            1434,
-            1445,
-            1664
+            [
+                32,
+                "Noun"
+            ],
+            [
+                58,
+                "Particle (Restriction particle)"
+            ],
+            [
+                58,
+                "Particle (Restriction particle)"
+            ],
+            [
+                58,
+                "Particle (Restriction particle)"
+            ],
+            [
+                61,
+                "Proper noun"
+            ],
+            [
+                61,
+                "Proper noun"
+            ],
+            [
+                206,
+                "Nominal (Noun)"
+            ],
+            [
+                436,
+                "Noun"
+            ],
+            [
+                488,
+                "Nominal (Noun)"
+            ],
+            [
+                523,
+                "Verb (form I)"
+            ],
+            [
+                528,
+                "Noun"
+            ],
+            [
+                673,
+                "Noun"
+            ],
+            [
+                726,
+                "Noun"
+            ],
+            [
+                810,
+                "Noun"
+            ],
+            [
+                1016,
+                "Verb (form I)"
+            ],
+            [
+                1016,
+                "Nominal (Adjective)"
+            ],
+            [
+                1022,
+                "Verb (form I)"
+            ],
+            [
+                1246,
+                "Noun"
+            ],
+            [
+                1259,
+                "Nominal (Noun)"
+            ],
+            [
+                1288,
+                "Nominal (Noun)"
+            ],
+            [
+                1305,
+                "Verb (form I)"
+            ],
+            [
+                1305,
+                "Verb (form I)"
+            ],
+            [
+                1434,
+                "Verb (form II)"
+            ],
+            [
+                1445,
+                "Noun"
+            ],
+            [
+                1664,
+                "Nominal (Noun)"
+            ]
         ],
-        "Difficulty": 97.3704439211103
+        "Difficulty": 4.919860962055914
     },
     {
         "Ayah": 8,
         "Surah": 58,
         "word_ids": [
-            16,
-            27,
-            59,
-            61,
-            61,
-            63,
-            92,
-            281,
-            316,
-            381,
-            381,
-            523,
-            555,
-            858,
-            875,
-            967,
-            968,
-            997,
-            1035,
-            1245,
-            1245,
-            1445,
-            1445,
-            1500,
-            1526,
-            1526
+            [
+                16,
+                "Noun"
+            ],
+            [
+                27,
+                "Nominal (Time adverb)"
+            ],
+            [
+                59,
+                "Nominal (Relative pronoun)"
+            ],
+            [
+                61,
+                "Proper noun"
+            ],
+            [
+                61,
+                "Proper noun"
+            ],
+            [
+                63,
+                "Preposition"
+            ],
+            [
+                92,
+                "Verb (form I)"
+            ],
+            [
+                281,
+                "Verb (form I)"
+            ],
+            [
+                316,
+                "Noun"
+            ],
+            [
+                381,
+                "Verb (form II)"
+            ],
+            [
+                381,
+                "Verb (form II)"
+            ],
+            [
+                523,
+                "Verb (form I)"
+            ],
+            [
+                555,
+                "Noun"
+            ],
+            [
+                858,
+                "Verb (form I)"
+            ],
+            [
+                875,
+                "Noun"
+            ],
+            [
+                967,
+                "Noun"
+            ],
+            [
+                968,
+                "Verb (form II)"
+            ],
+            [
+                997,
+                "Noun"
+            ],
+            [
+                1035,
+                "Verb (form I)"
+            ],
+            [
+                1245,
+                "Verb (form I)"
+            ],
+            [
+                1245,
+                "Verb (form I)"
+            ],
+            [
+                1445,
+                "Verb (form VI)"
+            ],
+            [
+                1445,
+                "Noun"
+            ],
+            [
+                1500,
+                "Noun"
+            ],
+            [
+                1526,
+                "Verb (form I)"
+            ],
+            [
+                1526,
+                "Verb (form I)"
+            ]
         ],
-        "Difficulty": 96.27405039824521
+        "Difficulty": 4.498036933915785
     },
     {
         "Ayah": 9,
         "Surah": 58,
         "word_ids": [
-            16,
-            27,
-            59,
-            59,
-            61,
-            63,
-            75,
-            114,
-            322,
-            555,
-            967,
-            997,
-            1445,
-            1445,
-            1445,
-            1641,
-            1641
+            [
+                16,
+                "Noun"
+            ],
+            [
+                27,
+                "Nominal (Time adverb)"
+            ],
+            [
+                59,
+                "Nominal (Relative pronoun)"
+            ],
+            [
+                59,
+                "Nominal (Relative pronoun)"
+            ],
+            [
+                61,
+                "Proper noun"
+            ],
+            [
+                63,
+                "Preposition"
+            ],
+            [
+                75,
+                "Verb (form IV)"
+            ],
+            [
+                114,
+                "Noun"
+            ],
+            [
+                322,
+                "Verb (form I)"
+            ],
+            [
+                555,
+                "Noun"
+            ],
+            [
+                967,
+                "Noun"
+            ],
+            [
+                997,
+                "Noun"
+            ],
+            [
+                1445,
+                "Verb (form VI)"
+            ],
+            [
+                1445,
+                "Verb (form VI)"
+            ],
+            [
+                1445,
+                "Verb (form VI)"
+            ],
+            [
+                1641,
+                "Verb (form VIII)"
+            ],
+            [
+                1641,
+                "Noun"
+            ]
         ],
-        "Difficulty": 98.34690527459996
+        "Difficulty": 6.344153533307004
     },
     {
         "Ayah": 10,
         "Surah": 58,
         "word_ids": [
-            29,
-            58,
-            59,
-            61,
-            61,
-            75,
-            75,
-            315,
-            776,
-            810,
-            885,
-            1363,
-            1445,
-            1645
+            [
+                29,
+                "Noun"
+            ],
+            [
+                58,
+                "Particle (Restriction particle)"
+            ],
+            [
+                59,
+                "Nominal (Relative pronoun)"
+            ],
+            [
+                61,
+                "Proper noun"
+            ],
+            [
+                61,
+                "Proper noun"
+            ],
+            [
+                75,
+                "Verb (form IV)"
+            ],
+            [
+                75,
+                "Active participle (form IV) (Noun)"
+            ],
+            [
+                315,
+                "Verb (form I)"
+            ],
+            [
+                776,
+                "Nominal (Proper noun)"
+            ],
+            [
+                810,
+                "Noun"
+            ],
+            [
+                885,
+                "Active participle"
+            ],
+            [
+                1363,
+                "Verb (form I)"
+            ],
+            [
+                1445,
+                "Noun"
+            ],
+            [
+                1645,
+                "Verb (form V)"
+            ]
         ],
-        "Difficulty": 98.09638443979998
+        "Difficulty": 13.239615734725842
     },
     {
         "Ayah": 11,
         "Surah": 58,
         "word_ids": [
-            12,
-            27,
-            27,
-            59,
-            59,
-            59,
-            61,
-            61,
-            61,
-            75,
-            75,
-            255,
-            385,
-            464,
-            573,
-            1016,
-            1022,
-            1129,
-            1129,
-            1129,
-            1245,
-            1245,
-            1472,
-            1472
+            [
+                12,
+                "Verb (form IV)"
+            ],
+            [
+                27,
+                "Nominal (Time adverb)"
+            ],
+            [
+                27,
+                "Nominal (Time adverb)"
+            ],
+            [
+                59,
+                "Nominal (Relative pronoun)"
+            ],
+            [
+                59,
+                "Nominal (Relative pronoun)"
+            ],
+            [
+                59,
+                "Nominal (Relative pronoun)"
+            ],
+            [
+                61,
+                "Proper noun"
+            ],
+            [
+                61,
+                "Proper noun"
+            ],
+            [
+                61,
+                "Proper noun"
+            ],
+            [
+                75,
+                "Verb (form IV)"
+            ],
+            [
+                75,
+                "Verb (form IV)"
+            ],
+            [
+                255,
+                "Noun"
+            ],
+            [
+                385,
+                "Nominal (Noun)"
+            ],
+            [
+                464,
+                "Noun"
+            ],
+            [
+                573,
+                "Verb (form I)"
+            ],
+            [
+                1016,
+                "Noun"
+            ],
+            [
+                1022,
+                "Verb (form I)"
+            ],
+            [
+                1129,
+                "Verb (form I)"
+            ],
+            [
+                1129,
+                "Verb (form I)"
+            ],
+            [
+                1129,
+                "Verb (form V)"
+            ],
+            [
+                1245,
+                "Verb (form I)"
+            ],
+            [
+                1245,
+                "Verb (form I)"
+            ],
+            [
+                1472,
+                "Verb (form I)"
+            ],
+            [
+                1472,
+                "Verb (form I)"
+            ]
         ],
-        "Difficulty": 96.89101694525102
+        "Difficulty": 8.35779308351052
     },
     {
         "Ayah": 12,
         "Surah": 58,
         "word_ids": [
-            27,
-            59,
-            61,
-            75,
-            173,
-            449,
-            544,
-            555,
-            830,
-            928,
-            1071,
-            1183,
-            1445,
-            1445,
-            1588,
-            1657
+            [
+                27,
+                "Nominal (Time adverb)"
+            ],
+            [
+                59,
+                "Nominal (Relative pronoun)"
+            ],
+            [
+                61,
+                "Proper noun"
+            ],
+            [
+                75,
+                "Verb (form IV)"
+            ],
+            [
+                173,
+                "Nominal (Location adverb)"
+            ],
+            [
+                449,
+                "Nominal (Noun)"
+            ],
+            [
+                544,
+                "Nominal (Adjective)"
+            ],
+            [
+                555,
+                "Noun"
+            ],
+            [
+                830,
+                "Noun"
+            ],
+            [
+                928,
+                "Noun"
+            ],
+            [
+                1071,
+                "Nominal (Adjective)"
+            ],
+            [
+                1183,
+                "Verb (form II)"
+            ],
+            [
+                1445,
+                "Verb (form III)"
+            ],
+            [
+                1445,
+                "Noun"
+            ],
+            [
+                1588,
+                "Verb (form I)"
+            ],
+            [
+                1657,
+                "Noun"
+            ]
         ],
-        "Difficulty": 96.86170738241827
+        "Difficulty": 6.420625646651337
     },
     {
         "Ayah": 13,
         "Surah": 58,
         "word_ids": [
-            12,
-            26,
-            61,
-            61,
-            61,
-            173,
-            190,
-            385,
-            555,
-            624,
-            783,
-            830,
-            857,
-            931,
-            1022,
-            1143,
-            1183,
-            1246,
-            1445,
-            1657
+            [
+                12,
+                "Verb (form IV)"
+            ],
+            [
+                26,
+                "Time adverb"
+            ],
+            [
+                61,
+                "Proper noun"
+            ],
+            [
+                61,
+                "Proper noun"
+            ],
+            [
+                61,
+                "Proper noun"
+            ],
+            [
+                173,
+                "Nominal (Location adverb)"
+            ],
+            [
+                190,
+                "Verb (form I)"
+            ],
+            [
+                385,
+                "Nominal (Adjective)"
+            ],
+            [
+                555,
+                "Noun"
+            ],
+            [
+                624,
+                "Noun"
+            ],
+            [
+                783,
+                "Verb (form IV)"
+            ],
+            [
+                830,
+                "Noun"
+            ],
+            [
+                857,
+                "Noun"
+            ],
+            [
+                931,
+                "Verb (form IV)"
+            ],
+            [
+                1022,
+                "Verb (form I)"
+            ],
+            [
+                1143,
+                "Verb (form I)"
+            ],
+            [
+                1183,
+                "Verb (form II)"
+            ],
+            [
+                1246,
+                "Verb (form IV)"
+            ],
+            [
+                1445,
+                "Noun"
+            ],
+            [
+                1657,
+                "Noun"
+            ]
         ],
-        "Difficulty": 95.89680222663908
+        "Difficulty": 8.402245949564282
     },
     {
         "Ayah": 14,
         "Surah": 58,
         "word_ids": [
-            59,
-            61,
-            63,
-            346,
-            523,
-            1016,
-            1067,
-            1246,
-            1263,
-            1648
+            [
+                59,
+                "Nominal (Relative pronoun)"
+            ],
+            [
+                61,
+                "Proper noun"
+            ],
+            [
+                63,
+                "Preposition"
+            ],
+            [
+                346,
+                "Verb (form I)"
+            ],
+            [
+                523,
+                "Verb (form I)"
+            ],
+            [
+                1016,
+                "Verb (form I)"
+            ],
+            [
+                1067,
+                "Verb (form I)"
+            ],
+            [
+                1246,
+                "Noun"
+            ],
+            [
+                1263,
+                "Noun"
+            ],
+            [
+                1648,
+                "Verb (form V)"
+            ]
         ],
-        "Difficulty": 96.77517360975372
+        "Difficulty": 14.543512167130354
     },
     {
         "Ayah": 15,
         "Surah": 58,
         "word_ids": [
-            61,
-            737,
-            762,
-            964,
-            968,
-            1022,
-            1305
+            [
+                61,
+                "Proper noun"
+            ],
+            [
+                737,
+                "Verb (form I)"
+            ],
+            [
+                762,
+                "Nominal (Adjective)"
+            ],
+            [
+                964,
+                "Verb (form IV)"
+            ],
+            [
+                968,
+                "Noun"
+            ],
+            [
+                1022,
+                "Verb (form I)"
+            ],
+            [
+                1305,
+                "Verb (form I)"
+            ]
         ],
-        "Difficulty": 99.03373135018012
+        "Difficulty": 24.739280364569808
     },
     {
         "Ayah": 16,
         "Surah": 58,
         "word_ids": [
-            21,
-            61,
-            267,
-            656,
-            826,
-            968,
-            1570,
-            1662
+            [
+                21,
+                "Verb (form VIII)"
+            ],
+            [
+                61,
+                "Proper noun"
+            ],
+            [
+                267,
+                "Noun"
+            ],
+            [
+                656,
+                "Noun"
+            ],
+            [
+                826,
+                "Verb (form I)"
+            ],
+            [
+                968,
+                "Noun"
+            ],
+            [
+                1570,
+                "Active participle (form IV) (Noun)"
+            ],
+            [
+                1662,
+                "Noun"
+            ]
         ],
-        "Difficulty": 98.25676663777223
+        "Difficulty": 17.556327423655585
     },
     {
         "Ayah": 17,
         "Surah": 58,
         "word_ids": [
-            61,
-            426,
-            810,
-            822,
-            1086,
-            1427,
-            1529,
-            1647
+            [
+                61,
+                "Proper noun"
+            ],
+            [
+                426,
+                "Active participle"
+            ],
+            [
+                810,
+                "Noun"
+            ],
+            [
+                822,
+                "Noun"
+            ],
+            [
+                1086,
+                "Verb (form IV)"
+            ],
+            [
+                1427,
+                "Noun"
+            ],
+            [
+                1529,
+                "Noun"
+            ],
+            [
+                1647,
+                "Noun"
+            ]
         ],
-        "Difficulty": 97.79205676364194
+        "Difficulty": 17.38072024008263
     },
     {
         "Ayah": 18,
         "Surah": 58,
         "word_ids": [
-            61,
-            137,
-            260,
-            316,
-            346,
-            346,
-            810,
-            1263,
-            1664
+            [
+                61,
+                "Proper noun"
+            ],
+            [
+                137,
+                "Verb (form I)"
+            ],
+            [
+                260,
+                "Noun"
+            ],
+            [
+                316,
+                "Verb (form I)"
+            ],
+            [
+                346,
+                "Verb (form I)"
+            ],
+            [
+                346,
+                "Verb (form I)"
+            ],
+            [
+                810,
+                "Noun"
+            ],
+            [
+                1263,
+                "Active participle (Noun)"
+            ],
+            [
+                1664,
+                "Nominal (Noun)"
+            ]
         ],
-        "Difficulty": 98.20521420628756
+        "Difficulty": 16.527870701490656
     },
     {
         "Ayah": 19,
         "Surah": 58,
         "word_ids": [
-            61,
-            314,
-            314,
-            366,
-            406,
-            511,
-            776,
-            776,
-            776,
-            1469
+            [
+                61,
+                "Proper noun"
+            ],
+            [
+                314,
+                "Noun"
+            ],
+            [
+                314,
+                "Noun"
+            ],
+            [
+                366,
+                "Verb (form X)"
+            ],
+            [
+                406,
+                "Active participle"
+            ],
+            [
+                511,
+                "Verbal noun"
+            ],
+            [
+                776,
+                "Nominal (Proper noun)"
+            ],
+            [
+                776,
+                "Nominal (Proper noun)"
+            ],
+            [
+                776,
+                "Nominal (Proper noun)"
+            ],
+            [
+                1469,
+                "Verb (form IV)"
+            ]
         ],
-        "Difficulty": 99.25316903489004
+        "Difficulty": 10.838806788703016
     },
     {
         "Ayah": 20,
         "Surah": 58,
         "word_ids": [
-            59,
-            61,
-            298,
-            513,
-            555
+            [
+                59,
+                "Nominal (Relative pronoun)"
+            ],
+            [
+                61,
+                "Proper noun"
+            ],
+            [
+                298,
+                "Verb (form I)"
+            ],
+            [
+                513,
+                "Noun"
+            ],
+            [
+                555,
+                "Noun"
+            ]
         ],
-        "Difficulty": 99.22663481236631
+        "Difficulty": 53.37097776049295
     },
     {
         "Ayah": 21,
         "Surah": 58,
         "word_ids": [
-            61,
-            61,
-            555,
-            982,
-            1073,
-            1247,
-            1256
+            [
+                61,
+                "Proper noun"
+            ],
+            [
+                61,
+                "Proper noun"
+            ],
+            [
+                555,
+                "Noun"
+            ],
+            [
+                982,
+                "Nominal (Adjective)"
+            ],
+            [
+                1073,
+                "Verb (form I)"
+            ],
+            [
+                1247,
+                "Nominal (Adjective)"
+            ],
+            [
+                1256,
+                "Verb (form I)"
+            ]
         ],
-        "Difficulty": 99.13335396229316
+        "Difficulty": 43.807168703503606
     },
     {
         "Ayah": 22,
         "Surah": 58,
         "word_ids": [
-            10,
-            22,
-            23,
-            61,
-            61,
-            61,
-            61,
-            61,
-            75,
-            75,
-            88,
-            160,
-            178,
-            242,
-            267,
-            298,
-            314,
-            314,
-            426,
-            461,
-            555,
-            561,
-            561,
-            599,
-            990,
-            1151,
-            1222,
-            1246,
-            1256,
-            1305,
-            1525,
-            1588,
-            1596,
-            1664
+            [
+                10,
+                "Noun"
+            ],
+            [
+                22,
+                "Nominal (Noun)"
+            ],
+            [
+                23,
+                "Noun"
+            ],
+            [
+                61,
+                "Proper noun"
+            ],
+            [
+                61,
+                "Proper noun"
+            ],
+            [
+                61,
+                "Proper noun"
+            ],
+            [
+                61,
+                "Proper noun"
+            ],
+            [
+                61,
+                "Proper noun"
+            ],
+            [
+                75,
+                "Verb (form IV)"
+            ],
+            [
+                75,
+                "Verbal noun (form IV)"
+            ],
+            [
+                88,
+                "Verb (form II)"
+            ],
+            [
+                160,
+                "Noun"
+            ],
+            [
+                178,
+                "Nominal (Noun)"
+            ],
+            [
+                242,
+                "Verb (form I)"
+            ],
+            [
+                267,
+                "Nominal (Noun)"
+            ],
+            [
+                298,
+                "Verb (form III)"
+            ],
+            [
+                314,
+                "Noun"
+            ],
+            [
+                314,
+                "Noun"
+            ],
+            [
+                426,
+                "Active participle"
+            ],
+            [
+                461,
+                "Verb (form IV)"
+            ],
+            [
+                555,
+                "Noun"
+            ],
+            [
+                561,
+                "Verb (form I)"
+            ],
+            [
+                561,
+                "Verb (form I)"
+            ],
+            [
+                599,
+                "Noun"
+            ],
+            [
+                990,
+                "Noun"
+            ],
+            [
+                1151,
+                "Active participle (form IV)"
+            ],
+            [
+                1222,
+                "Noun"
+            ],
+            [
+                1246,
+                "Noun"
+            ],
+            [
+                1256,
+                "Verb (form I)"
+            ],
+            [
+                1305,
+                "Verb (form I)"
+            ],
+            [
+                1525,
+                "Noun"
+            ],
+            [
+                1588,
+                "Verb (form I)"
+            ],
+            [
+                1596,
+                "Verb (form I)"
+            ],
+            [
+                1664,
+                "Nominal (Noun)"
+            ]
         ],
-        "Difficulty": 96.57552898710985
+        "Difficulty": 5.029525558891028
     }
 ]

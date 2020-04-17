@@ -3,38 +3,89 @@
         "Ayah": 1,
         "Surah": 110,
         "word_ids": [
-            27,
-            61,
-            281,
-            1101,
-            1477
+            [
+                27,
+                "Nominal (Time adverb)"
+            ],
+            [
+                61,
+                "Proper noun"
+            ],
+            [
+                281,
+                "Verb (form I)"
+            ],
+            [
+                1101,
+                "Noun"
+            ],
+            [
+                1477,
+                "Noun"
+            ]
         ],
-        "Difficulty": 99.03822568931288
+        "Difficulty": 45.892935233348716
     },
     {
         "Ayah": 2,
         "Surah": 110,
         "word_ids": [
-            61,
-            461,
-            498,
-            523,
-            1160,
-            1530
+            [
+                61,
+                "Proper noun"
+            ],
+            [
+                461,
+                "Verb (form I)"
+            ],
+            [
+                498,
+                "Noun"
+            ],
+            [
+                523,
+                "Verb (form I)"
+            ],
+            [
+                1160,
+                "Noun"
+            ],
+            [
+                1530,
+                "Noun"
+            ]
         ],
-        "Difficulty": 97.99821227976966
+        "Difficulty": 33.3448565887854
     },
     {
         "Ayah": 3,
         "Surah": 110,
         "word_ids": [
-            190,
-            352,
-            524,
-            651,
-            1071,
-            1305
+            [
+                190,
+                "Active participle (Noun)"
+            ],
+            [
+                352,
+                "Noun"
+            ],
+            [
+                524,
+                "Noun"
+            ],
+            [
+                651,
+                "Verb (form II)"
+            ],
+            [
+                1071,
+                "Verb (form X)"
+            ],
+            [
+                1305,
+                "Verb (form I)"
+            ]
         ],
-        "Difficulty": 98.50111233435538
+        "Difficulty": 15.503752132089305
     }
 ]

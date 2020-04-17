@@ -3,67 +3,121 @@
         "Ayah": 1,
         "Surah": 107,
         "word_ids": [
-            59,
-            498,
-            523,
-            1263
+            [
+                59,
+                "Nominal (Relative pronoun)"
+            ],
+            [
+                498,
+                "Noun"
+            ],
+            [
+                523,
+                "Verb (form I)"
+            ],
+            [
+                1263,
+                "Verb (form II)"
+            ]
         ],
-        "Difficulty": 97.5855709677434
+        "Difficulty": 24.319488549919487
     },
     {
         "Ayah": 2,
         "Surah": 107,
         "word_ids": [
-            59,
-            473,
-            1656
+            [
+                59,
+                "Nominal (Relative pronoun)"
+            ],
+            [
+                473,
+                "Verb (form I)"
+            ],
+            [
+                1656,
+                "Nominal (Noun)"
+            ]
         ],
-        "Difficulty": 98.16745483102027
+        "Difficulty": 29.091304525881714
     },
     {
         "Ayah": 3,
         "Surah": 107,
         "word_ids": [
-            331,
-            708,
-            911
+            [
+                331,
+                "Verb (form I)"
+            ],
+            [
+                708,
+                "Nominal (Noun)"
+            ],
+            [
+                911,
+                "Noun"
+            ]
         ],
-        "Difficulty": 98.64553896245133
+        "Difficulty": 0.32181692101957715
     },
     {
         "Ayah": 4,
         "Surah": 107,
         "word_ids": [
-            857
+            [
+                857,
+                "Active participle (form II)"
+            ]
         ],
-        "Difficulty": 99.9203505301048
+        "Difficulty": 7.253886010362693
     },
     {
         "Ayah": 5,
         "Surah": 107,
         "word_ids": [
-            59,
-            736,
-            857
+            [
+                59,
+                "Nominal (Relative pronoun)"
+            ],
+            [
+                736,
+                "Active participle"
+            ],
+            [
+                857,
+                "Noun"
+            ]
         ],
-        "Difficulty": 98.84980782646899
+        "Difficulty": 30.38007278128959
     },
     {
         "Ayah": 6,
         "Surah": 107,
         "word_ids": [
-            59,
-            523
+            [
+                59,
+                "Nominal (Relative pronoun)"
+            ],
+            [
+                523,
+                "Verb (form III)"
+            ]
         ],
-        "Difficulty": 99.70117233092849
+        "Difficulty": 64.95875715923023
     },
     {
         "Ayah": 7,
         "Surah": 107,
         "word_ids": [
-            1405,
-            1418
+            [
+                1405,
+                "Noun"
+            ],
+            [
+                1418,
+                "Verb (form I)"
+            ]
         ],
-        "Difficulty": 98.30863917650953
+        "Difficulty": 1.110153953932374
     }
 ]
