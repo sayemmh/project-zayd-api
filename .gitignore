@@ -4,3 +4,4 @@ pckl-words/*
 venv/
 .vscode/
 bash-scripts/sayem.secrets
+json-surah-words/*
