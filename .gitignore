@@ -3,5 +3,10 @@ __pycache__
 pckl-words/*
 venv/
 .vscode/
-bash-scripts/sayem.secrets
+word-images/*
+csv/*
+archive/*
+.ipynb_checkpoints/
+*secrets
+ayahRoots/*
 json-surah-words/*

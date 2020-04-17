@@ -3,8 +3,7 @@ import pickle
 import time
 import pandas as pd
 import ujson
-from constants import NUM_SURAHS_IN_QURAN, NUM_ROOT_WORDS_IN_CORPUS, ALL_AYAHS
-
+f
 def open_rootword(id):
     '''
     Open the DataFrame associated with a particular root word. The `id`s
@@ -54,7 +53,7 @@ def get_surah(surahNumber, minCount, maxCount):
                 wordFormTypes = w['wordFormTypes'][i]
                 arabicAyah = w['arabicAyah'][i]
 
-                ayah = ",".join(wm[i].split('(')[1].split(':')[0:2])
+                ayah = ",".join(wm[i].split('(')[1].split(')')[0].split(':')[0:3])
                 answer = ' '.join(answer.split('\''))
 
                 word_json = {
@@ -64,8 +63,9 @@ def get_surah(surahNumber, minCount, maxCount):
                                 'rootWordId': num,
                                 'tlit': tlit,
                                 'frequency': str(len(w)),
-                                'surah': ayah.split(',')[0],
-                                'ayah': ayah.split(',')[1],
+                                'surahnum': ayah.split(',')[0],
+                                'ayahnum': ayah.split(',')[1],
+                                'wordnum': ayah.split(',')[2],
                                 'arabicAyah' : arabicAyah,
                                 'rootWord': rootWord,
                                 'rootWordType':rootWordType,
@@ -90,19 +90,20 @@ def build_jsons_for_all_surahs():
         print(data)
         print("Num words in surah: " + str(len(data)))
         print(answers)
-        with open(str(i) + '.json', 'w') as f:
+        with open('json-surah-words/' + str(i) + '.json', 'w') as f:
             f.write("var words = \n")
             ujson.dump(data, f, ensure_ascii=False, indent=4)
             f.write("; \n")
             f.write("export default words;")
             f.close()
 
-        with open(str(i) + '_answers' + '.json', 'w') as f:
+        with open('json-surah-words/' + str(i) + '_answers' + '.json', 'w') as f:
             f.write("var answers = \n")
             ujson.dump(answers, f)
             f.write("; \n")
             f.write("export default answers;")
             f.close()
+
         # input()    
 if __name__ == '__main__':
     # print(get_surah(1, 0, ALL_AYAHS))
