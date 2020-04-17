@@ -10,3 +10,5 @@ archive/*
 *secrets
 ayahRoots/*
 json-surah-words/*
+*json
+*ipynb_checkpoints
