@@ -1,1 +1,3 @@
-["every","(of) the dawn","(The) Night","Peace","(the) Night","(of) Power (is)","(of) Power","revealed it","(the) emergence","(of) their Lord","the Angels","can make you know","and the Spirit","month(s)","(is) better","a thousand","by (the) permission","affair","Descend"]
+var answers = 
+["Descend","the Angels","by (the) permission","a thousand","revealed it","every","(the) Night","and the Spirit","(of) Power (is)","affair","month(s)","(is) better","(of) Power","(the) emergence","can make you know","(The) Night","(of) their Lord","(of) the dawn","Peace"]; 
+export default answers;

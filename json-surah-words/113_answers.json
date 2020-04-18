@@ -1,1 +1,3 @@
-["(of) darkness","when","it spreads","in (the) Lord","he envies","(of) an envier","He created","(of) the dawn","(of) the blowers","Say","(the) evil","I seek refuge","the knots"]
+var answers = 
+["the knots","(of) the dawn","I seek refuge","when","He created","he envies","(the) evil","(of) the blowers","Say","(of) darkness","(of) an envier","in (the) Lord","it spreads"]; 
+export default answers;

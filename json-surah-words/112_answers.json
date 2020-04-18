@@ -1,1 +1,3 @@
-["the One","He begets","He is begotten","any [one]","Allah","equivalent","the Eternal, the Absolute","Say","(is) Allah","is"]
+var answers = 
+["the One","is","the Eternal, the Absolute","He begets","(is) Allah","Say","any [one]","He is begotten","equivalent","Allah"]; 
+export default answers;

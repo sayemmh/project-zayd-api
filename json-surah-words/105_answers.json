@@ -1,1 +1,3 @@
-["how","And He sent","you seen","your Lord","astray","with stones","dealt","(of the) Elephant","He make","like straw","(in) flocks","baked clay","with (the) Companions","birds","Striking them","their plan","eaten up","Then He made them"]
+var answers = 
+["He make","like straw","their plan","Then He made them","birds","with stones","your Lord","how","(in) flocks","you seen","dealt","baked clay","And He sent","astray","Striking them","eaten up","with (the) Companions","(of the) Elephant"]; 
+export default answers;

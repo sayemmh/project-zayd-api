@@ -1,1 +1,3 @@
-["(The) Day","his scales","scattered","fluffed up","His abode","intensely hot","(is) the Striking Calamity","(are) heavy","like moths","(will be the) Pit","(are) light","Then as for","will be","like wool","But as for","pleasant","A Fire","a life","the mountains","the mankind","And will be","will make you know","The Striking Calamity"]
+var answers = 
+["like wool","the mankind","And will be","(will be the) Pit","a life","like moths","the mountains","(is) the Striking Calamity","(are) light","will be","(are) heavy","A Fire","But as for","scattered","will make you know","his scales","fluffed up","intensely hot","pleasant","The Striking Calamity","(The) Day","His abode","Then as for"]; 
+export default answers;

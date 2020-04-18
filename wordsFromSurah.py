@@ -3,7 +3,8 @@ import pickle
 import time
 import pandas as pd
 import ujson
-f
+from constants import NUM_SURAHS_IN_QURAN, NUM_ROOT_WORDS_IN_CORPUS, ALL_AYAHS
+
 def open_rootword(id):
     '''
     Open the DataFrame associated with a particular root word. The `id`s
@@ -51,7 +52,9 @@ def get_surah(surahNumber, minCount, maxCount):
                 wordFormDefs = w['wordFormDefs'][i]
                 wordFormTlits = w['wordFormTlits'][i]
                 wordFormTypes = w['wordFormTypes'][i]
+                wordFormFreq = w['wordFormFreq'][i]
                 arabicAyah = w['arabicAyah'][i]
+
 
                 ayah = ",".join(wm[i].split('(')[1].split(')')[0].split(':')[0:3])
                 answer = ' '.join(answer.split('\''))
@@ -62,17 +65,19 @@ def get_surah(surahNumber, minCount, maxCount):
                                 'pcklId': str(i),
                                 'rootWordId': num,
                                 'tlit': tlit,
-                                'frequency': str(len(w)),
-                                'surahnum': ayah.split(',')[0],
-                                'ayahnum': ayah.split(',')[1],
-                                'wordnum': ayah.split(',')[2],
+                                'frequency': int(str(len(w))),
+                                'surahnum': int(ayah.split(',')[0]),
+                                'ayahnum': int(ayah.split(',')[1]),
+                                'wordnum': int(ayah.split(',')[2]),
                                 'arabicAyah' : arabicAyah,
                                 'rootWord': rootWord,
                                 'rootWordType':rootWordType,
                                 'wazn': wordForms,
                                 'waznEnglish' : wordFormDefs,
                                 'waznTlit' : wordFormTlits,
-                                'waznType' : wordFormTypes
+                                'waznType' : wordFormTypes,
+                                'waznFreq' : int(wordFormFreq),
+                                'hasRootWord' : True
                             }
 
                 answers.append(answer)

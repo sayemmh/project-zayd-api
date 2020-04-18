@@ -1,1 +1,3 @@
-["good","will see it","the earth","(with) its earthquake","is shaken","(of) an atom","(in) scattered groups","(equal to the) weight","When","it will report","its news","their deeds","its burdens","your Lord","man","And brings forth","And says","inspired","does","will proceed","evil","the mankind","to be shown"]
+var answers = 
+["(equal to the) weight","When","is shaken","the mankind","their deeds","(in) scattered groups","(with) its earthquake","it will report","its burdens","good","evil","to be shown","the earth","inspired","(of) an atom","does","will proceed","And brings forth","your Lord","And says","will see it","its news","man"]; 
+export default answers;

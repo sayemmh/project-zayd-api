@@ -1,1 +1,3 @@
-["feeds them","(of) winter","(with the) journey","and summer","So let them worship","For (the) familiarity","fear","Their familiarity","(the) Lord","(against) hunger","The One Who","House","and gives them security"]
+var answers = 
+["For (the) familiarity","and summer","(of) winter","The One Who","So let them worship","feeds them","(the) Lord","House","(against) hunger","and gives them security","(with the) journey","Their familiarity","fear"]; 
+export default answers;

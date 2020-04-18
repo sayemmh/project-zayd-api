@@ -35,6 +35,7 @@ while len(to_visit) != 0:
     wordFormTlits = []
     wordForms = []
     wordFormDefs = []
+    wordFormFreq = []
 
 
     l = []
@@ -104,12 +105,14 @@ while len(to_visit) != 0:
             for j, wordVarSubType in enumerate(wordVarSubTypes):
                 wordVarTypeAppend = str(wordVarColl.find_all("p", {"class":"dxt"})[j].text).strip()
                 for wordVarInSubType in wordVarSubType.find_all("td",{"class":"c1"}):
+                    wordFormFreq.append(len(wordVarColl.find_all("td",{"class":"c1"})))             
                     wordFormTypes.append(wordFormInfo[i][0] + ' (' + wordVarTypeAppend[4:] + ')')
                     wordFormDefs.append(wordFormInfo[i][1])
                     wordFormTlits.append(wordFormInfo[i][2])
                     wordForms.append(wordFormInfo[i][3])
         else:
             for wordVarEntry in wordVarColl.find_all("td",{"class":"c1"}):
+                wordFormFreq.append(len(wordVarColl.find_all("td",{"class":"c1"})))
                 wordFormTypes.append(wordFormInfo[i][0])
                 wordFormDefs.append(wordFormInfo[i][1])
                 wordFormTlits.append(wordFormInfo[i][2])
@@ -141,6 +144,7 @@ while len(to_visit) != 0:
     df['wordFormDefs'] = wordFormDefs
     df['wordFormTlits'] = wordFormTlits
     df['wordFormTypes'] = wordFormTypes
+    df['wordFormFreq'] = wordFormFreq
     print(df)
 
     # df.iloc[:, 0:3]

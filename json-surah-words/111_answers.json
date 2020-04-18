@@ -1,1 +1,3 @@
-["his wealth","(will be) a rope","Perish","and perish he","her neck","(will) avail","(the) carrier","Blazing Flames","palm-fiber","He will be burnt","And his wife","(of) firewood","(the) hands","he earned","(of) Abu","Lahab","(in) a Fire"]
+var answers = 
+["(the) carrier","Blazing Flames","(will be) a rope","Lahab","And his wife","(in) a Fire","(of) Abu","and perish he","(of) firewood","He will be burnt","Perish","(will) avail","her neck","palm-fiber","his wealth","(the) hands","he earned"]; 
+export default answers;

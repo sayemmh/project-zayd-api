@@ -1,1 +1,3 @@
-["When","with (the) praises","Oft-Returning","entering","and the Victory","(in) multitudes","the people","comes","(of) your Lord","Then glorify","(of) Allah","and ask His forgiveness","(the) religion","(the) Help","And you see","is"]
+var answers = 
+["(the) Help","and ask His forgiveness","(the) religion","(of) Allah","(in) multitudes","is","comes","Oft-Returning","and the Victory","the people","When","entering","Then glorify","(of) your Lord","with (the) praises","And you see"]; 
+export default answers;

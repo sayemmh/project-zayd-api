@@ -1,3 +1,6 @@
+# for scraping all images for every single word with morphemes
+
+
 from bs4 import BeautifulSoup
 import requests
 import pandas as pd 

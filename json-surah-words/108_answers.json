@@ -1,1 +1,3 @@
-["Al-Kauthar","to your Lord","the one cut off","We have given you","and sacrifice","your enemy ","So pray"]
+var answers = 
+["and sacrifice","So pray","We have given you","Al-Kauthar","your enemy ","the one cut off","to your Lord"]; 
+export default answers;

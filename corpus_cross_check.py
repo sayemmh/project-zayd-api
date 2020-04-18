@@ -44,15 +44,15 @@ def build_jsons_for_leftovers():
 	with open("all_words_morphemes.json", 'r') as f:
 		json_data = f.read()
 	all_words_in_quran = json.loads(json_data)
+	df = pd.read_json("all_words_morphemes.json")
+	print(df['surahnum'].value_counts())
+	# print(df)
+	input()
 	list_of_jsons = []
 	for count, word in enumerate(all_words_in_quran):
 		surahNum = word['surahnum']
 		ayahNum = word['ayahnum']
 		wordNum = word['wordnum']
-
-		if (surahNum >4):
-
-			continue
 
 		with open('json-surah-words/' + str(surahNum) + '.json' , 'r' ) as f:
 			rootwords_in_surah = f.read()
@@ -71,11 +71,11 @@ def build_jsons_for_leftovers():
 			list_of_jsons.append(word_json)
 	
 		if (count % 100) == 0:
-			with open('cross_check_words_1.json','w') as f:
+			with open('cross_check_words.json','w') as f:
 				ujson.dump(list_of_jsons,f,ensure_ascii=False, indent=4)
 				f.close()
 
-	with open('cross_check_words_1.json','w') as f:
+	with open('cross_check_words.json','w') as f:
 		ujson.dump(list_of_jsons,f,ensure_ascii=False, indent=4)
 		f.close()	
 if __name__ == '__main__':
