@@ -13,3 +13,7 @@ temp/*
 *secrets
 ayahRoots/*
 chromedriver
+*json
+*ipynb_checkpoints
+*bak
+temp*
