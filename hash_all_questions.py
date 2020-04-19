@@ -21,7 +21,10 @@ def add_hash_field_to_questions():
             s = word['surahnum'] + '-' + \
                 word['ayahnum'] + '-' + word['wordnum']
             h = int(hashlib.sha256(s.encode('utf-8')).hexdigest(), 16) % 10**12
-            
+
+            word['question_id'] = h
+            word['surahayahnum'] = word['surahnum'] + '/' + word['ayahnum']
+
             # if h not in all_hashes:
             #     all_hashes[h] = s
             # else:
