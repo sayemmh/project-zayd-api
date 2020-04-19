@@ -6,10 +6,13 @@ venv/
 word-images/*
 csv/*
 archive/*
+json-surah-words/*
+html_archive/*
+temp/*
 .ipynb_checkpoints/
 *secrets
 ayahRoots/*
-json-surah-words/*
+chromedriver
 *json
 *ipynb_checkpoints
 *bak

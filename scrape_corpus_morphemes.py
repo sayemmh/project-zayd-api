@@ -1,3 +1,4 @@
+# scrapes all word morphemes for every single ayah
 from bs4 import BeautifulSoup
 import requests
 import pandas as pd 
@@ -55,7 +56,7 @@ def getArabicBreakdown(wordRow):
 
 def build_jsons_for_all_ayahs():
     list_of_jsons = []  
-    for surahNum in range(68, NUM_SURAHS_IN_QURAN+1):
+    for surahNum in range(1, NUM_SURAHS_IN_QURAN+1):
         ayahNum = 0
         hyperlinkArr = getHyperlinks(surahNum)
         for count, hyperlink in enumerate(hyperlinkArr):
@@ -81,7 +82,7 @@ def build_jsons_for_all_ayahs():
                                 'morphemeArabicList':morphemeArabic
                             }
                 list_of_jsons.append(word_json)
-        with open('all_words_morphemes_2.json','w') as f:
+        with open('all_words_morphemes.json','w') as f:
             ujson.dump(list_of_jsons,f,ensure_ascii=False, indent=4)
             f.close()
 if __name__ == '__main__':

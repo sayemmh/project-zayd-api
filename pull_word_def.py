@@ -16,7 +16,10 @@ def get_all_word_defs():
 	surahnum_arr = []
 	ayahnum_arr = []
 	wordnum_arr = []
-	base = 'http://qurandictionary.net/word/'
+	base = 'https://quranwbw.com/4'
+	page_content = getPageContent(base)
+	print(page_content)
+	input()
 	for surahnum in range(68,69):
 		surahLink = base + str(surahnum)
 		page_content = getPageContent(surahLink)
@@ -39,7 +42,6 @@ def get_all_word_defs():
 	df['surahnum'] = surahnum_arr
 	df['ayahnum'] = ayahnum_arr
 	df['wordnum'] = wordnum_arr
-	print(df)
 	return df
 
 
@@ -63,6 +65,8 @@ def get_all_word_defs():
 if __name__ == '__main__':
 	list_of_jsons = []
 	df = pd.read_json("cross_check_words_frequency.json")
+	print(df)
+	input()
 	# for i in range(1,len(df)):
 	# 	surah_num = print(type(df['surahnum'][i]))
 	# 	ayah_num = df['ayahnum'][i]
