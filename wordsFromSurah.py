@@ -3,7 +3,8 @@ import pickle
 import time
 import pandas as pd
 import ujson
-f
+from constants import NUM_SURAHS_IN_QURAN, NUM_ROOT_WORDS_IN_CORPUS, ALL_AYAHS
+
 def open_rootword(id):
     '''
     Open the DataFrame associated with a particular root word. The `id`s

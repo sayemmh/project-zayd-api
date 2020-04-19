@@ -2,10 +2,10 @@
 #!/bin/bash
 SECRETS_LOC="/Users/sayemhoque/Documents/project-zayd-data/bash-scripts/sayem.secrets"
 MONGO_DB_NAME="surahs-words"
-LOCAL_DIR="/Users/sayemhoque/Documents/project-zayd-data/json-surah-words-tmp/"
+LOCAL_DIR="/Users/sayemhoque/Documents/project-zayd-data/json-surah-words/"
 
 source $SECRETS_LOC
-cd json-surah-words-tmp
+cd json-surah-words
 echo $(ls)
 
 for file in *.json
