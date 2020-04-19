@@ -12,3 +12,4 @@ temp/*
 .ipynb_checkpoints/
 *secrets
 ayahRoots/*
+chromedriver
