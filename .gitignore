@@ -6,4 +6,7 @@ venv/
 word-images/*
 csv/*
 archive/*
+json-surah-words/*
+html_archive/*
+temp/*
 

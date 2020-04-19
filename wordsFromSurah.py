@@ -73,7 +73,7 @@ def get_surah(surahNumber, minCount, maxCount):
                                 'rootWord': rootWord,
                                 'rootWordType':rootWordType,
                                 'wazn': wordForms,
-                                'waznEnglish' : wordFormDefs,
+                                'waznEnglish' : str(wordFormDefs),
                                 'waznTlit' : wordFormTlits,
                                 'waznType' : wordFormTypes,
                                 'waznFreq' : int(wordFormFreq),
