@@ -9,4 +9,6 @@ archive/*
 json-surah-words/*
 html_archive/*
 temp/*
-
+.ipynb_checkpoints/
+*secrets
+ayahRoots/*
