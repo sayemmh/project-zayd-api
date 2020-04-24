@@ -3,12 +3,13 @@ import ast
 import ujson
 from constants import NUM_SURAHS_IN_QURAN, NUM_ROOT_WORDS_IN_CORPUS, ALL_AYAHS
 
-json_surah_location = '../output-data/json-surah-words/'
+json_surah_location = 'json-surah-words/'
 
 def add_hash_field_to_questions():
     # all_hashes = {}
     count = 1
-    for i in range(1, NUM_SURAHS_IN_QURAN + 1):
+    # for i in range(1, NUM_SURAHS_IN_QURAN + 1):
+    for i in [110]:
 
         with open(json_surah_location + str(i) + '.json', 'r') as f:
             surah = f.read()
