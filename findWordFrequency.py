@@ -9,6 +9,7 @@ def find_word_frequency(filename):
 	newWords = json.loads(json_data)
 	df = pd.read_json(filename)
 	print(df['tlit'].value_counts())
+	input()
 	freqDict = df['tlit'].value_counts().to_dict()
 	for newWord in newWords:
 		tlit = newWord['tlit']
@@ -21,4 +22,4 @@ def find_word_frequency(filename):
 
 
 if __name__ == '__main__':
-    find_word_frequency("cross_check_words_all.json")
+    find_word_frequency("cross_check_words.json")

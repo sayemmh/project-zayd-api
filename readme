@@ -1,0 +1,16 @@
+scrape_corpus_morphemes.py : scrapes all words from http://corpus.quran.com/wordbyword.jsp?chapter=1
+	input: http://corpus.quran.com/wordbyword.jsp?chapter=1
+	output: all_words_morphemes.json
+corpus_cross_check.py : compares all words in quran (all_words_morphemes.json) to x.json (jsons with rootwords for every surah) to check if that word is in it, if not it's added to a new json with all of the prepositions pronouns etc. 
+	input: all_words_morphemes.json
+	output: cross_check_words.json
+findWordFrequency.py : takes in cross_check_words.json and finds frequency of each word and adds it to json element
+	input: cross_check_words.json
+	output: cross_check_words_frequency.json
+get_arabic_for_cross_chech.py: takes in cross checked words and gets the arabic form from quranwbw.com
+	input: cross_check_words.json
+	output: cross_final.json
+
+
+
+todo: join all_words_morphemes and all surah jsons
