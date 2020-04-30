@@ -67,7 +67,7 @@ while len(to_visit) != 0:
 
     rootWord = page_content.find_all("span", {"class": "at"})[0].text
     rootWordType = str(page_content.find_all("p", {"class": "dsm"})[0]).split('The')[1].split('<i')[0].strip()
-    
+
 
     wordVars = page_content.find_all("h4", {"class":"dxe"})
     for wordFormVars in wordVars:
@@ -78,7 +78,7 @@ while len(to_visit) != 0:
             wordFormDef = (str(wordFormVars.string)).split("-")[1].strip()
         wordFormInfo.append((wordFormEng, wordFormDef))
 
-    # isolates unordered list of word forms and their frequency 
+    # isolates unordered list of word forms and their frequency
     if len(wordFormInfo) > 1:
         wordInfo = page_content.find_all("ul",{"class":"also"})[0]
         i = 0
@@ -105,7 +105,7 @@ while len(to_visit) != 0:
             for j, wordVarSubType in enumerate(wordVarSubTypes):
                 wordVarTypeAppend = str(wordVarColl.find_all("p", {"class":"dxt"})[j].text).strip()
                 for wordVarInSubType in wordVarSubType.find_all("td",{"class":"c1"}):
-                    wordFormFreq.append(len(wordVarColl.find_all("td",{"class":"c1"})))             
+                    wordFormFreq.append(len(wordVarColl.find_all("td",{"class":"c1"})))
                     wordFormTypes.append(wordFormInfo[i][0] + ' (' + wordVarTypeAppend[4:] + ')')
                     wordFormDefs.append(wordFormInfo[i][1])
                     wordFormTlits.append(wordFormInfo[i][2])
@@ -150,10 +150,10 @@ while len(to_visit) != 0:
 
     # df.iloc[:, 0:3]
 
-    page_content_pretty = page_content.prettify()
-    with open("html_archive/" + rootWord + ".html", "w") as file:
-        file.write(str(page_content_pretty))
+    # page_content_pretty = page_content.prettify()
+    # with open("html_archive/" + rootWord + ".html", "w") as file:
+    #     file.write(str(page_content_pretty))
     with open("pckl-words/" + str(count) + ".pckl", "wb") as fp:
         pickle.dump(df, fp)
 
-    df.to_csv("csv/" + rootWord + '.csv', sep=',', encoding='utf-8')
+    # df.to_csv("csv/" + rootWord + '.csv', sep=',', encoding='utf-8')

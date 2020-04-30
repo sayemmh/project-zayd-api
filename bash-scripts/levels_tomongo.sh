@@ -3,7 +3,7 @@
 SECRETS_LOC="/Users/sayemhoque/Documents/project-zayd-data/bash-scripts/sayem.secrets"
 MONGO_DB_NAME="test"
 LOCAL_DIR="/Users/sayemhoque/Documents/project-zayd-data/outputs/"
-FNAME="levels.json"
+FNAME="wazn_levels.json"
 COLLECTION_NAME="levels"
 
 source $SECRETS_LOC
