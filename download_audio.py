@@ -6,8 +6,8 @@ from constants import (
     MAX_AYAHS_IN_A_SURAH,
     MAX_WORDS_IN_AN_AYAH
 )
-
-LOCAL_DIR = "/Users/sayemhoque/Documents/project-zayd-data/"
+LOCAL_DIR = "/root/project-zayd-data/audio/"
+# LOCAL_DIR = "/Users/sayemhoque/Documents/project-zayd-data/"
 
 def get_audio():
     baseurl = 'https://verses.quran.com/wbw/' # '001_001_100.mp3'
