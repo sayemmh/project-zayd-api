@@ -12,10 +12,8 @@ LOCAL_DIR = "/Users/sayemhoque/Documents/project-zayd-data/"
 def get_audio():
     baseurl = 'https://verses.quran.com/wbw/' # '001_001_100.mp3'
     start_time = time.time()
-    # for surah in range(1, NUM_SURAHS_IN_QURAN + 1):
-    #     for ayah in range(1, MAX_AYAHS_IN_A_SURAH + 1):
-    for x in range(3, 4):
-        for y in range(152, 153):
+    for x in range(1, NUM_SURAHS_IN_QURAN + 1):
+        for y in range(1, MAX_AYAHS_IN_A_SURAH + 1):
             z = 1 # wordnum
             w = 1 # quran.com file num
             while w < MAX_WORDS_IN_AN_AYAH + 1:
