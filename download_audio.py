@@ -36,6 +36,8 @@ def get_audio():
                     print("Trying next url")
                     w += 1
                     print("filenum: " + filenum + " _ wordnum: " + word)
+                    if z == 1:
+                        break
                     if w > z + 15:
                         break
     print("finished")
